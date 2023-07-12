@@ -6,6 +6,7 @@ import { useState } from 'react'
 //Pages
 import HomePage from './Pages/HomePage'
 import CrochetPatterns from './Pages/CrochetPatterns'
+import CrochetPattern from './Pages/CrochetPattern'
 import Footer from './components/Footer'
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact end path="/" element={<HomePage />} />
-            <Route path="/crochet-patterns" element={<CrochetPatterns />} />
+            <Route end path="/crochet-patterns" element={<CrochetPatterns />} />
+            <Route end path="/crochet-patterns/:id" element={<CrochetPattern />} />
           </Routes>
           <Footer />
         </div>
