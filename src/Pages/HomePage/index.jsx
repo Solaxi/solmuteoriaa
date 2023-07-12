@@ -1,12 +1,10 @@
 import React from 'react';
 import './HomePage.scss';
 
+import CrochetPatternServices from '../CrochetPatterns/CrochetPatternsServices'
+
 import headerLogo from '../../assets/solmuteoriaa_logo_256.png'
 import video from '../../assets/video2.mp4'
-
-import snowman from '../../assets/crochet-patterns/snowman/snowman.jpg'
-import mouse from '../../assets/crochet-patterns/mouse/mouse.jpg'
-import stella from '../../assets/crochet-patterns/stella/stella.jpg'
 
 import { IconContext } from 'react-icons'
 import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
@@ -67,54 +65,11 @@ function HomePage() {
       */}
 
       {/* Services Section */}
-        <section className='services padding'>
-          <h2 className='services__heading'>Free Crochet Patterns</h2>
-          <div className='services__container'>
+      <section className='services padding'>
+        <h2 className='services__heading'>Free Crochet Patterns</h2>
+        <CrochetPatternServices />
+      </section>
 
-            <div className='services__container__item card-hover'>
-              <div className='services__container__item__illustration'>
-                <img src={snowman} alt='Snowman' className='services__container__item__illustration__image' />
-              </div>
-              <div className='services__container__item__description'>
-                <h3 className='services__container__item__description__heading'>
-                    Snowman
-                </h3>
-                <p className='services__container__item__description__details'>
-                  I was asked to make the snowman from the movie The Snowman (1982). This is what I came up with.
-                </p>
-              </div>
-            </div>
-
-            <div className='services__container__item card-hover'>
-              <div className='services__container__item__illustration'>
-                <img src={mouse} alt='Mouse' className='services__container__item__illustration__image' />
-              </div>
-              <div className='services__container__item__description'>
-                <h3 className='services__container__item__description__heading'>
-                    Mouse
-                </h3>
-                <p className='services__container__item__description__details'>
-                  So there I was, crocheting this cute little elephant... And I wondered what else is cute and has large ears. So I made a mouse.
-                </p>
-              </div>
-            </div>
-
-            <div className='services__container__item card-hover'>
-              <div className='services__container__item__illustration'>
-                <img src={stella} alt='Angry Birds Stella' className='services__container__item__illustration__image' />
-              </div>
-              <div className='services__container__item__description'>
-                <h3 className='services__container__item__description__heading'>
-                    Angry Birds Stella
-                </h3>
-                <p className='services__container__item__description__details'>
-                  Having crochet all the other Angry Birds characters, I got a request to do Stella. As that pattern didn't exist, I made one.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </section>
       </div>
       
     {/* Features Section */}
