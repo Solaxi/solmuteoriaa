@@ -9,7 +9,7 @@ import stella from '../../assets/crochet-patterns/stella/stella.jpg'
 function CrochetPatternServices() {
   return (
     <section className='services padding'>
-      <h2 className='services__heading'>Free Crochet Patterns</h2>
+      <h2 className='services__heading'>FREE CROCHET PATTERNS</h2>
       <div className='services__container'>
 
         <div className='services__container__item card-hover'>
