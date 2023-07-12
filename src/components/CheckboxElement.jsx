@@ -1,4 +1,5 @@
 import React from 'react'
+import './CheckboxElement.scss'
 
 const Checkbox = ({ round, label, value, onChange }) => {
   return (

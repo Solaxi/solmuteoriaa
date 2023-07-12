@@ -1,0 +1,21 @@
+input[type='checkbox'] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 1.0em;
+  height: 1.0em;
+  border-radius: 0.15em;
+  border: 0.15em solid #fffde3;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type='checkbox']:checked {
+  background-color: #F39540;
+  position: relative;
+}
+
+input[type="checkbox"]:focus {
+  box-shadow: 0 0 20px #F39540;
+}
