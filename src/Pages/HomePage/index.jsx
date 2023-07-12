@@ -65,10 +65,7 @@ function HomePage() {
       */}
 
       {/* Services Section */}
-      <section className='services padding'>
-        <h2 className='services__heading'>Free Crochet Patterns</h2>
         <CrochetPatternServices />
-      </section>
 
       </div>
       

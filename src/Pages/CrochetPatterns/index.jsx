@@ -21,9 +21,7 @@ function CrochetPatters() {
           <p className='cp__header__description'>These are crochet patterns</p>
         </div>
         <div className='cp__body'>
-          <div className='document'>
-            <CrochetPatternServices />
-          </div>
+           <CrochetPatternServices />
         </div>
 
       </div>

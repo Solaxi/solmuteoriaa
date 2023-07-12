@@ -1,5 +1,6 @@
 import React from 'react';
 import './CrochetPatternsServices.scss'
+import Button from '../../components/ButtonElement'
 
 import snowman from '../../assets/crochet-patterns/snowman/snowman.jpg'
 import mouse from '../../assets/crochet-patterns/mouse/mouse.jpg'
@@ -7,6 +8,8 @@ import stella from '../../assets/crochet-patterns/stella/stella.jpg'
 
 function CrochetPatternServices() {
   return (
+    <section className='services padding'>
+      <h2 className='services__heading'>Free Crochet Patterns</h2>
       <div className='services__container'>
 
         <div className='services__container__item card-hover'>
@@ -20,6 +23,7 @@ function CrochetPatternServices() {
             <p className='services__container__item__description__details'>
               I was asked to make the snowman from the movie The Snowman (1982). This is what I came up with.
             </p>
+            <Button to='/crochet-patterns/snowman' title='See the pattern'/>
           </div>
         </div>
 
@@ -34,6 +38,7 @@ function CrochetPatternServices() {
             <p className='services__container__item__description__details'>
               So there I was, crocheting this cute little elephant... And I wondered what else is cute and has large ears. So I made a mouse.
             </p>
+            <Button to='/crochet-patterns/mouse' title='See the pattern'/>
           </div>
         </div>
 
@@ -48,10 +53,12 @@ function CrochetPatternServices() {
             <p className='services__container__item__description__details'>
               Having crochet all the other Angry Birds characters, I got a request to do Stella. As that pattern didn't exist, I made one.
             </p>
+            <Button to='/crochet-patterns/angry-birds-stella' title='See the pattern'/>
           </div>
         </div>
 
       </div>
+    </section>
   )
 }
 
