@@ -1,9 +1,11 @@
 {
   "id": "snowman",
   "title": "Snowman",
+  "description": "I was asked to make about 30cm tall snowman which would resemble the snowman from the movie The Snowman (1982). So this is what I came up with.",
   "titleImg": "/crochet-pattern-images/snowman/snowman-1.jpg",
   "titleImgAlt": "Crochet Snowman",
-  "description": "I was asked to make about 30cm tall snowman which would resemble the snowman from the movie The Snowman (1982). So this is what I came up with.",
+  "cardDescription": "I was asked to make the snowman from the movie The Snowman (1982). This is what I came up with.",
+  "cardImg": "/crochet-pattern-images/snowman/snowman.jpg",
   "pdf": "",
   "content": [
     { "type": "text", "content": "Finished size of the snowman is about 30cm high and 15cm wide." },
