@@ -25,9 +25,9 @@ function App() {
         <div className="App">
           <Navbar />
           <Routes>
-            <Route exact end path="/" element={<HomePage />} />
-            <Route end path="/crochet-patterns" element={<CrochetPatternsList />} />
-            <Route end path="/crochet-patterns/:id" element={<CrochetPattern />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/crochet-patterns" element={<CrochetPatternsList />} />
+            <Route path="/crochet-patterns/:id" element={<CrochetPattern />} />
           </Routes>
           <Footer />
         </div>
