@@ -2,9 +2,9 @@ import React from 'react';
 import './CrochetPatternsServices.scss'
 import Button from '../../components/ButtonElement'
 
-import snowman from '../../assets/crochet-patterns/snowman/snowman.jpg'
-import mouse from '../../assets/crochet-patterns/mouse/mouse.jpg'
-import stella from '../../assets/crochet-patterns/stella/stella.jpg'
+import snowman from '/crochet-pattern-images/snowman/snowman.jpg'
+import mouse from '/crochet-pattern-images/mouse/mouse.jpg'
+import stella from '/crochet-pattern-images/stella/stella.jpg'
 
 function CrochetPatternServices() {
   return (

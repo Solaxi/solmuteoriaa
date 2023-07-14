@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './CrochetPattern.scss'
 import { useParams } from 'react-router-dom'
 
 import Checkbox from '../../components/CheckboxElement'
-import CrochetPatternsData from './data'
 
 function CrochetPattern() {
   const params = useParams()
-  const data = CrochetPatternsData.find((pattern) => pattern.url === params.id)
+  const [data, setData] = useState([])
 
-  const PatternContent = data.content.map((item, i) => {
+  useEffect(() => {
+    import(`../../assets/crochet-patterns/${params.id}.json`)
+      .then(jsonData => {
+        setData(jsonData)
+      })
+  }, [params.id])
+  
+  
+  function readContent(item, i) {
     if (item.type === 'h2') {
       return <h2 key={i} className='heading-primary'>{item.content}</h2>
     }
@@ -37,7 +44,7 @@ function CrochetPattern() {
     }
 
     return (<></>)
-  })
+  }
 
   return (
     <div className='cp'>
@@ -50,7 +57,7 @@ function CrochetPattern() {
       <div className='cp__body padding'>
         <div className='document'>
           <p className='bold-head'>{data.description}</p>
-          {PatternContent}
+          {data.content && data.content.map((item, i) => readContent(item, i))}
         </div>
       </div>
     </div>
