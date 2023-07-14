@@ -7,6 +7,7 @@ import { useState } from 'react'
 import HomePage from './Pages/HomePage'
 import CrochetPatternsList from './Pages/CrochetPatternsList'
 import CrochetPattern from './Pages/CrochetPattern'
+import Commissions from './Pages/Commissions/Commissions'
 import Footer from './components/Footer'
 
 function App() {
@@ -22,12 +23,13 @@ function App() {
 
   return (
       !loading && (
-        <div className="App">
+        <div className='App'>
           <Navbar />
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/crochet-patterns" element={<CrochetPatternsList />} />
-            <Route path="/crochet-patterns/:id" element={<CrochetPattern />} />
+            <Route path='/' element={<HomePage />} />
+            <Route path='/crochet-patterns' element={<CrochetPatternsList />} />
+            <Route path='/crochet-patterns/:id' element={<CrochetPattern />} />
+            <Route path='/commissions' element={<Commissions />} />
           </Routes>
           <Footer />
         </div>

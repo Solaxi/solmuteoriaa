@@ -7,8 +7,9 @@ import headerLogo from '../../assets/solmuteoriaa_logo_256.png'
 import video from '../../assets/video2.mp4'
 
 import { IconContext } from 'react-icons'
-import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
+import { FaEuroSign, FaGift, FaHeart, FaStar, FaArrowRight } from 'react-icons/fa6'
 
+import { NavLink } from 'react-router-dom'
 
 function HomePage() {
   return (
@@ -72,17 +73,17 @@ function HomePage() {
     {/* Features Section */}
       <section className='features padding'>
         <h2 className='features__heading'>COMMISSIONS</h2>
-
+        
         <div className='features__container'>
           <div className='features__container__item card-hover'>
             <IconContext.Provider value={{ color: 'orange', size:'10em', title:'Star' }}>
             <div><FaStar /></div>
             </IconContext.Provider>
             <h3 className='features__container__item__heading'>
-                Uniqueness
+              Uniqueness
             </h3>
             <p className='features__container__item__details'>
-              No two items are the same
+              Guaranteed to be the only one of its kind!
             </p>
           </div>
 
@@ -91,10 +92,10 @@ function HomePage() {
             <div><FaGift /></div>
             </IconContext.Provider>
             <h3 className='features__container__item__heading'>
-                Perfect gift
+              Perfect gift
             </h3>
             <p className='features__container__item__details'>
-              Totally unexpected gift
+              Recipient would never expect it! Can't find it from any store.
             </p>
           </div>
 
@@ -103,10 +104,10 @@ function HomePage() {
             <div><FaHeart /></div>
             </IconContext.Provider>
             <h3 className='features__container__item__heading'>
-                Softness
+              Softness
             </h3>
             <p className='features__container__item__details'>
-              Self-made beats everything bought from a store
+              Huggable. Loveable. Gives warmth and joy.
             </p>
           </div>
           
@@ -115,13 +116,24 @@ function HomePage() {
             <div><FaEuroSign /></div>
             </IconContext.Provider>
             <h3 className='features__container__item__heading'>
-                Value
+              Value
             </h3>
             <p className='features__container__item__details'>
-              I don't do this to get rich. 
+              I only take projects I enjoy. Not in it for the money.
             </p>
           </div>
 
+
+
+        </div>
+
+        <div className='commissionsbuttonwrap'>
+        <NavLink to='/commissions' className='commissionsbutton'>
+          See examples or request a commission
+          <IconContext.Provider value={{title:'Arrow right', size:'1em', className:'icon'}}>
+            <FaArrowRight />
+          </IconContext.Provider>
+        </NavLink>
         </div>
       </section>
 

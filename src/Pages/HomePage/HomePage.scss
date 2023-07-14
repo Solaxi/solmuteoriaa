@@ -163,7 +163,7 @@
       font-weight: 600;
       text-align: center;
       color: #000000;
-      margin-bottom: 14rem;
+      margin-bottom: 10rem;
   }
 
   &__container {
@@ -201,6 +201,38 @@
               line-height: 1.2;
           }
       }
+  }
+
+  & .commissionsbuttonwrap {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .commissionsbutton {
+    border-radius: 50px;
+    background:#F39540;
+    white-space: nowrap;
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 2.5rem;
+    outline: none;
+    border: 10px solid #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin:30px 30px 0 30px;
+  
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background:#fff;
+        color:#F39540;
+        border: 10px solid #F39540;
+    }
   }
 }
 

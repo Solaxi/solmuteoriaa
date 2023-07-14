@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import './Navbar.scss'
 
+import { FaHouseChimney, FaScissors, FaGift } from 'react-icons/fa6'
 import { NavLink } from 'react-router-dom'
 
 import logo from '../../assets/solmuteoriaa_logo_256.png'
@@ -24,13 +25,19 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
             <NavLink to='/' end className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
-              Home
+              <FaHouseChimney /> &nbsp;&nbsp;Home
             </NavLink>
             </li>
 
             <li className='nav-item'>
             <NavLink to='/crochet-patterns' className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
-              Crochet Patterns
+              <FaScissors /> &nbsp;&nbsp;Free Crochet Patterns
+            </NavLink>
+            </li>
+
+            <li className='nav-item'>
+            <NavLink to='/commissions' className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
+              <FaGift /> &nbsp;&nbsp;Commissions
             </NavLink>
             </li>
           </ul>
