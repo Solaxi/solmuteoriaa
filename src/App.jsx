@@ -1,14 +1,13 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+import React, { useState } from 'react'
+import Navbar from './components/Navbar/Navbar'
 import { Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
 
 //Pages
-import HomePage from './Pages/HomePage'
-import CrochetPatternsList from './Pages/CrochetPatternsList'
-import CrochetPattern from './Pages/CrochetPattern'
+import HomePage from './Pages/HomePage/HomePage'
+import CrochetPatternsList from './Pages/CrochetPatternsList/CrochetPatternsList'
+import CrochetPattern from './Pages/CrochetPattern/CrochetPattern'
 import Commissions from './Pages/Commissions/Commissions'
-import Footer from './components/Footer'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [loading, setLoading] = useState(true)

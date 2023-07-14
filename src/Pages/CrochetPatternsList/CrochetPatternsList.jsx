@@ -1,5 +1,5 @@
 import React from 'react'
-import './CrochetPatternsList.scss'
+import '../BasicWebPage.scss'
 
 import CrochetPatternServices from './CrochetPatternsServices'
 
@@ -15,12 +15,12 @@ function CrochetPatters() {
 
   return (
     <>
-      <div className='cp'>
-        <div className='cp__header padding' id='particles'>
-          <h1 className='cp__header__heading'>Crochet Patterns</h1>
-          <p className='cp__header__description'>These are crochet patterns</p>
+      <div className='page'>
+        <div className='page__header padding' id='particles'>
+          <h1 className='page__header__heading'>Crochet Patterns</h1>
+          <p className='page__header__description'>These are crochet patterns</p>
         </div>
-        <div className='cp__body'>
+        <div className='page__body'>
            <CrochetPatternServices />
         </div>
 
