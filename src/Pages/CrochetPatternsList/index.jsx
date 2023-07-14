@@ -1,5 +1,5 @@
 import React from 'react'
-import './CrochetPatterns.scss'
+import './CrochetPatternsList.scss'
 
 import CrochetPatternServices from './CrochetPatternsServices'
 
