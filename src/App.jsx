@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 //Pages
 import HomePage from './Pages/HomePage'
-import CrochetPatterns from './Pages/CrochetPatterns'
+import CrochetPatternsList from './Pages/CrochetPatternsList'
 import CrochetPattern from './Pages/CrochetPattern'
 import Footer from './components/Footer'
 
@@ -26,7 +26,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route exact end path="/" element={<HomePage />} />
-            <Route end path="/crochet-patterns" element={<CrochetPatterns />} />
+            <Route end path="/crochet-patterns" element={<CrochetPatternsList />} />
             <Route end path="/crochet-patterns/:id" element={<CrochetPattern />} />
           </Routes>
           <Footer />

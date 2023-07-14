@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.scss';
 
-import CrochetPatternServices from '../CrochetPatterns/CrochetPatternsServices'
+import CrochetPatternServices from '../CrochetPatternsList/CrochetPatternsServices'
 
 import headerLogo from '../../assets/solmuteoriaa_logo_256.png'
 import video from '../../assets/video2.mp4'
