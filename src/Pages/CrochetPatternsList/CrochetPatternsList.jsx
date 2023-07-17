@@ -28,7 +28,7 @@ function CrochetPatters() {
           <p className='page__header__description'>These are crochet patterns</p>
         </div>
         <div className='page__body'>
-           <CrochetPatternServices />
+           <CrochetPatternServices frontpage={false} />
         </div>
 
       </div>

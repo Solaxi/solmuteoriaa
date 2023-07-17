@@ -74,8 +74,7 @@ function HomePage() {
       */}
 
       {/* Services Section */}
-        <CrochetPatternServices />
-
+        <CrochetPatternServices frontpage={true} />
       </div>
       
     {/* Features Section */}
