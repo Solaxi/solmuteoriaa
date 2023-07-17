@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import SEO from '/src/components/SEO'
 import './CrochetPattern.scss'
 import { useParams } from 'react-router-dom'
 
@@ -46,7 +47,17 @@ function CrochetPattern() {
     return (<></>)
   }
 
+  const seoTitle = `Crochet Pattern - ${data.title}`
+  const seoUrl = `/crochet-pattern/${data.id}`
   return (
+    <>
+    <SEO
+      titleAdd={seoTitle}
+      description={data.cardDescription}
+      url={seoUrl}
+      image={data.titleImg}
+    />
+
     <div className='cp'>
       <div className='cp__header padding' id='particles'>
         <h1 className='cp__header__heading'>{data.title}</h1>
@@ -61,6 +72,7 @@ function CrochetPattern() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

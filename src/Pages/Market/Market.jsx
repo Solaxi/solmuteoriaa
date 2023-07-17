@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import SEO from '/src/components/SEO'
 import '../BasicWebPage.scss'
 import './Market.scss'
 
@@ -26,6 +27,13 @@ function Market() {
   
   return (
     <>
+      <SEO
+        titleAdd='Marketplace'
+        description='Original and cute crochet items for sale. Commissions are also available for unique gifts.'
+        url='/market'
+        image='/solmuteoriaa_og.jpg'
+      />
+
       <div className='page'>
         <div className='page__header padding' id='particles'>
           <h1 className='page__header__heading'>Market</h1>

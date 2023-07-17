@@ -1,5 +1,6 @@
-import React from 'react';
-import './HomePage.scss';
+import React from 'react'
+import SEO from '/src/components/SEO'
+import './HomePage.scss'
 
 import CrochetPatternServices from '../CrochetPatternsList/CrochetPatternsServices'
 
@@ -11,9 +12,17 @@ import { FaEuroSign, FaGift, FaHeart, FaStar, FaArrowRight } from 'react-icons/f
 
 import { NavLink } from 'react-router-dom'
 
+
 function HomePage() {
   return (
     <main className='homepage'>
+      <SEO
+        titleAdd='Unconventional Crochet'
+        description='Free Crochet Patterns for cute plushies and unconventional ideas. Crochet to relax. Crochet to learn. Crochet to be awesome.'
+        url=''
+        image='/solmuteoriaa_og.jpg'
+      />
+
       <section className='header padding'>
         <video id='bg-video' autoPlay loop muted playsInline>
           <source src={video} type='video/mp4' />

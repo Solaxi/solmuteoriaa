@@ -1,4 +1,5 @@
 import React from 'react'
+import SEO from '/src/components/SEO'
 import '../BasicWebPage.scss'
 
 import CrochetPatternServices from './CrochetPatternsServices'
@@ -15,6 +16,13 @@ function CrochetPatters() {
 
   return (
     <>
+      <SEO
+        titleAdd='Free Crochet Patterns'
+        description='Free Crochet Patterns for cute plushies and unconventional ideas. All patterns are designed by me.'
+        url='/crochet-patterns'
+        image='/solmuteoriaa_og.jpg'
+      />
+
       <div className='page'>
         <div className='page__header padding' id='particles'>
           <h1 className='page__header__heading'>Crochet Patterns</h1>

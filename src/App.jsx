@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import { Routes, Route } from 'react-router-dom'
+import { HelmetProvider } from 'react-helmet-async'
 
 //Pages
 import HomePage from './Pages/HomePage/HomePage'
@@ -23,6 +24,7 @@ function App() {
 
   return (
       !loading && (
+        <HelmetProvider>
         <div className='App'>
           <Navbar />
           <Routes>
@@ -34,6 +36,7 @@ function App() {
           </Routes>
           <Footer />
         </div>
+        </HelmetProvider>
       )
     )
 }

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import SEO from '/src/components/SEO'
 import '../BasicWebPage.scss'
 import './Commissions.scss'
 
@@ -12,6 +13,13 @@ function Commissions() {
 
   return (
     <>
+      <SEO
+        titleAdd='Commission a Crochet Projcet'
+        description='Commission a unique huggable soft gift that recipient would never expect! Guaranteed to be the only one of its kind!'
+        url='/commissions'
+        image='/solmuteoriaa_og.jpg'
+      />
+
       <div className='page'>
         <div className='page__header padding' id='particles'>
           <h1 className='page__header__heading'>Commissions</h1>
