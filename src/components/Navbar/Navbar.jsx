@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.scss'
 
-import { FaHouseChimney, FaScissors, FaGift } from 'react-icons/fa6'
+import { FaHouse, FaScissors, FaGift, FaBasketShopping } from 'react-icons/fa6'
 import { NavLink } from 'react-router-dom'
 
 import logo from '../../assets/solmuteoriaa_logo_256.png'
@@ -10,6 +10,18 @@ function Navbar() {
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
   const Close = () => setClick(false)
+
+  const LinkItem = ({target, icon, title}) => {
+    return (
+      <>
+      <li className='nav-item'>
+        <NavLink to={target} end className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
+          {icon} &nbsp;&nbsp;{title}
+        </NavLink>
+      </li>
+      </>
+    )
+  }
 
   return (
     <div>
@@ -22,23 +34,10 @@ function Navbar() {
           </NavLink>
           
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-            <NavLink to='/' end className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
-              <FaHouseChimney /> &nbsp;&nbsp;Home
-            </NavLink>
-            </li>
-
-            <li className='nav-item'>
-            <NavLink to='/crochet-patterns' className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
-              <FaScissors /> &nbsp;&nbsp;Free Crochet Patterns
-            </NavLink>
-            </li>
-
-            <li className='nav-item'>
-            <NavLink to='/commissions' className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
-              <FaGift /> &nbsp;&nbsp;Commissions
-            </NavLink>
-            </li>
+            <LinkItem target='/' icon={<FaHouse />} title='Home' />
+            <LinkItem target='/crochet-patterns' icon={<FaScissors />} title='Free Crochet Patterns' />
+            <LinkItem target='/market' icon={<FaBasketShopping />} title='Market' />
+            <LinkItem target='/commissions' icon={<FaGift />} title='Commissions' />
           </ul>
 
           <div className='nav-icon' onClick={handleClick}>

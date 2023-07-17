@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router-dom'
 import HomePage from './Pages/HomePage/HomePage'
 import CrochetPatternsList from './Pages/CrochetPatternsList/CrochetPatternsList'
 import CrochetPattern from './Pages/CrochetPattern/CrochetPattern'
+import Market from './Pages/Market/Market'
 import Commissions from './Pages/Commissions/Commissions'
 import Footer from './components/Footer/Footer'
 
@@ -29,6 +30,7 @@ function App() {
             <Route path='/crochet-patterns' element={<CrochetPatternsList />} />
             <Route path='/crochet-patterns/:id' element={<CrochetPattern />} />
             <Route path='/commissions' element={<Commissions />} />
+            <Route path='/market' element={<Market />} />
           </Routes>
           <Footer />
         </div>
