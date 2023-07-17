@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import './CrochetPatternsServices.scss'
-import Loader from '/src/components/LoaderElement'
+import Loader from '/src/components/Loader/LoaderElement'
 
 const Card = lazy(() => import('./CrochetPatternServicesCard'))
 

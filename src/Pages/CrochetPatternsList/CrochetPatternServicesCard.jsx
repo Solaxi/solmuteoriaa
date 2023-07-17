@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import Button from '../../components/ButtonElement'
+import Button from '/src/components/Button/ButtonElement'
 
 const Card = ({pattern}) => {
   const [card, setCard] = useState([])

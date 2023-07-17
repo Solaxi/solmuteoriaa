@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './CrochetPattern.scss'
 import { useParams } from 'react-router-dom'
 
-import Checkbox from '../../components/CheckboxElement'
+import Checkbox from '/src/components/Checkbox/CheckboxElement'
 
 function CrochetPattern() {
   const params = useParams()
