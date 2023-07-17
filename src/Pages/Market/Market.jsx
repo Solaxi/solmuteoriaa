@@ -4,7 +4,7 @@ import './Market.scss'
 
 import particles from '../../particlejs-config'
 
-import marketplaceData from '/src/assets/market/data.json'
+import marketplaceData from '/src/assets/marketplaceData.json'
 
 function Market() {
   useEffect(() => {
