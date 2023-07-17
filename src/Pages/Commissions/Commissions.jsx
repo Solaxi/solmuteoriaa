@@ -18,7 +18,14 @@ function Commissions() {
           <p className='page__header__description'>Commissions are <strong>OPEN</strong></p>
         </div>
         <div className='page__body'>
-           Proper commissions page coming up. Until then, email solmuteoriaa@gmail.com.
+          
+          <section className='services padding'>
+      
+            <div className='services__container'>
+              Proper commissions page coming up. Until then, email solmuteoriaa@gmail.com.
+            </div>
+           </section>
+
         </div>
       </div>
     </>
