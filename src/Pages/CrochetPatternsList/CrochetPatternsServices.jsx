@@ -5,6 +5,7 @@ import Loader from '/src/components/Loader/LoaderElement'
 const Card = lazy(() => import('./CrochetPatternServicesCard'))
 
 const patternsToShow = [
+  'hey-duggee-frog',
   'snowman',
   'mouse',
   'angry-birds-stella'
