@@ -17,9 +17,8 @@ function CrochetPatters() {
   return (
     <>
       <SEO
-        titleAdd='Free Crochet Patterns'
+        title='Free Crochet Patterns'
         description='Free Crochet Patterns for cute plushies and unconventional ideas. All patterns are designed by me.'
-        url='/crochet-patterns'
         image='/solmuteoriaa_og.jpg'
       />
 

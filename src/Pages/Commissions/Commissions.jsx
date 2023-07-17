@@ -14,9 +14,8 @@ function Commissions() {
   return (
     <>
       <SEO
-        titleAdd='Commission a Crochet Projcet'
+        title='Commission a Crochet Projcet'
         description='Commission a unique huggable soft gift that recipient would never expect! Guaranteed to be the only one of its kind!'
-        url='/commissions'
         image='/solmuteoriaa_og.jpg'
       />
 

@@ -47,14 +47,11 @@ function CrochetPattern() {
     return (<></>)
   }
 
-  const seoTitle = `Crochet Pattern - ${data.title}`
-  const seoUrl = `/crochet-pattern/${data.id}`
   return (
     <>
     <SEO
-      titleAdd={seoTitle}
+      titleAdd={`Crochet Pattern - ${data.title}`}
       description={data.cardDescription}
-      url={seoUrl}
       image={data.titleImg}
     />
 

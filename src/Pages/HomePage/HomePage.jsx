@@ -17,9 +17,8 @@ function HomePage() {
   return (
     <main className='homepage'>
       <SEO
-        titleAdd='Unconventional Crochet'
+        title='Unconventional Crochet'
         description='Free Crochet Patterns for cute plushies and unconventional ideas. Crochet to relax. Crochet to learn. Crochet to be awesome.'
-        url=''
         image='/solmuteoriaa_og.jpg'
       />
 

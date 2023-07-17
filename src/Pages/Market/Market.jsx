@@ -28,9 +28,8 @@ function Market() {
   return (
     <>
       <SEO
-        titleAdd='Marketplace'
+        title='Marketplace'
         description='Original and cute crochet items for sale. Commissions are also available for unique gifts.'
-        url='/market'
         image='/solmuteoriaa_og.jpg'
       />
 
