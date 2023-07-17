@@ -34,7 +34,7 @@ function Market() {
         <div className='cat-display padding'>
 
           <div className="discord">
-            {marketplaceData.map(item => <MarketplaceItem img={item.img} title={item.title} desc={item.desc} />)}
+            {marketplaceData.map(item => <MarketplaceItem key={item.title} img={item.img} title={item.title} desc={item.desc} />)}
           </div>
 
         </div>
