@@ -13,7 +13,8 @@ const patternsToShow = [
   'hey-duggee-frog',
   'snowman',
   'mouse',
-  'angry-birds-stella'
+  'angry-birds-stella',
+  'hammer-plushie'
 ]
 
 function CrochetPatternServices({frontpage}) {

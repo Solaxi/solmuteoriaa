@@ -50,7 +50,7 @@ function CrochetPattern() {
   return (
     <>
     <SEO
-      titleAdd={`Crochet Pattern - ${data.title}`}
+      title={`Crochet Pattern - ${data.title}`}
       description={data.cardDescription}
       image={data.titleImg}
     />
