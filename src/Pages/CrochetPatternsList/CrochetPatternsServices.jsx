@@ -14,6 +14,7 @@ const patternsToShow = [
   'snowman',
   'mouse',
   'angry-birds-stella',
+  'hand-grenade',
   'hammer-plushie'
 ]
 

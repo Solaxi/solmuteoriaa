@@ -35,7 +35,8 @@ function CrochetPattern() {
     }
 
     if (item.type === 'pattern') {
-      const patternElements = item.content.map((listItem, j) => <Checkbox key={j} round={j+1} label={listItem} /> )
+      const startRow = item.startrow ? Number(item.startrow) : 1
+      const patternElements = item.content.map((listItem, j) => <Checkbox key={j} round={j+startRow} label={listItem} /> )
 
       return (
         <div key={i} className='pattern'>
