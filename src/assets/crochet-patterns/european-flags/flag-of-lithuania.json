@@ -1,0 +1,46 @@
+{
+  "id": "flag-of-lithuania",
+  "title": "Flag of Lithuania",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-lithuania.jpg",
+  "titleImgAlt": "Flag of Lithuania",
+  "cardDescription": "The flag of Lithuania consists of a horizontal tricolor of yellow, green and red. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-lithuania-small.png",
+  "description": "The flag of Lithuania consists of a horizontal tricolor of yellow, green and red. The yellow in the flag is meant to symbolize the sun and prosperity, the green is for the forests, the countryside, liberty, and hope, and the red represents the blood and bravery of those who have died for Lithuania.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "3 : 5", "17cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Yellow (as A)", "Green (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-lithuania.png" ]}
+    ]},
+    { "type": "text", "content": "Make sure to choose the colors appropriately. Green is a slight darker shade and the red is officially stated of having a shade of purple in it making it appear darker." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-lithuania-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "flag-of-france",
+  "title": "Flag of France",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-france.jpg",
+  "titleImgAlt": "Flag of France",
+  "cardDescription": "The national flag of France is a tricolor flag featuring three vertical bands colored blue (hoist side), white, and red.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-france-small.png",
+  "description": "The national flag of France is a tricolor flag featuring three vertical bands colored blue (hoist side), white, and red. It is known to English speakers as the French Tricolour or simply the Tricolour.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "14cm x 9cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "White (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-france.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-france-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 18, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sab, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sbc, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

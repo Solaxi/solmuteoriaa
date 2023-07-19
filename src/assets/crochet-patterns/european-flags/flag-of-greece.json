@@ -1,0 +1,46 @@
+{
+  "id": "flag-of-greece",
+  "title": "Flag of Greece",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-greece.jpg",
+  "titleImgAlt": "Flag of Greece",
+  "cardDescription": "The flag of Greece is based on nine equal horizontal stripes of blue alternating with white. There is a blue canton in the upper hoist-side corner bearing a white cross.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-greece-small.png",
+  "description": "The flag of Greece is based on nine equal horizontal stripes of blue alternating with white. There is a blue canton in the upper hoist-side corner bearing a white cross.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "White (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-greece.png" ]}
+    ]},
+    { "type": "text", "content": "There is no need to cut the yarn when doing the first four horizontal stripes (counting from the bottom). Attach a new white yarn at row 9 to do the white cross with. Also attach another blue yarn at row 11 and use it to do the four corners of the canton." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-greece-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 29, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 27, sab, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 27, sba, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 27, sab, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 27, sba, turn",
+      "Ch 1, sc 21, sab, sc 1, sba, sc 4, turn",
+      "Ch 1, sc 3, sab, sc 1, sba, sc 21, sab, turn",
+      "Ch 1, sc 17, sba, sc 3, sab, sc 1, sba, sc 4, turn",
+      "Ch 1, sc 3, sab, sc 1, sba, sc 3, sab, sc 18, turn",
+      "Ch 1, sc 17, sab, sc 10, turn",
+      "Ch 1, sc 9, sba, sc 18, turn",
+      "Ch 1, sc 17, sba, sc 3, sab, sc 1, sba, sc 4, turn",
+      "Ch 1, sc 3, sab, sc 1, sba, sc 3, sab, sc 18, turn",
+      "Ch 1, sc 21, sab, sc 1, sba, sc 4, turn",
+      "Ch 1, sc 3, sab, sc 1, sba, sc 22"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "flag-of-italy",
+  "title": "Flag of Italy",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-italy.jpg",
+  "titleImgAlt": "Flag of Italy",
+  "cardDescription": "The flag of Italy is a tricolor featuring three equally sized vertical pales of green, white, and red, with the green at the hoist side. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-italy-small.png",
+  "description": "The flag of Italy is a tricolor featuring three equally sized vertical pales of green, white, and red, with the green at the hoist side. Some have attributed particular values to the colors, and a common interpretation is that the green represents the country’s plains and the hills; white, the snow-capped Alps; and red, blood spilled in the Wars of Italian Independence.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "14cm x 9cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Green (as A)", "White (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-italy.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-italy-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 18, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sab, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sbc, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

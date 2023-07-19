@@ -1,0 +1,45 @@
+{
+  "id": "flag-of-iceland",
+  "title": "Flag of Iceland",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-iceland.jpg",
+  "titleImgAlt": "Flag of Iceland",
+  "cardDescription": "The flag of Iceland is described as 'national flag of Icelanders is blue as the sky with a snow-white cross, and a fiery-red cross inside the white cross.'",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-iceland-small.png",
+  "description": "The flag of Iceland is described as 'national flag of Icelanders is blue as the sky with a snow-white cross, and a fiery-red cross inside the white cross. The arms of the cross extend to the edge of the flag, and their combined width is 2/9, but the red cross 1/9 of the combined width of the flag. The dimensions between the width and length are 18:25.'",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "18 : 25", "14cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Red (as B)", "White (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-iceland.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from the middle and doing top and bottom parts separately. Also note that the starting chain is counted as row 1." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-iceland-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With B, ch 27",
+      "Sc 2nd ch from hook, sc 24, sbc, turn",
+      "Ch 1, sc 7, scb, sc 1, sbc, sc 15, sca, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, fasten off",
+      "attach C to first ch of row 1, ch 1, sc 7, scb, sc 1, sbc, sc 15, sca, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn",
+      "Ch 1, sc 6, sac, scb, sc 1, sbc, sca, sc 15, turn",
+      "Ch 1, sc 14, sac, scb, sc 1, sbc, sca, sc 7, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}
