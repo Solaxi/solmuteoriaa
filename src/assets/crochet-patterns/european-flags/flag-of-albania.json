@@ -3,8 +3,44 @@
   "title": "Flag of Albania",
   "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-albania.jpg",
   "titleImgAlt": "Flag of Albania",
+  "cardDescription": "The Flag of Albania is a red flag with a silhouetted black double-headed eagle in the center.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-albania-small.png",
   "description": "The Flag of Albania is a red flag with a silhouetted black double-headed eagle in the center. The red stands for bravery, strength and valor, while the double-headed eagle represents the sovereign state of Albania.",
   "content": [
-    { "type": "text", "content": "" }
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "5 : 7", "14cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "Black (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-albania.png" ]}
+    ]},
+    { "type": "text", "content": "Size of this pattern is just enough to get some details of the double-headed eagle visible. Whether the finished silhouette looks enough like the original though, is in the eye of the beholder." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-albania-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 28, Sc in 2nd ch and each ch across, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 7, sab, sba, sab, sc  1, sba, sc 2, sab, sc 1, sba, sab, sba, sc 8, turn ",
+      "Ch 1, sc 8, sab, sba, sab, sc 1, sba, sab, sc 1, sba, sab, sba, sc 9, turn ",
+      "Ch 1, sc 7, [sab, sc 2, sba] x 3, sc 8, turn",
+      "Ch 1, sc 9, sab, sc 6, sba, sc 10, turn",
+      "Ch 1, sc 7, sab, sc 10, sba, sc 8, turn",
+      "Ch 1, sc 9, sab, sc 6, sba, sc 10, turn",
+      "Ch 1, sc 7, sab, sc 3, sba, sab, sba, sab, sc 3, sba, sc 8, turn",
+      "Ch 1, sc 7, sab, sba, sab, sba, sab, sc 2, sba, sab, sba, sab, sba, sc 8, turn ",
+      "Ch 1, sc 10, [sab, sba] x 3, sc 11, turn",
+      "Ch 1, sc 11, sab, sc 2, sba, sc 12, turn",
+      "Ch 1, sc 12, sab, sba, sc 13, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 27, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
   ]
 }

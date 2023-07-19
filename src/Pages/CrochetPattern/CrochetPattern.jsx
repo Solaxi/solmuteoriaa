@@ -5,6 +5,8 @@ import { useParams } from 'react-router-dom'
 
 import CrochetPatternSubCateogories from './CrochetPatternSubCategories'
 import Checkbox from '/src/components/Checkbox/CheckboxElement'
+import InfoBox from '/src/components/InfoBox/InfoBox'
+import Button from '/src/components/Button/ButtonElement'
 
 function CrochetPattern() {
   const params = useParams()
@@ -21,42 +23,62 @@ function CrochetPattern() {
   
 
   function readContent(item, i) {
-    if (item.type === 'h2') {
-      return <h2 key={i} className='heading-primary'>{item.content}</h2>
-    }
+    switch (item.type) {
+      //heading
+      case 'h2': {
+        return <h2 key={i} className='heading-primary'>{item.content}</h2>
+      }
 
-    if (item.type === 'text') {
-      return <p key={i}>{item.content}</p>
-    }
-    
-    if (item.type === 'image') {
-      return <div key={i} className='imgContainer'><img src={item.content} alt={item.alt} /></div>
-    }
+      //basic text
+      case 'text': {
+        return <p key={i}>{item.content}</p>
+      }
+      
+      //image
+      case 'image': {
+        return <div key={i} className='imgContainer'><img src={item.content} alt={item.alt} /></div>
+      }
 
-    if (item.type === 'list') {
-      return <ul key={i}>{ item.content.map((listItem, j) => <li key={j}>{listItem}</li>) }</ul>
+      //unordered list
+      case 'list': {
+        return <ul key={i}>{ item.content.map((listItem, j) => <li key={j}>{listItem}</li>) }</ul>
+      }
+
+      //pattern containing checkboxes
+      case 'pattern': {
+        const startRow = item.startrow ? Number(item.startrow) : 1
+        const patternElements = item.content.map((listItem, j) => <Checkbox key={j} round={j+startRow} label={listItem} /> )
+
+        return (
+          <div key={i} className='pattern'>
+            {patternElements}
+          </div>
+        )
+      }
+
+      //link
+      case 'link': {
+        return <a key={i} href={item.content}>{item.content}</a>
+      }
+
+      //subcateogry list of patterns
+      case 'subcategory': {
+        return <CrochetPatternSubCateogories key={i} parent={params.id} cats={item.content} />
+      }
+
+      //flag pattern specific section
+      case 'infobox': {
+        return <InfoBox key={i} columns={item.content} />
+      }
+
+      //button
+      case 'button': {
+        return <Button key={i} to={item.link} title={item.content} dir='left' />
+      }
+
+      default:
+        return ''
     }
-
-    if (item.type === 'pattern') {
-      const startRow = item.startrow ? Number(item.startrow) : 1
-      const patternElements = item.content.map((listItem, j) => <Checkbox key={j} round={j+startRow} label={listItem} /> )
-
-      return (
-        <div key={i} className='pattern'>
-          {patternElements}
-        </div>
-      )
-    }
-
-    if (item.type === 'link') {
-      return <a key={i} href={item.content}>{item.content}</a>
-    }
-
-    if (item.type === 'subcategory') {
-      return <CrochetPatternSubCateogories key={i} topId={params.id} cats={item.content} />
-    }
-
-    return (<></>)
   }
 
   return (
