@@ -1,0 +1,55 @@
+{
+  "id": "flag-of-andorra",
+  "title": "Flag of Andorra",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-andorra.jpg",
+  "titleImgAlt": "Flag of Andorra",
+  "cardDescription": "The flag of Andorra is a vertical tricolor of blue, yellow, and red with the coat of arms of Andorra in the center.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-andorra-small.png",
+  "description": "The flag of Andorra is a vertical tricolor of blue, yellow, and red with the coat of arms of Andorra in the center.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "7 : 10", "14cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Yellow (as B)", "Red (as C)", "Beige (as D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-andorra.png" ]}
+    ]},
+    { "type": "text", "content": "In the actual flag the three vertical stripes are not of equal width. Their official ratio is 8:9:8 so yellow bar is slightly wider. The scale of this pattern is too small to take that into account though." },
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-andorra-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 19, sc in 2nd ch and each ch across, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 17, sab, turn",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 5, [sbd, sc 1, sdb, sc 1] x 2, sc 5, turn ",
+      "Ch 1, sc 5, sbd, sc 4, sdb, sc 7, turn ",
+      "Ch 1, sc 5, sbd, sc 1, sdc, sc 1, scb, sbd, sdb, sc 6, turn ",
+      "Ch 1, sc 4, sbd, sc 1, sdc, scb, sbc, scd, sc 1, sdb, sc 6, turn ",
+      "Ch 1, sc 5, sbd, sc 1, sdb, sbc, scb, sbd, sdb, sc 6, turn ",
+      "Ch 1, sc 5, sbd, sc 4, sdb, sc 7, turn ",
+      "Ch 1, sc 5, [sbd, sc 1, sdb, sc 1] x 2, sc 5, turn ",
+      "Ch 1, sc 17, sbc, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn ",
+      "Ch 1, sc 18, turn "
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

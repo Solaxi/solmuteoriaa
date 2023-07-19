@@ -1,0 +1,46 @@
+{
+  "id": "flag-of-bulgaria",
+  "title": "Flag of Bulgaria",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-bulgaria.jpg",
+  "titleImgAlt": "Flag of Bulgaria",
+  "cardDescription": "The flag of Bulgaria is a tricolor consisting of three equal-sized horizontal bands of (from top to bottom) white, green, and red.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-bulgaria-small.png",
+  "description": "The flag of Bulgaria is a tricolor consisting of three equal-sized horizontal bands of (from top to bottom) white, green, and red.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "3 : 5", "17cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Green (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-bulgaria.png" ]}
+    ]},
+    { "type": "text", "content": "When choosing colors, try to find a green yarn that is not too bright. It should be more like a pale green to look right." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-bulgaria-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

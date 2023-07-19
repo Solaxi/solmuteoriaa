@@ -1,0 +1,42 @@
+{
+  "id": "flag-of-belarus",
+  "title": "Flag of Belarus",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-belarus.jpg",
+  "titleImgAlt": "Flag of Belarus",
+  "cardDescription": "The flag of Belarus is a red and green flag with a white and red ornament pattern placed at the left side. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-belarus-small.png",
+  "description": "The flag of Belarus is a red and green flag with a white and red ornament pattern placed at the left side. The red and green horizontal colors are in 2:1 ratio to each other.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)", "Green (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-belarus.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-belarus-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch, sc 23, sab, [sba, sab] x 2, turn ",
+      "Ch 1, sba, sab, sba, sc 26, turn",
+      "Ch 1, sc 24, sab, [sba, sab] x 2, turn",
+      "Ch 1, sba, sab, sba, sc 26, turn",
+      "Ch 1, sc 24, [sab, sba] x 2, sc 1, turn ",
+      "Ch 1, [sab, sba] x 2, sc 25, turn",
+      "Ch 1, sc 25, [sab, sba] x 2, turn",
+      "Ch 1, [sab, sba] x 2, sc 25, turn",
+      "Ch 1, sc 25, [sab, sba] x 2, turn",
+      "Ch 1, [sab, sba] x 2, sc 24, sbc, turn",
+      "Ch 1, sc 24, scb, [sba, sab] x 2, turn ",
+      "Ch 1, sba, sab, sba, sac, sc 25, turn",
+      "Ch 1, sc 24, scb, [sba, sab] x 2, turn ",
+      "Ch 1, sba, sab, sba, sac, sc 25, turn",
+      "Ch 1, sc 24, scb, [sba, sab] x 2, turn "
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

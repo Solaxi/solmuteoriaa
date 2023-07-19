@@ -1,0 +1,43 @@
+{
+  "id": "flag-of-azerbaijan",
+  "title": "Flag of Azerbaijan",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-azerbaijan.jpg",
+  "titleImgAlt": "Flag of Azerbaijan",
+  "cardDescription": "The flag of Azerbaijan is a tricolor featuring three equally sized fesses of blue, red, and green, with a white crescent and an eight-pointed star centered in the red.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-azerbaijan-small.png",
+  "description": "The flag of Azerbaijan is a tricolor featuring three equally sized fesses of blue, red, and green, with a white crescent and an eight-pointed star centered in the red.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Light blue (as A)", "Red (as B)", "Green (as C)", "White (as D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-azerbaijan.png" ]}
+    ]},
+    { "type": "text", "content": "The crescent and the star are easiest to make when using different strands of yarn for each of them." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-azerbaijan-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 10, sbd, sc 2, sdb, sc 15, turn",
+      "Ch 1, sc 10, [sbd, sdb, sc 1] x 2, sbd, sc 1, sdb, sc 11, turn",
+      "Ch 1, sc 9, sbd, sdb, sc 4, sbd, sc 2, sdb, sc 9, turn",
+      "Ch 1, sc 10, [sbd, sdb, sc 1] x 2, sbd, sc 1, sdb, sc 11, turn",
+      "Ch 1, sc 10, sbd, sc 2, sdb, sc 14, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

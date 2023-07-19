@@ -1,0 +1,43 @@
+{
+  "id": "flag-of-armenia",
+  "title": "Flag of Armenia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-armenia.jpg",
+  "titleImgAlt": "Flag of Armenia",
+  "cardDescription": "The national flag of Armenia consists of three horizontal bands of equal width, red on the top, blue in the middle, and orange.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-armenia-small.png",
+  "description": "The national flag of Armenia consists of three horizontal bands of equal width, red on the top, blue in the middle, and orange (also described as 'color of apricot') on the bottom.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "Blue (as B)", "Orange (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-armenia.png" ]}
+    ]},
+    { "type": "text", "content": "Even though it is stated that the third color is orange, it might be beneficial to do some research and compare yarn options available to you. For me the choice (due to limited options) was mustard yellow since all orange options were way too bright." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-armenia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}
