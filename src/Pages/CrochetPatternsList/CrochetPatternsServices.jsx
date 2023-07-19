@@ -15,7 +15,8 @@ const patternsToShow = [
   'mouse',
   'angry-birds-stella',
   'hand-grenade',
-  'hammer-plushie'
+  'hammer-plushie',
+  'european-flags'
 ]
 
 function CrochetPatternServices({frontpage}) {

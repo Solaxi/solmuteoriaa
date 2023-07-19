@@ -31,6 +31,7 @@ function App() {
             <Route path='/' element={<HomePage />} />
             <Route path='/crochet-patterns' element={<CrochetPatternsList />} />
             <Route path='/crochet-patterns/:id' element={<CrochetPattern />} />
+            <Route path='/crochet-patterns/:parent/:id' element={<CrochetPattern />} />
             <Route path='/commissions' element={<Commissions />} />
             <Route path='/market' element={<Market />} />
           </Routes>

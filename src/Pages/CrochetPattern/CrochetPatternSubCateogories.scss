@@ -1,0 +1,97 @@
+.subcat {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 3rem 3rem;
+	gap: 3rem;
+
+	z-index: 1000;
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #fffde3;
+		padding: 3rem;
+		border-radius: 2rem;
+		gap: 2.5rem;
+
+		&__image {
+			width: 100%;
+			border-radius: 1rem;
+			object-fit: cover;
+		}
+		
+    &__heading {
+			font-weight: 600;
+			font-size: 2.4rem;
+      color: #F39540;
+		}
+	}
+}
+
+.smallbutton {
+  border-radius: 20px;
+  background:#F39540;
+  white-space: nowrap;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+	text-decoration: none;
+  margin:5px 5px 0 5px;
+
+  &:hover {
+      transition: all 0.2s ease-in-out;
+      background:#fff;
+      color:#F39540;
+  }
+}
+
+// Desktop Animatins Only
+@media screen and (min-width: 600px){
+  .subcat__item{
+      &:hover{
+          transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
+          transform: scale(1.05);
+      }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+	.subcat {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.subcat {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.subcat {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.subcat {
+		grid-template-columns: repeat(1, 1fr);
+    padding: 6rem 6rem;
+    gap: 6rem;
+
+		&__item {
+			&__heading {
+				font-size: 2.6rem;
+			}
+		}
+	}
+}
