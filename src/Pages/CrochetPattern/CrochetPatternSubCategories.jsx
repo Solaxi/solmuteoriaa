@@ -9,7 +9,7 @@ function CrochetPatternSubCateogories({parent, cats}) {
       <div className="subcat__item">
         <span className='subcat__item__heading'>{title}</span>
         <img src={img} alt={title} className="subcat__item__image" />
-        <Button to={`/crochet-patterns/${parent}/${id}`} title='See the pattern' classname='smallbutton' />
+        <Button to={`/crochet-patterns/${parent}/${id}`} title='See the pattern' subclass='small' />
       </div>
     )
   }

@@ -2,15 +2,14 @@ import React from 'react'
 import SEO from '/src/components/SEO'
 import './HomePage.scss'
 
-import CrochetPatternServices from '../CrochetPatternsList/CrochetPatternsServices'
+import CrochetPatternServices from '/src/Pages/CrochetPatternsList/CrochetPatternsServices'
+import Button from '/src/components/Button/ButtonElement'
 
-import headerLogo from '../../assets/solmuteoriaa_logo_256.png'
-import video from '../../assets/video2.mp4'
+import headerLogo from '/src/assets/solmuteoriaa_logo_256.png'
+import video from '/src/assets/video2.mp4'
 
 import { IconContext } from 'react-icons'
-import { FaEuroSign, FaGift, FaHeart, FaStar, FaArrowRight } from 'react-icons/fa6'
-
-import { NavLink } from 'react-router-dom'
+import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
 
 
 function HomePage() {
@@ -40,38 +39,6 @@ function HomePage() {
       <div className='wrapper-top'>
       
       {/* Stats Section */}
-      {/*
-        <section className='stats padding'>
-          <div className='video-container'>
-            <a data-flickr-embed='true' href='https://www.flickr.com/photos/141823978@N06' title=''>
-              <img src='https://live.staticflickr.com/65535/53015192564_89b47f3695_w.jpg' className='video-iframe' alt=''/>
-            </a>
-            <script async src='//embedr.flickr.com/assets/client-code.js' charSet='utf-8'></script>
-          </div>
-
-          <div className='stats__container'>
-            <div className='stats__container__item'>
-              <h2 className='stats__container__item__counter'>
-                100
-              </h2>
-              <p className='stats__container__item__description'>
-                Foo
-              </p>
-            </div>
-
-            <div className='stats__container__border'></div>
-            <div className='stats__container__item'>
-              <h2 className='stats__container__item__counter'>
-                100
-              </h2>
-              <p className='stats__container__item__description'>
-                Bar
-              </p>
-            </div>
-          </div>
-
-        </section>
-      */}
 
       {/* Services Section */}
         <CrochetPatternServices frontpage={true} />
@@ -134,14 +101,7 @@ function HomePage() {
 
         </div>
 
-        <div className='commissionsbuttonwrap'>
-        <NavLink to='/commissions' className='commissionsbutton'>
-          See examples or request a commission
-          <IconContext.Provider value={{title:'Arrow right', size:'1em', className:'icon'}}>
-            <FaArrowRight />
-          </IconContext.Provider>
-        </NavLink>
-        </div>
+        <Button to='/commissions' title='See examples or request a commission' subclass='large' />
       </section>
 
     {/* Reviews Section */}

@@ -30,30 +30,6 @@
 	}
 }
 
-.smallbutton {
-  border-radius: 20px;
-  background:#F39540;
-  white-space: nowrap;
-  padding: 8px 15px;
-  color: #fff;
-  font-size: 14px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease-in-out;
-	text-decoration: none;
-  margin:5px 5px 0 5px;
-
-  &:hover {
-      transition: all 0.2s ease-in-out;
-      background:#fff;
-      color:#F39540;
-  }
-}
-
 // Desktop Animatins Only
 @media screen and (min-width: 600px){
   .subcat__item{

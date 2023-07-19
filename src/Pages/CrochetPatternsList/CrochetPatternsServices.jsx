@@ -2,10 +2,7 @@
 import React, { Suspense, lazy } from 'react';
 import './CrochetPatternsServices.scss'
 import Loader from '/src/components/Loader/LoaderElement'
-
-import { IconContext } from 'react-icons'
-import { FaArrowRight } from 'react-icons/fa6'
-import { NavLink } from 'react-router-dom'
+import Button from '/src/components/Button/ButtonElement'
 
 const Card = lazy(() => import('./CrochetPatternServicesCard'))
 
@@ -34,16 +31,7 @@ function CrochetPatternServices({frontpage}) {
         </div>
       </Suspense>
       
-      {frontpage && 
-      <div className='commissionsbuttonwrap'>
-        <NavLink to='/crochet-patterns' className='commissionsbutton'>
-          Show all free crochet patterns
-          <IconContext.Provider value={{title:'Arrow right', size:'1em', className:'icon'}}>
-            <FaArrowRight />
-          </IconContext.Provider>
-        </NavLink>
-        </div>
-      }
+      {frontpage && <Button to='/crochet-patterns' title='Show all free crochet patterns' subclass='large' />}
 
     </section>
   )
