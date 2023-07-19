@@ -1,0 +1,56 @@
+{
+  "id": "flag-of-portugal",
+  "title": "Flag of Portugal",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-portugal.jpg",
+  "titleImgAlt": "Flag of Portugal",
+  "cardDescription": "The Flag of Portugal is the national flag of the Portuguese Republic. It is a rectangular bi-color with a field unevenly divided into green on the hoist, and red on the fly. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-portugal-small.png",
+  "description": "The Flag of Portugal is the national flag of the Portuguese Republic. It is a rectangular bi-color with a field unevenly divided into green on the hoist, and red on the fly. The lesser version of the national coat of arms is centered over the color boundary at equal distance from the upper and lower edges.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Green (as A)", "Red (as B)", "Yellow (as C)", "Blue (as D)", "White (as E)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-portugal.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left.." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-portugal-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 19, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 6, sac, sc 3, sca, sc 7, turn",
+      "Ch 1, sc 5, sac, sc 1, [sca, sac] x 2, sca, sc 6, turn",
+      "Ch 1, sc 4, sac, sc 2, sca, sac, sc 1, sca, sac, sca, sc 5, turn",
+      "Ch 1, sc 3, sac, sca, sac, scb, sc 1, sbc, scb, sbc, sca, sac, sca, sc 4, turn",
+      "Ch 1, sc 3, sac, sca, sab, sbd, sde, sed, sde, seb, sba, sac, sca, sc 3, sab, turn",
+      "Ch 1, sc 3, sbc, scb, sc 1, sbd, sde, sed, sde, seb, sc 1, sbc, scb, sc 4, turn",
+      "Ch 1, sc 3, [sbc, scb] x 2, sc 1, [sbc, scb] x 3, sc 4, turn",
+      "Ch 1, sc 4, sac, sc 2, sca, sac, sc 1, sca, sac, sca, sc 5, turn",
+      "Ch 1, sc 5, sac, sc 1, [sca, sac] x 2, sca, sc 6, turn",
+      "Ch 1, sc 6, sac, sc 3, sca, sc 7, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

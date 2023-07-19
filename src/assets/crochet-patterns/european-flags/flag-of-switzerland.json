@@ -1,0 +1,46 @@
+{
+  "id": "flag-of-switzerland",
+  "title": "Flag of Switzerland",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-switzerland.jpg",
+  "titleImgAlt": "Flag of Switzerland",
+  "cardDescription": "The flag of Switzerland consists of a red flag with a white cross in the center. It is one of only two square sovereign-state flags, the other being the flag of Vatican City.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-switzerland-small.png",
+  "description": "The flag of Switzerland consists of a red flag with a white cross in the center. It is one of only two square sovereign-state flags, the other being the flag of Vatican City.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 1", "10cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-switzerland.png" ]}
+    ]},
+    { "type": "text", "content": "Only the dimensions of the cross are formally established since 1889: 'The coat of arms of the federation is, within a red field, an upright white cross, whose four arms of equal length are one and a sixth times as long as they are wide.'" },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-switzerland-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 19, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 2, sab, sc 11, sba, sc 3, turn",
+      "Ch 1, sc 2, sab, sc 11, sba, sc 3, turn",
+      "Ch 1, sc 2, sab, sc 11, sba, sc 3, turn",
+      "Ch 1, sc 2, sab, sc 11, sba, sc 3, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 6, sab, sc 3, sba, sc 7, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

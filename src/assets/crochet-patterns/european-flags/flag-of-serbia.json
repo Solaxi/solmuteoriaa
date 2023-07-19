@@ -1,0 +1,46 @@
+{
+  "id": "flag-of-serbia",
+  "title": "Flag of Serbia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-serbia.jpg",
+  "titleImgAlt": "Flag of Serbia",
+  "cardDescription": "The flag of Serbia is a tricolor consisting of three equal horizontal bands, red on the top, blue in the middle and white on the bottom. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-serbia-small.png",
+  "description": "The flag of Serbia is a tricolor consisting of three equal horizontal bands, red on the top, blue in the middle and white on the bottom. The same tricolor, in altering variations, has been used since the 19th century as the flag of the state of Serbia and the Serbian nation.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "Blue (as B)", "White (as C)", "Gold (as D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-serbia.png" ]}
+    ]},
+    { "type": "text", "content": "The state flag bears the lesser coat of arms, centered vertically and shifted to the hoist side by one-seventh of the flag's length. The flag ratio is 2 to 3 (height/width), with three equal horizontal bands." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-serbia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 18, sad, sda, sc 9, turn",
+      "Ch 1, sc 5, sac, sc 1, scd, sdc, sc 1, sca, sc 17, turn",
+      "Ch 1, sc 15,  [sac, sca, sc 1] x 2, sac, sca, sc 6, turn",
+      "Ch 1, sc 6, sad, sc 4, sda, sc 16, sab, turn",
+      "Ch 1, sc 15, sba, sad, sdc, sca, sac, scd, sda, sab, sc 6, turn",
+      "Ch 1, sc 5, sbc, sca, sc 1, sac, sca, sc 1, sac, scb, sc 16, turn",
+      "Ch 1, sc 15, sbc, sca, sac, sc 2, sca, sac, scb, sc 6, turn",
+      "Ch 1, sc 5, sbc, sc 1, [sca, sac] x 2,  sc 1, scb, sc 16, turn",
+      "Ch 1, sc 15, sbc, sc 6, scb, sc 6, turn",
+      "Ch 1, sc 5, sba, [sac, sca] x 3, sab, sc 15, sbc, turn",
+      "Ch 1, sc 15, scd, sda, sc 1, sac, sca, sc 1, sad, sdc, sc 6, turn",
+      "Ch 1, sc 6, scd, sdc, sc 2, scd, sdc, sc 17, turn",
+      "Ch 1, sc 17, sca, sc 2, sac, sc 8, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

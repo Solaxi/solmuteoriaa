@@ -1,0 +1,45 @@
+{
+  "id": "flag-of-monaco",
+  "title": "Flag of Monaco",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-monaco.jpg",
+  "titleImgAlt": "Flag of Monaco",
+  "cardDescription": "The national flag of Monaco has two equal horizontal bands of red (top) and white, both of which have been the heraldic colors of the House of Grimaldi since at least 1339. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-monaco-small.png",
+  "description": "The national flag of Monaco has two equal horizontal bands of red (top) and white, both of which have been the heraldic colors of the House of Grimaldi since at least 1339. Monaco's original flag, which was similar to its current state flag but bore an older version of its coat of arms, was in use from the principality's early days. Simpler design was adopted in 1881.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "4 : 5", "13cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-monaco.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-monaco-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 26, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 24, sab, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn",
+      "Ch 1, sc 25, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

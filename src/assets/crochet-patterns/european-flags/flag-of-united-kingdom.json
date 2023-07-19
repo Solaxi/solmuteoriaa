@@ -1,0 +1,42 @@
+{
+  "id": "flag-of-united-kingdom",
+  "title": "Flag of United Kingdom",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-united-kingdom.jpg",
+  "titleImgAlt": "Flag of United Kingdom",
+  "cardDescription": "The flag of the United Kingdom of Great Britain and Northern Ireland, commonly known as the Union Jack or Union Flag, is the national flag of the United Kingdom. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-united-kingdom-small.png",
+  "description": "The flag of the United Kingdom of Great Britain and Northern Ireland, commonly known as the Union Jack or Union Flag, is the national flag of the United Kingdom. The current design of the Union Jack dates from the union of Ireland and Great Britain in 1801. It consists of the red cross of Saint George (patron saint of England), edged in white, superimposed on the Cross of St Patrick (patron saint of Ireland), which are superimposed on the Saltire of Saint Andrew (patron saint of Scotland).",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)", "Blue (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-united-kingdom.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from the middle and doing top and bottom parts separately. Also note that the starting chain is counted as row 1." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-united-kingdom-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 29",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 12, sba, sc 2, sab, sc 12, sbc, turn",
+      "Ch 1, sc 3, scb, sc 1, sba, sc 2, sab, sc 3, sba, sc 2, sab, sc 1, sba, sc 2, sab, sc 2, sbc, sc 5, turn",
+      "Ch 1, sc 2, scb, sc 2, sba, sc 2, sab, sc 1, sbc, scb, sba, sc 2, sab, sbc, sc 1, scb, sc 2, sba, sc 2, sab, sc 1, sbc, sc 1, scb, turn",
+      "Ch 1, sc 1, sba, sc 2, sab, sc 2, sbc, sc 3, scb, sba, sc 2, sab, sbc, sc 2, scb, sc 1, sba, sc 2, sab, sc 2, sbc, scb, turn",
+      "Ch 1, sc 1, sba, sc 2, sab, sc 2, sbc, sc 4, scb, sba, sc 2, sab, sbc, sc 5, scb, sc 2, sba, sc 3, turn",
+      "Ch 1, sab, sc 2, sc 2, sbc, sc 7, scb, sba, sc 2, sab, sbc, sc 6, scb, sc 1, sba, sc 3",
+      "attach A to first ch in row 1, ch 1, sc 28, sab, turn",
+      "Ch 1, sc 12, sba, sc 2, sab, sc 12, sbc, turn",
+      "Ch 1, sc 3, scb, sc 1, sba, sc 2, sab, sc 3, sba, sc 2, sab, sc 1, sba, sc 2, sab, sc 2, sbc, sc 5, turn",
+      "Ch 1, sc 2, scb, sc 2, sba, sc 2, sab, sc 1, sbc, scb, sba, sc 2, sab, sbc, sc 1, scb, sc 2, sba, sc 2, sab, sc 1, sbc, sc 1, scb, turn",
+      "Ch 1, sc 1, sba, sc 2, sab, sc 2, sbc, sc 3, scb, sba, sc 2, sab, sbc, sc 2, scb, sc 1, sba, sc 2, sab, sc 2, sbc, scb, turn",
+      "Ch 1, sc 1, sba, sc 2, sab, sc 2, sbc, sc 4, scb, sba, sc 2, sab, sbc, sc 5, scb, sc 2, sba, sc 3, turn",
+      "Ch 1, sab, sc 2, sc 2, sbc, sc 7, scb, sba, sc 2, sab, sbc, sc 6, scb, sc 1, sba, sc 3"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}
