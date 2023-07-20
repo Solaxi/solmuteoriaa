@@ -12,14 +12,14 @@ const CrochetPattern = () => {
   const params = useParams()
   const [data, setData] = useState([])
 
-  const jsonFile = `${params.parent ? `${params.parent}/` : ''}${params.id}`
+  const parent = params.parent ? `${params.parent}/` : ''
+  const json = `/src/assets/crochet-patterns/${parent}${params.id}.json`
 
   useEffect(() => {
-    import(`../../assets/crochet-patterns/${jsonFile}.json`)
-      .then(jsonData => {
+    import(json /* @vite-ignore */).then(jsonData => {
         setData(jsonData)
       })
-  }, [jsonFile])
+  }, [json])
   
 
   function readContent(item, i) {
