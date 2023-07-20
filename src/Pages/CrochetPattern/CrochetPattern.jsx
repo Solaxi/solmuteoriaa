@@ -107,6 +107,8 @@ const CrochetPattern = () => {
         <div className='document'>
           <p className='bold-head'>{data.description}</p>
           {data.content && data.content.map((item, i) => readContent(item, i))}
+          <br/>
+          <Button to='/crochet-patterns' title='Show all free crochet patterns' dir='left' />
         </div>
       </div>
     </div>
