@@ -9,7 +9,7 @@ function SEO({title, description, image}) {
       <meta name='description' content={description} />
 
       <meta property='og:type' content='website'/>
-      <meta property='og:url' content={window.location.href}/>
+      <meta property='og:url' content={import.meta.env.VITE_HOST_URL}/>
       <meta property='og:title' content={title}/>
       <meta property='og:description' content={description}/>
       <meta property='og:image' content={`${host}${image}`}/>

@@ -21,10 +21,11 @@ function App() {
     }, 700)
   }
 
+  const helmetContext = {};
 
   return (
       !loading && (
-        <HelmetProvider>
+        <HelmetProvider context={helmetContext}>
         <div className='App'>
           <Navbar />
           <Routes>
