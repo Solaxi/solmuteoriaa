@@ -8,18 +8,18 @@ import Checkbox from '/src/components/Checkbox/CheckboxElement'
 import InfoBox from '/src/components/InfoBox/InfoBox'
 import Button from '/src/components/Button/ButtonElement'
 
-function CrochetPattern() {
+const CrochetPattern = () => {
   const params = useParams()
   const [data, setData] = useState([])
 
-  const parent = params.parent ? `${params.parent}/` : ''
-  const json = `/src/assets/crochet-patterns/${parent}${params.id}.json`
+  const jsonFile = `${params.parent ? `${params.parent}/` : ''}${params.id}`
 
   useEffect(() => {
-    import(json).then(jsonData => {
+    import(`../../assets/crochet-patterns/${jsonFile}.json`)
+      .then(jsonData => {
         setData(jsonData)
       })
-  }, [json])
+  }, [jsonFile])
   
 
   function readContent(item, i) {
