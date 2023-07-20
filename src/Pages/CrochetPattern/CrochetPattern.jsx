@@ -13,7 +13,7 @@ const CrochetPattern = () => {
   const [data, setData] = useState([])
 
   const parent = params.parent ? `${params.parent}/` : ''
-  const json = `/src/assets/crochet-patterns/${parent}${params.id}.json`
+  const json = `../../assets/crochet-patterns/${parent}${params.id}.json`
 
   useEffect(() => {
     import(json /* @vite-ignore */).then(jsonData => {
