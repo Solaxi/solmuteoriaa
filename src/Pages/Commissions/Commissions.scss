@@ -1,40 +1,87 @@
-.services {
-  padding-top: 5rem;
-  padding-bottom: 20rem;
+.left {
+  justify-content: left;
 
-  &__heading {
-      font-size: 3.6rem;
-      font-weight: 600;
-      text-align: center;
-      color: #F39540;
-      margin-bottom: 10rem;
-  }
-
-  &__container {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      grid-template-rows: repeat(2, minmax(0, 1fr));
-      column-gap: 11rem;
-      row-gap: 9rem;
+  h2, p, .description {
+    text-align:left;
   }
 }
 
+.right {
+  justify-content: right;
 
-@media screen and (max-width: 700px) {
-  .services {
-    &__heading {
-        margin-bottom: 8rem;
-    }
-    &__container {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+  h2, p, .description {
+    text-align:right;
+  }
+}
 
-        &__item {
-            &__illustration {
-                &__image {
-                    width: 70%;
-                }
+.commissions {
+  padding-top: 1rem;
+  padding-bottom: 20rem;
+
+  & .container {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      row-gap: 2rem;
+      
+      & .item {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 5rem;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        & .illustration {
+            flex-basis: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & img {
+                min-width:200px;
+                width: 100%;
+                border-radius:2em;
             }
         }
+
+        & .description {
+            flex-basis: 70%;
+
+            & h2 {
+                font-size: 4rem;
+                color: #F39540;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+            }
+
+            & p {
+                font-size: 2.6rem;
+                font-weight: 300;
+                color: rgb(255, 255, 255);
+                //line-height: 34px;
+                font-style: normal;
+                margin:15px 0px;
+            }
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .commissions {
+    & .container {
+      & .item {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+        .description {
+          & h2 {
+            font-size: 2.8rem;
+          }
+          & p {
+            font-size: 2.2rem;
+          }
+        }
+      }
     }
   }
 }

@@ -1,0 +1,50 @@
+
+.form-field-wrapper {
+  display:flex;
+  text-align:right;
+  justify-content: right;
+  align-items: center;
+  padding: 1rem 1rem;
+
+  & .form-label {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-right:20px;
+    color: #F39540
+  }
+
+  & textarea {
+    height:200px;
+    width:100%;
+  }
+
+  & .form-control, textarea, & .btn {
+    font-size: 2.8rem;
+    padding:10px;
+    background-color: #fffde3
+  }
+
+  & .form-control, & .btn {
+    width:350px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .form-field-wrapper {
+    & .form-label {
+      font-size: 2.2rem;
+      margin-right:10px;
+    }
+
+    & textarea {
+      height:150px;
+    }
+  
+    & .form-control, & .btn {
+      font-size: 2.2rem;
+      padding:5px;
+      width:250px;
+      background-color: #fffde3
+    }
+  }
+}
