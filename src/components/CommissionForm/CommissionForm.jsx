@@ -33,7 +33,7 @@ const ContactForm = () => {
   }
 
   return (
-    <form data-netlify='true' onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} netlify='true'>
       <div className="form-field-wrapper">
         <label className="form-label" htmlFor="message">
           Story about your dreams and desires
