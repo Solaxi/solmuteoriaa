@@ -8,18 +8,13 @@ function SEO({title, description, image}) {
       <title>Solmuteoriaa - {title}</title>
       <meta name='description' content={description} />
 
-      <meta property='og:type' content='website'/>
-      <meta property='og:url' content={import.meta.env.VITE_HOST_URL}/>
-      <meta property='og:title' content={title}/>
+      <meta property='og:title' content={`Solmuteoriaa - ${title}`}/>
       <meta property='og:description' content={description}/>
       <meta property='og:image' content={`${host}${image}`}/>
 
-      <meta name='twitter:card' content='summary_large_image'/>
-      <meta name='twitter:title' content={title}/>
+      <meta name='twitter:title' content={`Solmuteoriaa - ${title}`}/>
       <meta name='twitter:description' content={description}/>
       <meta name='twitter:image' content={`${host}${image}`}/>
-      <meta name='twitter:creator' content='@EskoPoutanen' />
-      <meta name='twitter:site' content='@EskoPoutanen' />
     </Helmet>
   )
 }
