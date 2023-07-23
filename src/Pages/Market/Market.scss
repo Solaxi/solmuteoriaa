@@ -45,26 +45,7 @@
   }
 }
 
-
-// Desktop Animatins Only
-@media screen and (min-width: 600px){
-  .cat-display{
-      & div:not(.design, .minecraft, .discord, .website){
-          &:hover{
-              transform: scale(1.05);
-          }
-      }
-  }
-}
-
-.cat-display{
-  & div:not(.design, .minecraft, .discord, .website){
-      transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
-
-.discord {
+.marketplace {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	padding: 10rem 12rem;
@@ -104,7 +85,7 @@
 }
 
 @media screen and (max-width: 1100px) {
-	.discord {
+	.marketplace {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		padding: 6rem 6rem;
@@ -127,7 +108,7 @@
 }
 
 @media screen and (max-width: 950px) {
-	.discord {
+	.marketplace {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		padding: 5rem 5rem;
@@ -150,7 +131,7 @@
 }
 
 @media screen and (max-width: 600px) {
-	.discord {
+	.marketplace {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		padding: 8rem 5rem 10rem;

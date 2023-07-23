@@ -16,10 +16,10 @@ function Market() {
   const MarketplaceItem = ({img, title, desc}) => {
     return (
       <>
-      <div className="discord__item">
-        <img src={img} alt={title} className="discord__item__image" />
-        <h2 className="discord__item__heading">{title}</h2>
-        <p className="discord__item__desc">{desc}</p>
+      <div className="marketplace__item">
+        <img src={img} alt={title} className="marketplace__item__image" />
+        <h2 className="marketplace__item__heading">{title}</h2>
+        <p className="marketplace__item__desc">{desc}</p>
       </div>
       </>
     )
@@ -40,7 +40,7 @@ function Market() {
         </div>
         <div className='cat-display padding'>
 
-          <div className="discord">
+          <div className="marketplace">
             {marketplaceData.map(item => <MarketplaceItem key={item.title} img={item.img} title={item.title} desc={item.desc} />)}
           </div>
 
