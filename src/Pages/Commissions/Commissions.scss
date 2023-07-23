@@ -18,6 +18,13 @@
   padding-top: 1rem;
   padding-bottom: 20rem;
 
+  //Text about sending email
+  & .inquiry {
+    width:100%;
+    text-align:center;
+    margin-bottom:30px;
+  }
+
   & .container {
       display: grid;
       grid-template-columns: repeat(1, minmax(0, 1fr));

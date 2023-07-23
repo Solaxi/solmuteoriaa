@@ -38,6 +38,10 @@ function Commissions() {
         <div className='page__body'>
           
           <section className='commissions padding'>
+            <div className='inquiry'>
+              <p>To inquire about a commission: <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a></p>
+            </div>
+
             <div className='container'>
               
               <div className='item right'>
@@ -102,14 +106,14 @@ function Commissions() {
 
               <div className='item left'>
                 <div className='illustration'>
-                  <ContactForm />
+                  {/*<ContactForm />*/}
                 </div>
                 <div className='description'>
                   <h2>for Commission</h2>
                   <p><Check /> Sending a message doesn't bind you to anything.</p>
                   <p><Check /> I'll get back to you within a few days.</p>
                   <p><Check /> The more details the better.</p>
-                  <p><Check /> Or email to <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a></p>
+                  {/*<p><Check /> Or email to <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a></p>*/}
                 </div>
               </div>
 
