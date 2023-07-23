@@ -12,7 +12,7 @@ import img3 from '../../assets/commissions-3.jpg'
 import img4 from '../../assets/commissions-4.jpg'
 import img5 from '../../assets/commissions-5.jpg'
 
-import ContactForm from '../../components/CommissionForm/CommissionForm'
+//import ContactForm from '../../components/CommissionForm/CommissionForm'
 
 const Check = () => <FaCheck color='orange' />
 
