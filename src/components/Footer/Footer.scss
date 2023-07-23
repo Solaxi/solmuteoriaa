@@ -33,3 +33,15 @@
 		}
 	}
 }
+
+@media screen and (max-width: 700px) {
+  .footer {
+    &__socials {
+      gap: 3rem;
+  
+      &__icon {
+        width: 4rem;
+      }
+    }
+  }
+}
