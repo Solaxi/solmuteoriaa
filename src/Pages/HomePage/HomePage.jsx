@@ -106,7 +106,7 @@ function HomePage() {
 
     {/* Reviews Section */}
       <section className='reviews padding'>
-        <h2 className='reviews__heading'>REVIEWS</h2>
+        {/*<h2 className='reviews__heading'>REVIEWS</h2>*/}
 
       </section>
 
