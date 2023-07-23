@@ -27,7 +27,7 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
         column-gap: 5rem;
         padding: 2rem;
-        display: flex;
+        display: grid;
         align-items: center;
         width: 100%;
 
@@ -51,7 +51,7 @@
                 font-size: 4rem;
                 color: #F39540;
                 font-weight: 600;
-                margin-bottom: 1.5rem;
+                margin: 1.5rem 0;
             }
 
             & p {

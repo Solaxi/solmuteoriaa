@@ -29,6 +29,23 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .form-field-wrapper {
+    & .form-control, & .btn {
+      width:250px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .form-field-wrapper {
+    & .form-control, & .btn {
+      width:200px;
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
   .form-field-wrapper {
     & .form-label {
@@ -43,7 +60,7 @@
     & .form-control, & .btn {
       font-size: 2.2rem;
       padding:5px;
-      width:250px;
+      width:200px;
       background-color: #fffde3
     }
   }
