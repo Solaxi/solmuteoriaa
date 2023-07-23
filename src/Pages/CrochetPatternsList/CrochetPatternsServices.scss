@@ -69,16 +69,19 @@
 @media screen and (max-width: 1200px) {
   .services {
     &__container {
+      column-gap: 8rem;
+      row-gap: 7rem;
+
         &__item {
             flex-direction: column;
             align-items: center;
-            padding: 5rem;
             text-align: center;
-            gap: 3rem;
+            padding: 3rem;
+            gap: 2rem;
 
             &__illustration {
                 &__image {
-                    width: 70%;
+                    width: 60%;
                 }
             }
         }
@@ -97,7 +100,7 @@
         &__item {
             &__illustration {
                 &__image {
-                    width: 70%;
+                    width: 50%;
                 }
             }
         }

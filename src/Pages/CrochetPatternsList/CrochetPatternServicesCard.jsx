@@ -24,7 +24,7 @@ const Card = ({pattern}) => {
         <p className='services__container__item__description__details'>
           {card && card.cardDescription}
         </p>
-        <Button to={link} title='See the pattern' align='left' />
+        <Button to={link} title='See the pattern' align='center' />
       </div>
     </div>
   )
