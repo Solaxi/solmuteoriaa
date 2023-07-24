@@ -1,0 +1,46 @@
+{
+  "patternId": "flag-of-cyprus",
+  "title": "Flag of Cyprus",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-cyprus.jpg",
+  "titleImgAlt": "Flag of Cyprus",
+  "cardDescription": "The flag of Cyprus features a map of the entirety of the island, with two olive branches below (a symbol of peace) on white (another symbol of peace). ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-cyprus-small.png",
+  "description": "The flag of Cyprus features a map of the entirety of the island, with two olive branches below (a symbol of peace) on white (another symbol of peace). The map on the flag is a copper-orange color, symbolizing the large deposits of copper ore on the island. The symbolism of peace is an attempt to indicate harmony between the Greek and Turkish communities.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Orange (as B)", "Green (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-cyprus.png" ]}
+    ]},
+    { "type": "text", "content": "If you don't mind long yarns spread out on the back side, the island and the branches can be done without cutting neither yarn. Otherwise you might want to use few different bits of yarn." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-cyprus-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 29, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 3, sab, sc 1, sba, sc 22, turn",
+      "Ch 1, sc 10, sab, sc 1, sba, sc 6, sab, sc 2, sba, sc 5, turn",
+      "Ch 1, sc 6, sab, sc 9, sba, sc 1, sab, sba, sc 8, turn",
+      "Ch 1, sc 5, sab, sc 13, sba, sc 8, turn",
+      "Ch 1, sc 6, sab, sc 13, sba, sc 7, turn",
+      "Ch 1, sc 7, sab, sc 8, sba, sc 12, turn",
+      "Ch 1, sc 11, sab, sc 6, sba, sc 9, turn",
+      "Ch 1, sc 10, sab, sba, sc 16, turn",
+      "Ch 1, sc 6, sac, sca, sc 11, sac, sca, sc 7, turn",
+      "Ch 1, sc 7, sac, sca, sc 9, sac, sca, sc 8, turn",
+      "Ch 1, sc 8, sac, sc 1, sca, sc 5, sac, sc 1, sca, sc 9, turn",
+      "Ch 1, sc 9, sac, sc 1, sca, sc 1, sac, sc 1, sca, sc 11, turn",
+      "Ch 1, sc 12, sac, sc 2, sca, sc 13, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

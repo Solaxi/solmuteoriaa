@@ -1,0 +1,43 @@
+{
+  "patternId": "flag-of-latvia",
+  "title": "Flag of Latvia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-latvia.jpg",
+  "titleImgAlt": "Flag of Latvia",
+  "cardDescription": "The Latvian national flag is carmine red with white horizontal stripe. A legend refers to a mortally wounded chief of a Latvian tribe who was wrapped in a white sheet. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-latvia-small.png",
+  "description": "The Latvian national flag is carmine red with white horizontal stripe. A legend refers to a mortally wounded chief of a Latvian tribe who was wrapped in a white sheet. The part of the sheet on which he was lying remained white, but the two edges were stained in his blood.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-latvia.png" ]}
+    ]},
+    { "type": "text", "content": "The red color of the Latvian flag is a dark shade, which is composed of brown and purple. The flag's color proportions are 2:1:2 so the upper and lower red bands each being twice as wide as the central white band." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-latvia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sba, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

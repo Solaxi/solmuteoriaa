@@ -1,0 +1,42 @@
+{
+  "patternId": "flag-of-bosnia-and-herzegovina",
+  "title": "Flag of Bosnia and Herzegovina",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-bosnia-and-herzegovina.jpg",
+  "titleImgAlt": "Flag of Bosnia And Herzegovina",
+  "cardDescription": "The flag of Bosnia and Herzegovina has a blue vertical band on the fly side with a yellow right triangle abutting the band and the top of the flag.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-bosnia-and-herzegovina-small.png",
+  "description": "The flag of Bosnia and Herzegovina has a blue vertical band on the fly side with a yellow right triangle abutting the band and the top of the flag. Along the hypotenuse of the triangle are seven full and two half stars.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Yellow (as B)", "White (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-bosnia-and-herzegovina.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-bosnia-and-herzegovina-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch, sc 4, sab, sc 14, sba, sc 2, sac, sca, sc 4, turn",
+      "Ch 1, sc 5, sac, sca, sc 1, sab, sc 13, sca, sc 6, turn ",
+      "Ch 1, sc 5, sab, sc 12, sba, sc 1, sac, sc 2, sca, sc 5, turn ",
+      "Ch 1, sc 5, sac, sca, sc 3, sab, sc 11, sca, sc 6, turn ",
+      "Ch 1, sc 5, sab, sc 10, sba, sc 1, sac, sca, sc 9, turn ",
+      "Ch 1, sc 7, sac, sc 2, sca, sc 1, sab, sc 9, sba, sc 6, turn",
+      "Ch 1, sc 5, sab, sc 8, sba, sc 3, sac, sca, sc 9, turn ",
+      "Ch 1, sc 11, sac, sca, sc 1, sab, sc 7, sca, sc 6, turn ",
+      "Ch 1, sc 5, sab, sc 6, sba, sc 1, sac, sc 2, sca, sc 11, turn ",
+      "Ch 1, sc 11, sac, sca, sc 3, sab, sc 5, sca, sc 6, turn  ",
+      "Ch 1, sc 5, sab, sc 4, sba, sc 1, sac, sca, sc 15, turn ",
+      "Ch 1, sc 13, sac, sc 2, sca, sc 1, sab, sc 3, sba, sc 6, turn  ",
+      "Ch 1, sc 5, sab, sc 2, sba, sc 3, sac, sca, sc 15, turn ",
+      "Ch 1, sc 17, sac, sca, sc 1, sab, sc 1, sca, sc 6, turn ",
+      "Ch 1, sc 5, sab, sba, sc 1, sac, sc 2, sca, sc 17"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

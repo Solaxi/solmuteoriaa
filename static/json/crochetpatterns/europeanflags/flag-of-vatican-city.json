@@ -1,0 +1,47 @@
+{
+  "patternId": "flag-of-vatican-city",
+  "title": "Flag of Vatican City",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-vatican-city.jpg",
+  "titleImgAlt": "Flag of Vatican City",
+  "cardDescription": "The flag of Vatican City consists of two vertical bands, one of gold or yellow (hoist side) and one of white with the crossed keys of Saint Peter and the Papal Tiara centered in the white band.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-vatican-city-small.png",
+  "description": "The flag of Vatican City consists of two vertical bands, one of gold or yellow (hoist side) and one of white with the crossed keys of Saint Peter and the Papal Tiara centered in the white band. The crossed keys consist of a golden and a silver key, in which the silver key is placed in the dexter position. The flag is one of only two square country flags in the world, the other being the flag of Switzerland.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 1", "10cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Yellow (as A)", "White (as B)", "Gold (as C)", "Gray (as D)", "Red (as E)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-vatican-city.png" ]}
+    ]},
+    { "type": "text", "content": "" },
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-vatican-city-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 19, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 17, sab, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 9, sbc, scb, sc 7, turn",
+      "Ch 1, sc 5, sbc, sc 1, scb, sc 1, sbd, sc 1, sdb, sc 6, turn",
+      "Ch 1, sc 4, sbc, scb, sbd, sdb, sbc, scb, sbe, seb, sc 6, turn",
+      "Ch 1, sc 3, sbe, sc 5, seb, [sbc, scb] x 2, sc 4, turn",
+      "Ch 1, sc 4, sbc, scb, [sbd, sdb] x 2, sbe, seb, sc 6, turn",
+      "Ch 1, sc 5, sbd, sc 1, sdb, sc 1, sbc, scd, sdb, sc 6, turn",
+      "Ch 1, sc 9, sbd, sdb, sc 7, turn",
+      "Ch 1, sc 18, turn",
+      "Ch 1, sc 18, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

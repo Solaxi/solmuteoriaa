@@ -1,0 +1,43 @@
+{
+  "patternId": "flag-of-montenegro",
+  "title": "Flag of Montenegro",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-montenegro.jpg",
+  "titleImgAlt": "Flag of Montenegro",
+  "cardDescription": "The flag of Montenegro is a red field surrounded by a golden border; charged with the Coat of Arms at the center. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-montenegro-small.png",
+  "description": "The flag of Montenegro is a red field surrounded by a golden border; charged with the Coat of Arms at the center. The coat of arms in the flag occupies 2/3 of its height. The width of the golden border is 1/20 the width of the hoist side.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Gold (as A)", "Red (as B)", "Blue (as C)", "Green (as D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-montenegro.png" ]}
+    ]},
+    { "type": "text", "content": "If gold color is not available to you, try to choose a yarn closer to light brown than yellow. Mustard yellow might be a good shade. Just don't use a color that's too bright." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-montenegro-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sab, sc 26, sba, sc 1, turn",
+      "Ch 1, sab, sc 12, sba, sab, sc 12, sba, sc 1, turn",
+      "Ch 1, sab, sc 11, sba, sc 2, sab, sc 11, sba, sc 1, turn",
+      "Ch 1, sab, sc 7, [sba, sab, sba, sc 1, sab] x 2, sba, sab, sc 7, sba, sc 1, turn",
+      "Ch 1, sab, sc 6, [sba, sc 1, sab, sc 1] x 4, sc 5, sba, sc 1, turn",
+      "Ch 1, sab, sc 6, sba, sc 2, sab, sc 1, [sba, sab] x 2, sc 1, sba, sc 2, sab, sc 6, sba, sc 1, turn",
+      "Ch 1, sab, sc 6, sba, sc 3, sab, sbc, sc 2, scb, sba, sc 3, sab, sc 6, sba, sc 1, turn",
+      "Ch 1, sab, sc 8, sba, sc 2, [sac, sca] x 2, sc 2, sab, sc 8, sba, sc 1, turn",
+      "Ch 1, sab, sc 6, sba, sab, sc 1, sba, sc 1, sad, sc 2, sda, sc 1, sab, sc 1, sbc, scb, sc 6, sba, sc 1, turn",
+      "Ch 1, sab, sc 7, [sba, sab] x 2, sc 1, sba, sab, sc 1, [sba, sab] x 2, sc 7, sba, sc 1, turn",
+      "Ch 1, sab, sc 8, sba, sab, sc 1, sba, sc 2, sab, sc 1, sba, sab, sc 8, sba, sc 1, turn",
+      "Ch 1, sab, sc 12, sba, sab, sc 12, sba, sc 1, turn",
+      "Ch 1, sab, sc 26, sba, sc 1, turn",
+      "Ch 1, sc 29"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

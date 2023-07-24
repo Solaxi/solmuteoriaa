@@ -1,0 +1,46 @@
+{
+  "patternId": "flag-of-germany",
+  "title": "Flag of Germany",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-germany.jpg",
+  "titleImgAlt": "Flag of Germany",
+  "cardDescription": "The flag of Germany is a tricolor consisting of three equal horizontal bands displaying the national colors of Germany: black, red, and gold. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-germany-small.png",
+  "description": "The flag of Germany is a tricolor consisting of three equal horizontal bands displaying the national colors of Germany: black, red, and gold. The colors of the modern flag are associated with the republican democracy formed after World War I, and represent German unity and freedom.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "3 : 5", "17cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Black (as A)", "Red (as B)", "Yellow (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-germany.png" ]}
+    ]},
+    { "type": "text", "content": "As described, the yellow color should be closer to a shade of gold than bright yellow. Choose a yarn accordingly." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-germany-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

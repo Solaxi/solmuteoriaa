@@ -1,0 +1,46 @@
+{
+  "patternId": "flag-of-slovakia",
+  "title": "Flag of Slovakia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-slovakia.jpg",
+  "titleImgAlt": "Flag of Slovakia",
+  "cardDescription": "The flag of Slovakia is a horizontal tricolor of white, blue and red; charged with a shield containing a white cross is placed to left of center.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-slovakia-small.png",
+  "description": "The flag of Slovakia is a horizontal tricolor of white, blue and red; charged with a shield containing a white cross is placed to left of center.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Blue (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-slovakia.png" ]}
+    ]},
+    { "type": "text", "content": "Since the Slovak flag without the coat of arms is identical to that of the modern flag of the Russian Federation and it can also be compared to the modern flag of Slovenia, the Constitution of Slovakia added the national coat of arms in September 1992." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-slovakia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 16, sac, sc 6, sca, sc 5, turn",
+      "Ch 1, sc 4, sac, sc 2, sca, sac, sc 2, sca, sc 16, sab, turn",
+      "Ch 1, sc 15,  sba, sac, sc 1, sca, sc 2, sac, sc 1, sca, sab, sc 4, turn",
+      "Ch 1, sc 3, sba, [sac, sc 2, sca] x 2, sab, sc 16, turn",
+      "Ch 1, sc 15,  sba, sac, sca, sc 4, sac, sca, sab, sc 4, turn",
+      "Ch 1, sc 3, sba, [sac, sc 2, sca] x 2, sab, sc 16, turn",
+      "Ch 1, sc 15,  sba, sac, sc 1, scb, sc 2, sbc, sc 1, sca, sab, sc 4, turn",
+      "Ch 1, sc 4, sba, sab, sc 4, sba, sab, sc 16, sbc, turn",
+      "Ch 1, sc 17, sca, sc 1, sab, sba, sc 1, sac, sc 6, turn",
+      "Ch 1, sc 7, sca, sac, sc 20, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

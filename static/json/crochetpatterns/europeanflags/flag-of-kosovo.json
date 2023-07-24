@@ -1,0 +1,45 @@
+{
+  "patternId": "flag-of-kosovo",
+  "title": "Flag of Kosovo",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-kosovo.jpg",
+  "titleImgAlt": "Flag of Kosovo",
+  "cardDescription": "The flag of the Republic of Kosovo was adopted immediately following the declaration of independence from Serbia on 17 February 2008.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-kosovo-small.png",
+  "description": "The flag of the Republic of Kosovo was adopted immediately following the declaration of independence from Serbia on 17 February 2008. The flag is blue field charged with a map of Kosovo in gold, surmounted by an arc of six, white five-pointed stars, in the center. The stars are officially meant to symbolize Kosovo’s six major ethnic groups: Albanians, Serbs, Turks, Gorani, Romani and Bosniaks.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "5 : 7", "14cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "White (as B)", "Yellow (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-kosovo.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-kosovo-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 28, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 10, sab, sba, sc 2, sab, sba, sc 11, turn",
+      "Ch 1, sc 7, sab, sba, [sab, sc 2, sba] x 2, sab, sba, sc 8, turn",
+      "Ch 1, sc 4, sab, sba, sab, sc 2, sba, sab, sba, sc 2, sab, sba, sab, sc 2, sba, sab, sba, sc 5, turn",
+      "Ch 1, sc 3, sab, sc 2, sba, sab, sba, sc 3, sac, sca, sc 3, sab, sba, sab, sc 2, sba, sc 4, turn",
+      "Ch 1, sc 4, sab, sba, sc 5, sac, sc 3, sca, sc 4, sab, sba, sc 5, turn",
+      "Ch 1, sc 9, sac, sc 5, sca, sc 11, turn",
+      "Ch 1, sc 9, sac, sc sc 9, sca, sc 7, turn",
+      "Ch 1, sc 7, sac, sc 10, sca, sc 8, turn",
+      "Ch 1, sc 7, sac, sc 10, sca, sc 8, turn",
+      "Ch 1, sc 8, sac, sc 8, sca, sc 9, turn",
+      "Ch 1, sc 9, sac, sc 6, sca, sc 10, turn",
+      "Ch 1, sc 10, sac, sc 2, sca, sac, sca, sc 11, turn",
+      "Ch 1, sc 13, sac, sc 1, sca, sc 11, turn",
+      "Ch 1, sc 10, sac, sca, sc 15, turn",
+      "Ch 1, sc 27, turn",
+      "Ch 1, sc 27, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

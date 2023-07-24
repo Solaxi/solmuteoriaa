@@ -1,0 +1,43 @@
+{
+  "patternId": "flag-of-kazakhstan",
+  "title": "Flag of Kazakhstan",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-kazakhstan.jpg",
+  "titleImgAlt": "Flag of Kazakhstan",
+  "cardDescription": "The flag of Kazakhstan is a gold sun with 32 rays above a soaring golden steppe eagle, both centered on a sky blue field. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-kazakhstan-small.png",
+  "description": "The flag of Kazakhstan is a gold sun with 32 rays above a soaring golden steppe eagle, both centered on a sky blue field. The hoist side displays a national ornamental pattern “koshkar-muiz” (the horns of the ram) in gold. The gold and blue colors were inherited from the former Soviet flag which were the gold from the hammer and sickle and the blue bar from the bottom of the flag.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Cyan (as A)", "Yellow (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-kazakhstan.png" ]}
+    ]},
+    { "type": "text", "content": "As stated, the yellow color of the flag is officially gold. So make sure not to choose a color too yellow. And although the background color is described as 'sky blue', it's easier to choose a yarn when looking for cyan instead." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-kazakhstan-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 31, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sab, sc 1, sba, sc 27, turn ",
+      "Ch 1, sc 11, [sab, sba] x 2, sc 11, sab, sc 1, sba, sc 1, turn",
+      "Ch 1, sc 1, sab, sba, sc 9, sab, sba, sc 4, sab, sba, sc 10, turn",
+      "Ch 1, sc 11, sab, sc 2, sba, sc 12, sab, sba, sc 1, turn",
+      "Ch 1, sc 1, sab, sba, sc 8, sab, sba, sab, sc 4, sba, sab, sba, sc 9, turn",
+      "Ch 1, sc 10, sab, sc 4, sba, sc 10, sab, sc 1, sba, sc 1, turn",
+      "Ch 1, sab, sc 1, sba, sc 6, sab, sc 1, sba, sc 1, sab, sc 4, sba, sc 1, sab, sc 1, sba, sc 7, turn",
+      "Ch 1, sc 7, sab, sc 1, sba, sc 1, sab, sc 2, sba, sc 1, sab, sc 1, sba, sc 6, sab, sc 1, sba, sc 1, turn",
+      "Ch 1, sab, sba, sc 7, sab, sba, sc 1, sab, sba, sc 4, sab, sba, sc 1, sab, sba, sc 7, turn",
+      "Ch 1, sc 10, sab, sc 4, sba, sc 10, sab, sba, sc 2, turn",
+      "Ch 1, sab, sba, sc 12, [sab, sba] x 2, sc 12, turn",
+      "Ch 1, sc 26, sab, sc 1, sba, sc 1, turn",
+      "Ch 1, sab, sc 1, sba, sc 27, turn",
+      "Ch 1, sc 30"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

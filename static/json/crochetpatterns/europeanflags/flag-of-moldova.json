@@ -1,0 +1,58 @@
+{
+  "patternId": "flag-of-moldova",
+  "title": "Flag of Moldova",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-moldova.jpg",
+  "titleImgAlt": "Flag of Moldova",
+  "cardDescription": "The state flag of Moldova is a vertical tricolor of blue, yellow, and red, charged with the coat of arms of Moldova on the center bar. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-moldova-small.png",
+  "description": "The state flag of Moldova is a vertical tricolor of blue, yellow, and red, charged with the coat of arms of Moldova on the center bar. The coat of arms features an eagle holding a shield charged with an aurochs (extinct type of large wild cattle, which is the ancestor of domestic cattle). The blue, red, and yellow tricolor of Moldova is almost identical to the flag of Romania, reflecting the two countries' national and cultural affinity.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Yellow (as B)", "Red (as C)", "Brown (as D)", "Black (as E)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-moldova.png" ]}
+    ]},
+    { "type": "text", "content": "Black parts of the pattern could be replaced with dark green yarn if one is available. With the yarns available to me, I found that black was good in bringing appropriate detail to the coat of arms." },
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-moldova-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 16, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 14, sab, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 3, sbd, sc 2, sde, sed, sc 1, sdb, sc 5, turn",
+      "Ch 1, sc 3, sbd, sde, sed, sc 1, sde, sc 1, seb, sc 5, turn",
+      "Ch 1, sc 3, sbc, sc 1, sca, sc 1, sac, sc 1, scb, sc 5, turn",
+      "Ch 1, sc 2, sbd, sc 1, sdc, sc 1, sca, sab, sba, sad, sc 1, sdb, sc 3, turn",
+      "Ch 1, sc 2, sbd, sc 1, sba, sc 1, sab, sc 1, sbc, scd, sc 1, sdb, sc 3, turn",
+      "Ch 1, sc 4, sbc, sc 1, sca, sc 1, sac, sc 1, scb, sc 4, turn",
+      "Ch 1, sc 4, sbd, sc 3, sde, sed, sdb, sc 4, turn",
+      "Ch 1, sc 4, sbd, sc 5, sdb, sc 4, turn",
+      "Ch 1, sc 14, sbc, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

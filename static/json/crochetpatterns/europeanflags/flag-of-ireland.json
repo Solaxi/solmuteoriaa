@@ -1,0 +1,57 @@
+{
+  "patternId": "flag-of-ireland",
+  "title": "Flag of Ireland",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-ireland.jpg",
+  "titleImgAlt": "Flag of Ireland",
+  "cardDescription": "The national flag of Ireland - frequently referred to as the Irish tricolor - is a vertical tricolor of green (at the hoist), white, and orange. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-ireland-small.png",
+  "description": "The national flag of Ireland - frequently referred to as the Irish tricolor - is a vertical tricolor of green (at the hoist), white, and orange. The Irish government has described the symbolism behind each color as being that of green representing the Gaelic tradition of Ireland, orange representing the followers of William of Orange in Ireland, and white representing the aspiration for peace between them.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Green (as A)", "White (as B)", "Orange (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-ireland.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-ireland-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 16, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 14, sab, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 14, sbc, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn",
+      "Ch 1, sc 15, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

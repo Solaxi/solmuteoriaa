@@ -1,0 +1,56 @@
+{
+  "patternId": "flag-of-malta",
+  "title": "Flag of Malta",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-malta.jpg",
+  "titleImgAlt": "Flag of Malta",
+  "cardDescription": "The flag of Malta is a basic bi-color, with white in the hoist and red in the fly.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-malta-small.png",
+  "description": "The flag of Malta is a basic bi-color, with white in the hoist and red in the fly. A representation of the George Cross, awarded to Malta by George VI of the United Kingdom in 1942, is carried, edged with red, in the canton of the white stripe.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Red (as B)", "Gray (as C)", "Dark gray (D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-malta.png" ]}
+    ]},
+    { "type": "text", "content": "The red outline of the cross is not possible to show in this size. But to make the cross pop out a bit more and give it a sense of detail, use darker gray (or black) to crochet the central part of the cross." },
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-malta-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 18, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 12, sac, sca, sc 3, turn",
+      "Ch 1, sc 2, sac, sca, sc 13, turn",
+      "Ch 1, sc 10, sac, sc 1, scd, sdc, sc 1, sca, sc 1, turn",
+      "Ch 1, sc 2, sac, sca, sc 13, turn",
+      "Ch 1, Ch 1, sc 12, sac, sca, sc 3, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sab, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "patternId": "flag-of-liechtenstein",
+  "title": "Flag of Liechtenstein",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-liechtenstein.jpg",
+  "titleImgAlt": "Flag of Liechtenstein",
+  "cardDescription": "The flag of Liechtenstein consists of two horizontal blue and red bands charged with a gold crown at the canton. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-liechtenstein-small.png",
+  "description": "The flag of Liechtenstein consists of two horizontal blue and red bands charged with a gold crown at the canton. The crown was added to the flag in 1937 after the country found out at the Summer Olympics held the previous year that their flag was identical to the flag of Haiti.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "3 : 5", "16cm x 9cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Red (as B)", "Yellow (as C)", "Black (as D)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-liechtenstein.png" ]}
+    ]},
+    { "type": "text", "content": "It is disputed whether the color of the crown is yellow or more like gold. Choose what ever looks better for you and contrasts the blue background nicely." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-liechtenstein-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 5, sac, sca, sc 22, turn",
+      "Ch 1, sc 19, sac, sc 1, scd, sdc, sc 1, sca, sc 4, turn",
+      "Ch 1, sc 2, sac, sc 1, scd, sdc, scd, sdc, sc 1, sca, sc 19, turn",
+      "Ch 1, sc 18, sac, scd, sdc, sc 2, scd, sdc, sca, sc 3, turn",
+      "Ch 1, sc 3, sac, sc 4, sca, sc 20, turn",
+      "Ch 1, sc 19, sac, scd, sc 2, sdc, sca, sc 4, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

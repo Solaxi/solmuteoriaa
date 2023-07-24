@@ -1,0 +1,45 @@
+{
+  "patternId": "flag-of-poland",
+  "title": "Flag of Poland",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-poland.jpg",
+  "titleImgAlt": "Flag of Poland",
+  "cardDescription": "The flag of Poland consists of two horizontal stripes of equal width, the upper one white and the lower one red. ",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-poland-small.png",
+  "description": "The flag of Poland consists of two horizontal stripes of equal width, the upper one white and the lower one red. The two colors are defined in the Polish constitution as the national colors. White and red were officially adopted as national colors in 1831. Horizontal bi-colors of white and red being a relatively widespread design, there are several flags that are similar but unrelated to the Polish one.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "5 : 8", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Red (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-poland.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-poland-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 29, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 27, sab, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn",
+      "Ch 1, sc 28, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

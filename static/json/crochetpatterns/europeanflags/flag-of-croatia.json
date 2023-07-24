@@ -1,0 +1,43 @@
+{
+  "patternId": "flag-of-croatia",
+  "title": "Flag of Croatia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-croatia.jpg",
+  "titleImgAlt": "Flag of Croatia",
+  "cardDescription": "The flag of Croatia consists of three equal size, horizontal stripes in colors red, white and blue. In the middle is the coat of arms of Croatia.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-croatia-small.png",
+  "description": "The flag of Croatia consists of three equal size, horizontal stripes in colors red, white and blue. In the middle is the coat of arms of Croatia. The shield is in the red and white checks of Croatia. Above is a crown made of shields of Croatia, Dubrovnik, Dalmatia, Istria, and Slavonia.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "1 : 2", "16cm x 8cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Red (as A)", "White (as B)", "Blue (as C)", "Cyan (as D)", "Yellow (as E)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-croatia.png" ]}
+    ]},
+    { "type": "text", "content": "In a pattern this size, it is not possible to crochet the actual red borders of the coat of arms. Also the checkerboard pattern can’t consist of equal-sized squares." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-croatia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch, sc 23, sab, [sba, sab] x 2, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 9, [sad, sda, sac, sca] x 2, sad, sda, sc 10, turn",
+      "Ch 1, sc 9, sad, sc 1, sda, sac, scd, sdc, sce, sed, sc 1, sda, sc 10, turn",
+      "Ch 1, sc 10, sad, sdc, sca, sc 2, sac, scd, sda, sc 10, sab, turn",
+      "Ch 1, sc 10, sba, sc 1, sab, sba, sab, sba, sc 1, sab, sc 11, turn",
+      "Ch 1, sc 12, sba, sab, sba, sab, sc 13, turn",
+      "Ch 1, sc 10, sba, sc 1, sab, sba, sab, sba, sc 1, sab, sc 11, turn",
+      "Ch 1, sc 10, sba, sc 1, sab, sba, sab, sba, sc 1, sab, sc 11, turn",
+      "Ch 1, sc 12, sba, sab, sba, sab, sc 12, sbc, turn",
+      "Ch 1, sc 11, sca, sab, sba, sab, sba, sac, sc 12, turn",
+      "Ch 1, sc 13, sca, sac, sc 14, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

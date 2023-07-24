@@ -1,0 +1,55 @@
+{
+  "patternId": "flag-of-belgium",
+  "title": "Flag of Belgium",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-belgium.jpg",
+  "titleImgAlt": "Flag of Belgium",
+  "cardDescription": "The national flag of Belgium is a tricolor of three bands of black, yellow, and red.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-belgium-small.png",
+  "description": "The national flag of Belgium is a tricolor of three bands of black, yellow, and red.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "13 : 15", "13cm x 11cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Black (as A)", "Yellow (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-belgium.png" ]}
+    ]},
+    { "type": "text", "content": "Officially the flag has unusual proportions of 13:15 which is rarely used. More common version is 2:3, which is used even by the government. But because this project is all about official proportions, this pattern uses the rarer configuration." },
+    { "type": "text", "content": "This pattern is worked vertically starting from bottom left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-belgium-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 18, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sab, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 16, sbc, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn",
+      "Ch 1, sc 17, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

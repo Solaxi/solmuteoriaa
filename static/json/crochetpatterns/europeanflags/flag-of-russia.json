@@ -1,0 +1,46 @@
+{
+  "patternId": "flag-of-russia",
+  "title": "Flag of Russia",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-russia.jpg",
+  "titleImgAlt": "Flag of Russia",
+  "cardDescription": "The flag of Russia is a tricolor flag consisting of three equal horizontal fields: white on the top, blue in the middle and red on the bottom.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-russia-small.png",
+  "description": "The flag of Russia is a tricolor flag consisting of three equal horizontal fields: white on the top, blue in the middle and red on the bottom. The choice of colors is significant in that they represent in order of priority, white for God, blue for king and red for people and country.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "White (as A)", "Blue (as B)", "Red (as C)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-russia.png" ]}
+    ]},
+    { "type": "text", "content": "The flag was first used as an ensign for Russian merchant ships and became official as the flag of the Tsardom of Russia in 1696. It remained in use until the establishment of the Russian Socialist Federative Soviet Republic in 1917. It was re-introduced as the flag of the Russian Federation in 1991." },
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-russia-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sbc, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "patternId": "flag-of-ukraine",
+  "title": "Flag of Ukraine",
+  "titleImg": "/crochet-pattern-images/european-flags/crochet-flag-of-ukraine.jpg",
+  "titleImgAlt": "Flag of Ukraine",
+  "cardDescription": "The state flag of Ukraine is a banner of two equally sized horizontal bands of blue and yellow color.",
+  "cardImg": "/crochet-pattern-images/european-flags/crochet-flag-of-ukraine-small.png",
+  "description": "The state flag of Ukraine is a banner of two equally sized horizontal bands of blue and yellow color. As a national flag, the blue and yellow bi-color was officially used since the 1848 Spring of Nations when it was hoisted over the Lviv Rathaus. It was officially adopted as a state flag for the first time in 1918.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Proportion:", "Finished size:", "Hook size:" ]},
+      { "type": "text", "content": [ "2 : 3", "15cm x 10cm", "3,5 mm" ]},
+      { "type": "heading", "content": [ "Yarn:" ]},
+      { "type": "text", "content": [ "Blue (as A)", "Yellow (as B)" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/european-flags/flag-of-ukraine.png" ]}
+    ]},
+    { "type": "text", "content": "This pattern is worked horizontally starting from top left." },
+    { "type": "image", "content": "/crochet-pattern-images/european-flags/crochet-flag-of-ukraine-pattern.png" },
+    { "type": "h2", "content": "Flag pattern" },
+    { "type": "pattern", "content": [
+      "With A, ch 30, sc in 2nd ch and each ch across, turn ",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 28, sab, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn",
+      "Ch 1, sc 29, turn"
+    ]},
+    { "type": "text", "content": "Fasten off." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "European Flags Crochet Patterns", "link":"/crochet-patterns/european-flags" }
+    
+  ]
+}
