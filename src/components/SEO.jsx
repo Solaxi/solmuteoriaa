@@ -11,7 +11,7 @@ export const SEO = ({ title, description, image, pathname, children }) => {
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: image ? `${siteUrl}${image}` : `${siteUrl}${defaultImage}`,
+    image: image ? `${siteUrl}/images${image}` : `${siteUrl}/images${defaultImage}`,
     url: `${siteUrl}${pathname || ``}`,
     twitterUsername,
   }
