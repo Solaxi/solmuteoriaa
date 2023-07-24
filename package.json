@@ -6,17 +6,24 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gatsby": "^5.11.0",
+    "gatsby-plugin-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^5.11.0",
+    "gatsby-plugin-sharp": "^5.11.0",
+    "gatsby-source-filesystem": "^5.11.0",
+    "gatsby-transformer-json": "^5.11.0",
+    "gatsby-transformer-sharp": "^5.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet-async": "^1.3.0",
     "react-icons": "^4.10.1",
-    "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "preview": "vite preview",
-    "build": "vite build",
-    "dev": "vite"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "eslintConfig": {
     "extends": [
@@ -37,8 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.3",
-    "sass": "^1.63.6",
-    "vite": "^4.4.2"
+    "gatsby-plugin-sass": "^6.11.0",
+    "sass": "^1.63.6"
   }
 }

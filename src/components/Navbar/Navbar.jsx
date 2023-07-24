@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.scss'
 
 import { FaHouse, FaScissors, FaGift, FaBasketShopping } from 'react-icons/fa6'
-import { NavLink } from 'react-router-dom'
-
-import logo from '../../assets/solmuteoriaa_logo_256.png'
+import { Link } from 'gatsby'
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -15,9 +13,9 @@ function Navbar() {
     return (
       <>
       <li className='nav-item'>
-        <NavLink to={target} end className={({ isActive }) => isActive ? 'active-links' : 'nav-links'} onClick={click ? handleClick : null}>
+        <Link to={target} activeClassName='active-links' onClick={click ? handleClick : null}>
           {icon} &nbsp;&nbsp;{title}
-        </NavLink>
+        </Link>
       </li>
       </>
     )
@@ -29,9 +27,9 @@ function Navbar() {
       <nav className='navbar padding' onClick={(e) => e.stopPropagation()}>
         <div className='nav-container'>
           
-          <NavLink to='/' className='nav-logo'>
-            <img src={logo} alt="Solmuteoriaa" className='nav-logo__icon' />
-          </NavLink>
+          <Link to='/' className='nav-logo'>
+            <img src='/images/solmuteoriaa_logo_256.png' alt="Solmuteoriaa" className='nav-logo__icon' />
+          </Link>
           
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <LinkItem target='/' icon={<FaHouse />} title='Home' />

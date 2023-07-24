@@ -42,6 +42,7 @@ function Footer() {
         </div>
         <p className="footer__copyrights-text">Copyright © {new Date().getFullYear()} Solmuteoriaa. All Rights Reserved.</p>
       </section>
+      
     </div>
   )  
 }

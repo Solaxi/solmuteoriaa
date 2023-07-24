@@ -60,7 +60,7 @@
     }
 }
 
-.nav-links {
+.nav-item a:not(.active-links) {
   color: #F39540;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
