@@ -4,14 +4,15 @@ import '../styles/default-page.scss'
 import '../styles/market.scss'
 import SEO from '../components/SEO'
 import Layout from '../components/layout'
+import ImageElement from '../components/image'
 
 const MarketplaceItem = ({img, title, desc}) => {
   return (
     <>
-      <div className="marketplace__item">
-        <img src={`/images${img}`} alt={title} className="marketplace__item__image" />
-        <h2 className="marketplace__item__heading">{title}</h2>
-        <p className="marketplace__item__desc">{desc}</p>
+      <div className='marketplace__item'>
+        <ImageElement img={img} alt={title} classname='marketplace__item__image' />
+        <h2 className='marketplace__item__heading'>{title}</h2>
+        <p className='marketplace__item__desc'>{desc}</p>
       </div>
     </>
   )
@@ -35,11 +36,11 @@ const MarketPage = () => {
       <div className='page'>
         <div className='page__header padding'>
           <h1 className='page__header__heading'>Market</h1>
-          <p className='page__header__description'>Every piece is unique and sold "as is"</p>
+          <p className='page__header__description'>Every piece is unique and sold 'as is'</p>
         </div>
         <div className='cat-display padding'>
 
-          <div className="marketplace">
+          <div className='marketplace'>
             {marketplaceData.allMarketplaceItemsJson.nodes.map(item => <MarketplaceItem key={item.title} img={item.img} title={item.title} desc={item.desc} />)}
           </div>
 

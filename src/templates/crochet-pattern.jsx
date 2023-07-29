@@ -7,6 +7,7 @@ import CrochetPatternSubCateogories from '../components/CrochetPatterns/CrochetP
 import Checkbox from '../components/Checkbox/CheckboxElement'
 import InfoBox from '../components/InfoBox/InfoBox'
 import Button from '../components/Button/ButtonElement'
+import ImageElement from '../components/image'
 
 function CrochetPatternPage({ pageContext: { patternId } }) {
   const [data, setData] = useState([])
@@ -33,7 +34,7 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
       
       //image
       case 'image': {
-        return <div key={i} className='imgContainer'><img src={`/images${item.content}`} alt={item.alt} /></div>
+        return <div key={i} className='imgContainer'><ImageElement img={item.content} alt={item.alt} /></div>
       }
 
       //unordered list
@@ -86,7 +87,7 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
         <p className='cp__header__description'>Crochet Pattern</p>
       </div>
       <div className='imgContainer padding'>
-        {data.titleImg && <img src={`/images${data.titleImg}`} alt={data.titleImgAlt} />}
+        {data.titleImg && <ImageElement img={data.titleImg} alt={data.title} />}
       </div>
       <div className='cp__body padding'>
         <div className='document'>

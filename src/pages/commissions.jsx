@@ -3,6 +3,7 @@ import '../styles/default-page.scss'
 import '../styles/commissions.scss'
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
+import ImageElement from '../components/image'
 
 import { FaCheck } from 'react-icons/fa6'
 
@@ -35,13 +36,13 @@ const CommissionsPage = () => {
                   <p><Check />A dog. A frog. A car. Anything.</p>
                 </div>
                 <div className='illustration'>
-                  <img src='/images/commissions-1.jpg' alt='' />
+                  <ImageElement img='/commissions-1.jpg' />
                 </div>
               </div>
 
               <div className='item left'>
                 <div className='illustration'>
-                  <img src='/images/commissions-2.jpg' alt='' />
+                  <ImageElement img='/commissions-2.jpg' />
                 </div>
                 <div className='description'>
                   <h2>for Mood Control</h2>
@@ -59,13 +60,13 @@ const CommissionsPage = () => {
                   <p><Check /> Anything can be played with.</p>
                 </div>
                 <div className='illustration'>
-                  <img src='/images/commissions-3.jpg' alt='' />
+                  <ImageElement img='/commissions-3.jpg' />
                 </div>
               </div>
 
               <div className='item left'>
                 <div className='illustration'>
-                  <img src='/images/commissions-4.jpg' alt='' />
+                  <ImageElement img='/commissions-4.jpg' />
                 </div>
                 <div className='description'>
                   <h2>for Fun</h2>
@@ -83,7 +84,7 @@ const CommissionsPage = () => {
                   <p><Check /> Dare to take a chance.</p>
                 </div>
                 <div className='illustration'>
-                  <img src='/images/commissions-5.jpg' alt='' />
+                  <ImageElement img='/commissions-5.jpg' />
                 </div>
               </div>
 

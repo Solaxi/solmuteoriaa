@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 
 import CrochetPatternList from '../components/CrochetPatterns/CrochetPatternsList'
 import Button from '../components/Button/ButtonElement'
+import ImageElement from '../components/image'
 
 import { IconContext } from 'react-icons'
 import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
@@ -20,7 +21,7 @@ const IndexPage = () => {
         </video>
         <div className='header__brand' id='tsparticles'>
           <h1 className='hidden-title'>Solmuteoriaa</h1>
-          <img src='/images/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' className='header__brand__icon' />
+          <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__icon' />
           <p className='header__brand__description'>
             Crochet to relax. Crochet to learn. Crochet to be awesome.
           </p>
