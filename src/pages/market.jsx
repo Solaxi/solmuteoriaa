@@ -4,13 +4,13 @@ import '../styles/default-page.scss'
 import '../styles/market.scss'
 import SEO from '../components/SEO'
 import Layout from '../components/layout'
-import ImageElement from '../components/image'
+import Carousel from '../components/Carousel/carousel'
 
-const MarketplaceItem = ({img, title, desc}) => {
+const MarketplaceItem = ({images, title, desc}) => {
   return (
     <>
       <div className='marketplace__item'>
-        <ImageElement img={img} alt={title} classname='marketplace__item__image' />
+        <Carousel images={images} imgClassname='marketplace__item__image' />
         <h2 className='marketplace__item__heading'>{title}</h2>
         <p className='marketplace__item__desc'>{desc}</p>
       </div>
@@ -24,7 +24,7 @@ const MarketPage = () => {
       allMarketplaceItemsJson {
         nodes {
           title
-          img
+          images
           desc
         }
       }
@@ -41,7 +41,7 @@ const MarketPage = () => {
         <div className='cat-display padding'>
 
           <div className='marketplace'>
-            {marketplaceData.allMarketplaceItemsJson.nodes.map(item => <MarketplaceItem key={item.title} img={item.img} title={item.title} desc={item.desc} />)}
+            {marketplaceData.allMarketplaceItemsJson.nodes.map(item => <MarketplaceItem key={item.title} images={item.images} title={item.title} desc={item.desc} />)}
           </div>
 
         </div>

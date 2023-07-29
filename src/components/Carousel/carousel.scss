@@ -1,0 +1,28 @@
+.carousel {
+  position:relative;
+  margin: auto;
+  //overflow: hidden;
+}
+
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carouselIcon {
+  position:absolute;
+  cursor: pointer;
+  background-color:#fff;
+  border:2px solid #fff;
+  border-radius: 50%;
+}
+
+.left {
+  left:5px;
+  top:5px
+}
+
+.right {
+  right:5px;
+  top:5px;
+}

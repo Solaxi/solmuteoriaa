@@ -1,7 +1,18 @@
 [
   {
   "title": "Duck Lovey",
-  "img": "/market/53008790063_152e6e9dc3_w.jpg",
+  "images": [
+    "/market/53008790063_152e6e9dc3_w.jpg",
+    "/market/53008687445_32f8127cc8_c.jpg"
+  ],
   "desc": "100% acryllic."
-  }
+  },
+  {
+    "title": "Baby Octopus Lovey",
+    "images": [
+      "/market/53064243908_f2086e87a3_c.jpg",
+      "/market/53063169677_a771112d1c_c.jpg"
+    ],
+    "desc": "100% acryllic."
+    }
 ]
