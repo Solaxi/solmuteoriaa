@@ -17,7 +17,7 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
     .then(jsonData => {
       setData(jsonData)
     })
-  }, [patternId])
+  })
 
 
   function readContent(item, i) {
