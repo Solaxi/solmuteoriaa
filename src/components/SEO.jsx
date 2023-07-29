@@ -19,7 +19,6 @@ export const SEO = ({ title, description, image, pathname, children }) => {
   return (
     <>
       <meta charSet='UTF-8' />
-      <link rel='icon' type='image/x-icon' href="/favicon.ico" />
 
       <title>{seo.title}</title>
       <meta name='description' content={seo.description} />
