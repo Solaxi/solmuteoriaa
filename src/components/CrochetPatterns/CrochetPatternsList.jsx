@@ -5,10 +5,10 @@ import Button from '../../components/Button/ButtonElement'
 import Card from './CrochetPatternCard'
 
 const showOnFrontpage = [
+  'gentleman-octopus',
   'hey-duggee-frog',
   'snowman',
-  'mouse',
-  'angry-birds-stella'
+  'mouse'
 ]
 
 const CrochetPatternsList = ({frontpage}) => {
