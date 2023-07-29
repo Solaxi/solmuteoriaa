@@ -11,14 +11,30 @@ import ImageElement from '../components/image'
 
 function CrochetPatternPage({ pageContext: { patternId } }) {
   const [data, setData] = useState([])
+  const [checkedBoxes, setCheckedBoxes] = useState([])
 
   useEffect(() => {
     import(`/static/json/crochetpatterns/${patternId}.json`)
     .then(jsonData => {
       setData(jsonData)
     })
-  })
+  }, [patternId])
 
+  useEffect(() => {
+    const items = JSON.parse(localStorage.getItem(`${patternId}-checkboxes`))
+    if (items) {
+      setCheckedBoxes(items)
+    }
+  }, [patternId])
+
+  function handleChange(e) {
+    const newCheckedBoxes = e.target.checked 
+      ? checkedBoxes.concat([e.target.id])
+      : checkedBoxes.filter(box => box !== e.target.id)
+
+    setCheckedBoxes(newCheckedBoxes)
+    localStorage.setItem(`${patternId}-checkboxes`, JSON.stringify(newCheckedBoxes))
+  }
 
   function readContent(item, i) {
     switch (item.type) {
@@ -45,7 +61,15 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
       //pattern containing checkboxes
       case 'pattern': {
         const startRow = item.startrow ? Number(item.startrow) : 1
-        const patternElements = item.content.map((listItem, j) => <Checkbox key={j} round={j+startRow} label={listItem} /> )
+        const patternElements = item.content.map((patternItem, j) => {
+          const checkboxId = `${patternId}-${i}-${j+startRow}`
+          return <Checkbox key={j} 
+            id={checkboxId} 
+            round={j+startRow} 
+            label={patternItem}
+            isChecked={checkedBoxes.some(box => box === checkboxId)}
+            onChange={e => handleChange(e)} />
+        })
 
         return (
           <div key={i} className='pattern'>

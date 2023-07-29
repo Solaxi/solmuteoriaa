@@ -1,10 +1,10 @@
 import React from 'react'
 import './CheckboxElement.scss'
 
-const Checkbox = ({ round, label, value, onChange }) => {
+const Checkbox = ({ id, round, label, isChecked, onChange }) => {
   return (
     <label>
-      <input name={round} type='checkbox' checked={value} onChange={onChange} />
+      <input id={id} type='checkbox' checked={isChecked} onChange={onChange} />
       <strong>R{round}:</strong> {label} <br/>
     </label>
   )
