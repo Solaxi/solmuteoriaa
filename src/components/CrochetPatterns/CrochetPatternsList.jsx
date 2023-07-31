@@ -20,7 +20,6 @@ const CrochetPatternsList = ({frontpage}) => {
           title
           cardDescription
           cardImg
-          titleImgAlt
         }
       }
     }
