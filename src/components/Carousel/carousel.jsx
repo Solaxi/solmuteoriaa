@@ -24,10 +24,10 @@ const Carousel = ({images, imgClassname}) => {
     <div className='carousel'>
       <ImageElement key={currentIndex} img={images[currentIndex]} classname={imgClassname} />
       <div className='slide_direction'>
-        <IconContext.Provider value={{ color: 'orange', size:'5em', title:'Arrow left', className:'carouselIcon left' }}>
+        <IconContext.Provider value={{ title:'Arrow left', className:'carouselIcon left' }}>
           <FaCircleArrowLeft onClick={handlePrevious} />
         </IconContext.Provider> 
-        <IconContext.Provider value={{ color: 'orange', size:'5em', title:'Arrow right', className:'carouselIcon right' }}>
+        <IconContext.Provider value={{ title:'Arrow right', className:'carouselIcon right' }}>
           <FaCircleArrowRight onClick={handleNext} />
         </IconContext.Provider>
       </div>
