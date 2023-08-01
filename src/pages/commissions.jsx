@@ -23,7 +23,9 @@ const CommissionsPage = () => {
           
           <section className='commissions padding'>
             <div className='inquiry'>
-              <p>To inquire about a commission: <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a></p>
+              To inquire about a commission: <br/>
+              <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
+              <img alt="Finnish" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" /> / <img alt="Finnish" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" />
             </div>
 
             <div className='container'>
@@ -32,8 +34,8 @@ const CommissionsPage = () => {
                 <div className='description'>
                   <h2>for a Baby</h2>
                   <p><Check /> Cute lovey gives safety and warmth.</p>
-                  <p><Check />Perfect for hugging and falling asleep with.</p>
-                  <p><Check />A dog. A frog. A car. Anything.</p>
+                  <p><Check /> Perfect for hugging and falling asleep with.</p>
+                  <p><Check /> A dog. A frog. A car. Anything.</p>
                 </div>
                 <div className='illustration'>
                   <ImageElement img='/commissions-1.jpg' />
