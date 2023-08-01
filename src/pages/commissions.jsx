@@ -25,7 +25,7 @@ const CommissionsPage = () => {
             <div className='inquiry'>
               To inquire about a commission: <br/>
               <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
-              <img alt="Finnish" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" /> / <img alt="Finnish" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" />
+              <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" /> / <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" />
             </div>
 
             <div className='container'>
