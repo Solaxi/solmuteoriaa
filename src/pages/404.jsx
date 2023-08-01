@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/default-page.scss'
-import '../styles/404.scss'
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
 
@@ -12,7 +11,7 @@ const NotFoundPage = () => {
         <h1 className='page__header__heading'>404</h1>
       </div>
       <div className='page__body'>
-        <section className='content404 padding'>
+        <section className='page__body__content padding'>
           This page does not exist.
         </section>
       </div>
