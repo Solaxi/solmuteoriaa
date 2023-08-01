@@ -30,7 +30,7 @@
 
   &__brand {
       display: flex;
-      flex-direction: column;
+      //flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 3rem;
@@ -39,15 +39,50 @@
           display: none;
       }
 
-      &__description {
-          width: 50%;
+      &__top {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+
+        &__description {
           font-size: 2.8rem;
-          text-align: center;
           color: #fcffe7;
+          line-height:6rem;
+        }
+
+        &__img {
+            width: 25rem;
+        }
       }
 
-      &__logo {
-          width: 25rem;
+      &__madeby {
+        position:absolute;
+        right:20px;
+        top:20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+
+        &__description {
+          font-size: 2.2rem;
+          color: #fcffe7;
+          font-weight: 300;
+
+          //flag
+          & img {
+            height:11px;
+          }
+        }
+
+        &__img {
+            width: 15rem;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
       }
   }
 }

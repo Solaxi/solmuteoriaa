@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import CrochetPatternList from '../components/CrochetPatterns/CrochetPatternsList'
 import Button from '../components/Button/ButtonElement'
 import ImageElement from '../components/image'
+import Flag from '../components/flag'
 
 import { IconContext } from 'react-icons'
 import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
@@ -21,10 +22,24 @@ const IndexPage = () => {
         </video>
         <div className='header__brand'>
           <h1 className='hidden-title'>Solmuteoriaa</h1>
-          <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__logo' />
-          <p className='header__brand__description'>
-            Crochet to relax. Crochet to learn. Crochet to be awesome.
-          </p>
+
+          <div className='header__brand__madeby'>
+            <div className='header__brand__madeby__description'>
+              Made by <br/>
+                <nobr>&nbsp;&nbsp;{new Date().getFullYear()-1983}-year-old dad</nobr><br/>
+                <nobr>&nbsp;&nbsp;from <Flag of='FI'/></nobr>
+            </div>
+            <ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' />
+          </div>
+
+          <div className='header__brand__top'>
+            <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__top__img' />
+            <div className='header__brand__top__description'>
+              Crochet to relax<br/>
+              Crochet to learn<br/>
+              Crochet to be awesome<br/>
+            </div>
+          </div>
         </div>
 
       </section>
