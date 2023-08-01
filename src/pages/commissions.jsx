@@ -4,6 +4,7 @@ import '../styles/commissions.scss'
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
 import ImageElement from '../components/image'
+import Flag from '../components/flag'
 
 import { FaCheck } from 'react-icons/fa6'
 
@@ -25,7 +26,7 @@ const CommissionsPage = () => {
             <div className='inquiry'>
               To inquire about a commission: <br/>
               <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
-              <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" /> / <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" />
+              <Flag of='FI'/> / <Flag of='GB'/>
             </div>
 
             <div className='container'>

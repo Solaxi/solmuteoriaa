@@ -5,6 +5,7 @@ import '../styles/market.scss'
 import SEO from '../components/SEO'
 import Layout from '../components/layout'
 import Carousel from '../components/Carousel/carousel'
+import Flag from '../components/flag'
 
 import { IconContext } from 'react-icons'
 import { FaEuroSign } from 'react-icons/fa6'
@@ -51,7 +52,7 @@ const MarketPage = () => {
             <div className='inquiry'>
               Inquire about a purchase: <br/>
               <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
-              <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/FI.svg" /> / <img alt="Finnish" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/GB.svg" />
+              <Flag of='FI'/> / <Flag of='GB'/>
             </div>
 
             <div className='marketplace'>
