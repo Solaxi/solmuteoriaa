@@ -30,11 +30,10 @@
 		flex-direction: column;
 		align-items:center;
 		justify-content: space-between;
-		background-color: #00070e;
+		background-color: rgba(255, 255, 255, 0.16);
 		padding: 3rem;
 		border-radius: 2rem;
 		gap: 1rem;
-		color: #000e1c;
 
 		&__image {
 			width: 100%;
@@ -46,8 +45,8 @@
       text-align: center;
       width:100%;
       font-weight: 600;
-      font-size: 3.2rem;
-      color: white;
+      font-size: 3.4rem;
+      color: #F39540;
 		}
 
 		&__desc {
@@ -138,13 +137,23 @@
 				width: 15%;
 				border-radius: 0.4rem;
 			}
+
+      &__pricelabel {
+        padding:4px 8px;
+
+        &__price {
+          transform: none;
+          font-size:2.5rem;
+        }
+      }
 		}
 	}
-}
 
-
-@media screen and (max-width: 700px) {
   .market {
-    padding-bottom:20px;
+    padding-bottom:50px;
+
+    & .inquiry {
+      margin-bottom:0px;
+    }
   }
 }
