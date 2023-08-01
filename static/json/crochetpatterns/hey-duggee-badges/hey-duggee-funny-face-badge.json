@@ -1,0 +1,46 @@
+{
+  "patternId": "hey-duggee-funny-face-badge",
+  "title": "Hey Duggee - Funny Face Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-10.jpg",
+  "cardDescription": "The Funny Face Badge is from Hey Duggee Season 1 Episode 10 and has a funny face with a olive green round frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-10.jpg",
+  "description": "The Funny Face Badge is from Hey Duggee Season 1 Episode 10 and has a funny face with a olive green round frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Orange (MC)", "Green (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "White", "Pink", "Dark green" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-10-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Funny Eyes" },
+    { "type": "text", "content": "Eyes are done in one part."},
+    { "type": "pattern", "content": [
+      "with white 5 sc into magic loop (no joining), turn [5]",
+      "ch 2, (inc hdc) x2, ch, slst to 3rd st, ch, (inc hdc) x2, ch 2, slst to same st [9]"
+    ]},
+    { "type": "text", "content": "Sew in place so that the gap left in magic loop points down." },
+    { "type": "h2", "content": "Funny Nose" },
+    { "type": "pattern", "content": [
+      "with pink 6 sc into magic loop, slst [6]"
+    ]},
+    { "type": "text", "content": "Sew tightly to the gap below the eyes." },
+    { "type": "text", "content": "With dark green, sew pupils horizontaly close to each other and little bit offset vertically. Using same yarn embroider a squiggly mouth." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

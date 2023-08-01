@@ -1,5 +1,5 @@
-/* eslint-disable array-callback-return */
 import React from 'react'
+import ImageElement from '../image'
 import './InfoBox.scss'
 
 function InfoBoxColumn({column}) {
@@ -12,7 +12,7 @@ function InfoBoxColumn({column}) {
           return <strong key={i}>{item}</strong>
 
         case 'image': 
-          return <img key={i} src={item} alt='' className='infobox__column__image' />
+          return <ImageElement key={i} img={item} alt='' classname='infobox__column__image' />
 
         default: 
           return <span key={i}>{item}</span>

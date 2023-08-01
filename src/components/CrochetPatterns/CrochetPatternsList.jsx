@@ -7,8 +7,8 @@ import Card from './CrochetPatternCard'
 const showOnFrontpage = [
   'gentleman-octopus',
   'hey-duggee-frog',
-  'snowman',
-  'mouse'
+  'hey-duggee-badges',
+  'snowman'
 ]
 
 const CrochetPatternsList = ({frontpage}) => {

@@ -1,0 +1,46 @@
+{
+  "patternId": "hey-duggee-cake-badge",
+  "title": "Hey Duggee - Cake Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-2.jpg",
+  "cardDescription": "The Cake Badge is from Hey Duggee Season 1 Episode 2 and has a cream cake with a cherry on top of it.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-2.jpg",
+  "description": "The Cake Badge is from Hey Duggee Season 1 Episode 2 and has a cream cake with a cherry on top of it.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Light blue (MC)", "Light yellow (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Yellow", "Red", "White" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-2-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Cake" },
+    { "type": "text", "content": "If the sides of the cake are not complitely straight or cherry not round enough, you can make corrections when sewing it to the badge."},
+    { "type": "pattern", "content": [
+      "with yellow, ch 11",
+      "hdc to 3rd ch from the hook, 8 hdc, turn [9]",
+      "with red ch, 9 sc, turn [9]",
+      "yellow ch, 2 sc, white sc, yellow 2 sc, white sc, yellow sc, white, sc, yellow sc, turn [9]",
+      "white ch, 2 sc, yellow sc, white 2 sc, yellow sc, white 3 sc, turn [9]",
+      "ch, 9 sc [9]",
+      "attach red to 4th sc of previous row, ch, 2 sc, turn [2]",
+      "ch, dec [1]"
+    ]},
+    { "type": "text", "content": "Sew in place and hide the yarn ends." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

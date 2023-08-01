@@ -1,0 +1,52 @@
+{
+  "patternId": "hey-duggee-rescue-badge",
+  "title": "Hey Duggee - Rescue Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-5.jpg",
+  "cardDescription": "The Rescue Badge is from Hey Duggee Season 1 Episode 5 and has a fire engine with a red rectangle frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-5.jpg",
+  "description": "The Rescue Badge is from Hey Duggee Season 1 Episode 5 and has a fire engine with a red rectangle frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 7cm", "3 mm", "Yellow (MC)", "Red (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Red", "Pink", "Cyan", "Black", "Gray" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-5-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is done working around the starting chain." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "ch 5, 2 sc to 2nd ch from hook, 2 sc, 4 sc into last ch, 2 sc, 2 sc to first ch [12]",
+      "2 inc, 2 sc, 4 inc, 2 sc, 2 inc [20]",
+      "sc, 3 sc in next st, 6 sc, 3 sc in next st, 2 sc, 3 sc in next st, 6 sc, 3 sc in next st, sc [28]",
+      "2 sc, 3 sc in next st, 8 sc, 3 sc in next st, 4 sc, 3 sc in next st, 8 sc, 3 sc in next st, 2 sc [36]",
+      "3 sc, 3 sc in next st, 10 sc, 3 sc in next st, 6 sc, 3 sc in next st, 10 sc, 3 sc in next st, 3 sc [44]",
+      "sl st with SC, 3 hdc, inc hdc, 12 hdc, inc hdc, 8 hdc, inc hdc, 12 hdc, inc hdc, 5 hdc where last one is made in first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Fire Engine" },
+    { "type": "text", "content": ""},
+    { "type": "pattern", "content": [
+      "with red ch 10, sc to 2nd ch from hook, 8 sc, turn [9]",
+      "ch, 9 sc, turn [9]",
+      "ch, sc, with pink 5 sc, with red sc, with cyan 2 sc, turn",
+      "ch, 2 sc, with red sc, turn",
+      "ch, 3 sc"
+    ]},
+    { "type": "text", "content": "Fasten off all yarns and leave trails for sewing. Sew in place." },
+    { "type": "h2", "content": "Wheels" },
+    { "type": "pattern", "content": [
+      "with black, 4 sc into magic loop, slst"
+    ]},
+    { "type": "text", "content": "Make two tires and sew them partially on top of the fire engine." },
+    { "type": "h2", "content": "Ladder" },
+    { "type": "pattern", "content": [
+      "with black, ch 3, sc to 2nd ch from hook, sc",
+      "with gray ch 7"
+    ]},
+    { "type": "text", "content": "Ladder should rest on top of the fire engine cabin, so adjust gray chain length if needed. Sew in place." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

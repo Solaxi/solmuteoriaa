@@ -1,0 +1,43 @@
+{
+  "patternId": "hey-duggee-drawing-badge",
+  "title": "Hey Duggee - Drawing Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-1.jpg",
+  "cardDescription": "The Drawing Badge is from Hey Duggee Season 1 Episode 1 and has a red pencil with a green round frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-1.jpg",
+  "description": "The Drawing Badge is from Hey Duggee Season 1 Episode 1 and has a red pencil with a green round frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "White (MC)", "Dark green (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Red", "Yellow", "Black" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-1-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Pencil" },
+    { "type": "text", "content": "If the tip of the pencil comes off deformed, you can make corrections when sewing it to the badge."},
+    { "type": "pattern", "content": [
+      "With red, ch 7",
+      "sc to 2nd ch from hook, 4 sc, 4 sc into last ch, continuing other side of chain 4 sc, 3 sc into first ch, slst with yellow yarn, turn [16]",
+      "ch, 2 sc, turn [2]",
+      "dec [1]",
+      "with black ch"
+    ]},
+    { "type": "text", "content": "Sew in place and hide the yarn ends." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

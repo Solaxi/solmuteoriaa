@@ -1,0 +1,58 @@
+{
+  "patternId": "hey-duggee-summer-holiday-badge",
+  "title": "Hey Duggee - Summer Holiday Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-4.jpg",
+  "cardDescription": "The Summer Holiday Badge is from Hey Duggee Season 1 Episode 4 and has a scenery of the beach with a pink round frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-4.jpg",
+  "description": "The Summer Holiday Badge is from Hey Duggee Season 1 Episode 4 and has a scenery of the beach with a pink round frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Light blue (MC1)", "Light yellow (MC2)", "Pink (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Yellow", "Red", "White", "Purple", "Dark blue" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-4-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as two half circles sewn together." },
+    { "type": "text", "content": "Use MC1." },
+    { "type": "pattern", "content": [
+      "ch 2, 3 sc into 2nd ch from hook, turn [3]",
+      "ch, inc x3, turn [6]",
+      "ch, (inc, sc) x3 [9]",
+      "ch, (inc, 2 sc) x3 [12]",
+      "ch, (inc, 3 sc) x3 [15]",
+      "ch, (inc, 4 sc) x3 [18]",
+      "ch, (inc, 5 sc) x3 [21]"
+    ]},
+    { "type": "text", "content": "Fasten off. Repeat 1-7 with MC2. Sew halves together using tail from the blue part." },
+    { "type": "pattern", "content": [
+      "attach pink to any sc, ch, (inc hdc, 6 hdc) x6, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Sand Castle" },
+    { "type": "pattern", "content": [
+      "with yellow, ch 4",
+      "sc to 2nd ch from hook, 2 sc, hdc, turn [4]",
+      "ch, 2 sc, ch"
+    ]},
+    { "type": "text", "content": "Fasten off and sew in place. Sew red flag on top of the castle." },
+    { "type": "h2", "content": "The Sun" },
+    { "type": "pattern", "content": [
+      "with yellow, 4 sc into magic loop, slst"
+    ]},
+    { "type": "text", "content": "Sew in place and use the tail to sew sun rays." },
+    { "type": "h2", "content": "The Umbrella" },
+    { "type": "text", "content": "Making this small piece with many yarns can be quite a mess. You can make corrections and tuck the stitches as needed when sewing in place." },
+    { "type": "pattern", "content": [
+      "with red ch 3, sc to 2nd ch from hook, slst to last ch with yellow, turn",
+      "ch, hdc to red sc, turn",
+      "with white ch, hdc, slst to yellow ch with purple, turn",
+      "ch, hdc"
+    ]},
+    { "type": "text", "content": "Fasten off and sew in place using tails." },
+    { "type": "text", "content": "Sew the umbrella pole with dark blue." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

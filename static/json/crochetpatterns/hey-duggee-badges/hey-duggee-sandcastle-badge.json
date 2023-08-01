@@ -1,0 +1,37 @@
+{
+  "patternId": "hey-duggee-sandcastle-badge",
+  "title": "Hey Duggee - Sandcastle Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-39.jpg",
+  "cardDescription": "The Sandcastle Badge is from Hey Duggee Season 1 Episode 39 and has a sandcastle with a sandy yellow rectangle frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-39.jpg",
+  "description": "The Sandcastle Badge is from Hey Duggee Season 1 Episode 39 and has a sandcastle with a sandy yellow rectangle frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 7cm", "3 mm", "Light blue (MC)", "Light yellow (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Yellow", "Brown", "Light green", "White", "Orange" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-39-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is done working around the starting chain." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "ch 5, 2 sc to 2nd ch from hook, 2 sc, 4 sc into last ch, 2 sc, 2 sc to first ch [12]",
+      "2 inc, 2 sc, 4 inc, 2 sc, 2 inc [20]",
+      "sc, 3 sc in next st, 6 sc, 3 sc in next st, 2 sc, 3 sc in next st, 6 sc, 3 sc in next st, sc [28]",
+      "2 sc, 3 sc in next st, 8 sc, 3 sc in next st, 4 sc, 3 sc in next st, 8 sc, 3 sc in next st, 2 sc [36]",
+      "3 sc, 3 sc in next st, 10 sc, 3 sc in next st, 6 sc, sc and with yellow 2 sc in same st, 10 sc, 2 sc in next st and with MC sc in same st, 3 sc [44]",
+      "sl st with SC, 3 hdc, inc hdc, 12 hdc, inc hdc, 8 hdc, inc hdc, 12 hdc, inc hdc, 5 hdc where last one is made in first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Sandcastle" },
+    { "type": "text", "content": ""},
+    { "type": "pattern", "content": [
+      ""
+    ]},
+    { "type": "text", "content": "Sew in place and hide the yarn ends." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

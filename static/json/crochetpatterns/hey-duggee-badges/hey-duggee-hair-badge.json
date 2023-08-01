@@ -1,0 +1,46 @@
+{
+  "patternId": "hey-duggee-hair-badge",
+  "title": "Hey Duggee - Hair Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-3.jpg",
+  "cardDescription": "The Hair Badge is from Hey Duggee Season 1 Episode 3 and has a hair brush surrounded by stars on it.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-3.jpg",
+  "description": "The Hair Badge is from Hey Duggee Season 1 Episode 3 and has a hair brush surrounded by stars on it.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Yellow (MC)", "Blue (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Red", "Blue", "Brown" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-3-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Hair Brush" },
+    { "type": "text", "content": ""},
+    { "type": "pattern", "content": [
+      "with red, ch 4",
+      "sc to 2nd ch from hook, sc, 3 sc into last ch, continuing other side of chain, sc, 2 sc into first ch [8]",
+      "inc, sc, inc x3, sc, inc x2, slst with blue [14]",
+      "ch 6, turn around",
+      "sc to 2nd ch from hook, 2 hdc, sc, slst to base of the handle",
+      "attach brown to back loop of 8th sc of the red part and continue blo, ch, sc, 2 hdc, sc, slst"
+    ]},
+    { "type": "text", "content": "Sew in place and hide the yarn ends." },
+    { "type": "h2", "content": "Stars" },
+    { "type": "text", "content": "Embroider three white stars. Make 5-pointed stars if you can since those are the right ones. I found them too hard, so I made 8-pointed stars." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

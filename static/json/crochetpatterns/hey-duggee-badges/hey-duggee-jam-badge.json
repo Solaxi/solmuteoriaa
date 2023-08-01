@@ -1,0 +1,63 @@
+{
+  "patternId": "hey-duggee-jam-badge",
+  "title": "Hey Duggee - Jam Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-7.jpg",
+  "cardDescription": "The Jam Badge is from Hey Duggee Season 1 Episode 7 and has a jar of strawberry jam with a magenta round frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-7.jpg",
+  "description": "The Jam Badge is from Hey Duggee Season 1 Episode 7 and has a jar of strawberry jam with a magenta round frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Yellow (MC)", "Pink (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Pink", "White", "Red", "Green" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-7-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Jam Jar" },
+    { "type": "pattern", "content": [
+      "with pink, ch 7, sc 2nd ch from hook, sc 5, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "ch, sc 6, turn",
+      "with white ch, 4 dc, sc"
+    ]},
+    { "type": "text", "content": "Fasten off and leave a tail for sewing." },
+    { "type": "h2", "content": "Label" },
+    { "type": "pattern", "content": [
+      "with white, 8 sc into magic loop, slst"
+    ]},
+    { "type": "text", "content": "Fasten off and leave a tail for sewing." },
+    { "type": "h2", "content": "Strawberry" },
+    { "type": "pattern", "content": [
+      "with red, ch 3, sc to 2nd ch from hook, sc, turn",
+      "ch, dec"
+    ]},
+    { "type": "text", "content": "Fasten off and leave a tail for sewing." },
+    { "type": "list", "content": [
+      "Sew strawberry to the label.", 
+      "Add few green bits on top of the strawberry.", 
+      "Sew label to the jar.", 
+      "Finally sew the whole jar to the badge."
+    ]},
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

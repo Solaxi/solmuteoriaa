@@ -108,7 +108,7 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
     <div className='cp'>
       <div className='cp__header padding' id='particles'>
         <h1 className='cp__header__heading'>{data.title}</h1>
-        <p className='cp__header__description'>Crochet Pattern</p>
+        <p className='cp__header__description'>Free Crochet Pattern</p>
       </div>
       <div className='imgContainer padding'>
         {data.titleImg && <ImageElement img={data.titleImg} alt={data.title} />}

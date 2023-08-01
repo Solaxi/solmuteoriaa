@@ -1,0 +1,49 @@
+{
+  "patternId": "hey-duggee-treasure-hunt-badge",
+  "title": "Hey Duggee - Treasure Hunt Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-8.jpg",
+  "cardDescription": "The Treasure Hunt Badge is from Hey Duggee Season 1 Episode 8 and has a treasure chest with a yellow round frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-8.jpg",
+  "description": "The Treasure Hunt Badge is from Hey Duggee Season 1 Episode 8 and has a treasure chest with a yellow round frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", "Pink (MC)", "Yellow (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Brown", "Black", "Yellow", "Red", "Cyan", "Blue", "Light blue" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-8-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Treasure Chest" },
+    { "type": "text", "content": "Treasure Chest is done in one part. If the part comes a bit deformed, you can make correction when sewing it in place."},
+    { "type": "pattern", "content": [
+      "with brown ch 9, sc to 2nd ch from hook and across, turn [8]",
+      "ch, 8 sc, turn [8]",
+      "ch, 8 sc, turn [8]",
+      "ch with yellow, working back loops only (which are currently facing you) skip one st, 6 sc, slst into last st, turn [8]",
+      "ch with black, sc to blo, with yellow and both loops 4 sc, slst, turn [6]",
+      "ch, skipping slst 3 sc, with black 2 sc, turn [5]",
+      "ch, 3 sc, with yellow sc, with black sc, turn [5]",
+      "ch, 5 sc [5]",
+      "ch with brown, 4 sc to the side of the black part, turn [4]",
+      "ch, skip one, 2 sc, slst"
+    ]},
+    { "type": "text", "content": "Fasten off. Sew in place and hide the yarn ends. Sew a keyhole with a bit of yellow." },
+    { "type": "text", "content": "Sew few small bits of red and cyan to the gold pile. Sew a necklace hanging from the chest by alternating blue and light blue bits." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

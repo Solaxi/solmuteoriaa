@@ -1,0 +1,55 @@
+{
+  "patternId": "hey-duggee-scarecrow-badge",
+  "title": "Hey Duggee - Scarecrow Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-9.jpg",
+  "cardDescription": "The Scarecrow Badge is from Hey Duggee Season 1 Episode 9 and has a scarecrow along with the crows in the background with an orange rectangle frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-9.jpg",
+  "description": "The Scarecrow Badge is from Hey Duggee Season 1 Episode 9 and has a scarecrow along with the crows in the background with an orange rectangle frame.",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 7cm", "3 mm", "Light yellow (MC)", "Orange (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Red", "Yellow", "Beige", "Black", "Brown", "Blue" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-9-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is done working around the starting chain." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "ch 5, 2 sc to 2nd ch from hook, 2 sc, 4 sc into last ch, 2 sc, 2 sc to first ch [12]",
+      "2 inc, 2 sc, 4 inc, 2 sc, 2 inc [20]",
+      "sc, 3 sc in next st, 6 sc, 3 sc in next st, 2 sc, 3 sc in next st, 6 sc, 3 sc in next st, sc [28]",
+      "2 sc, 3 sc in next st, 8 sc, 3 sc in next st, 4 sc, 3 sc in next st, 8 sc, 3 sc in next st, 2 sc [36]",
+      "3 sc, 3 sc in next st, 10 sc, 3 sc in next st, 6 sc, 3 sc in next st, 10 sc, 3 sc in next st, 3 sc [44]",
+      "sl st with SC, 3 hdc, inc hdc, 12 hdc, inc hdc, 8 hdc, inc hdc, 12 hdc, inc hdc, 5 hdc where last one is made in first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Scarecrow Body" },
+    { "type": "pattern", "content": [
+      "with red ch 11, starting from 3rd ch from hook, 9 hdc, fasten off [9]",
+      "attach red to 3rd hdc, 3 sc, turn [3]",
+      "ch, 3 sc, turn [3]",
+      "ch 2, slst into same st, (ch 2, slst to next) x2"
+    ]},
+    { "type": "text", "content": "Sew in place. Try to tuck the stitches at the hem of the body so that the hem forms an upside-down crown shape." },
+    { "type": "h2", "content": "Scarecrow Head" },
+    { "type": "pattern", "content": [
+      "with beige 6 sc into magic loop, slst"
+    ]},
+    { "type": "text", "content": "Sew in place." },
+    { "type": "h2", "content": "Straw Hat" },
+    { "type": "pattern", "content": [
+      "with yellow ch 3, starting from 2nd ch from hook 2 sc"
+    ]},
+    { "type": "text", "content": "Leave a long tail for sewing. Place the hat on top of the head and use the tail to sew the brim of the hat." },
+    { "type": "list", "content": [
+      "Use the yellow tail (or new yarn) to sew hands.", 
+      "Sew five black birds and two black eyes.", 
+      "Sew a blue scarf.", 
+      "Sew a brown mouth."
+    ]},
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

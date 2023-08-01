@@ -1,0 +1,39 @@
+{
+  "patternId": "hey-duggee-Z-badge",
+  "title": "Hey Duggee - Z Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-X.jpg",
+  "cardDescription": "The Z Badge is from Hey Duggee Season 1 Episode X and has ",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-X.jpg",
+  "description": "The Z Badge is from Hey Duggee Season 1 Episode X and has ",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "8cm x 8cm", "3 mm", " (MC)", " (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Yellow", "Red", "White" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-X-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "6 sc into magic loop [6]",
+      "inc x6 [12]",
+      "(sc, inc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]",
+      "(3 sc, inc, 2 sc) x6, at last sc pull through with SC [42]",
+      "slst, (inc with hdc, 6 hdc) x6, last hdc is made into the first slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "" },
+    { "type": "text", "content": ""},
+    { "type": "pattern", "content": [
+      ""
+    ]},
+    { "type": "text", "content": "Sew in place and hide the yarn ends." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}

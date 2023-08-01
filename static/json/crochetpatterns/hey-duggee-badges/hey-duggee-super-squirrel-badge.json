@@ -1,0 +1,42 @@
+{
+  "patternId": "hey-duggee-super-squirrel-badge",
+  "title": "Hey Duggee - Super Squirrel Badge",
+  "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-6.jpg",
+  "cardDescription": "The Super Squirrel Badge is from Hey Duggee Season 1 Episode 6 and has a letter of a red 'S' on a yellow seven-pointed star with a yellow shield-shape frame.",
+  "cardImg": "/crochet-pattern-images/hey-duggee-badges/badge-6.jpg",
+  "description": "The Super Squirrel Badge is from Hey Duggee Season 1 Episode 6 and has a letter of a red 'S' on a yellow seven-pointed star with a yellow shield-shape frame. ",
+  "content": [
+    { "type": "infobox", "content": [
+      { "type": "heading", "content": [ "Finished size:", "Hook size:", "Badge yarns:" ]},
+      { "type": "text", "content": [ "7cm x 7cm", "3 mm", "Red (MC)", "Yellow (SC)" ]},
+      { "type": "heading", "content": [ "Image yarns:" ]},
+      { "type": "text", "content": [ "Yellow", "Red" ]},
+      { "type": "image", "content": [ "/crochet-pattern-images/hey-duggee-badges/badge-6-og.jpg" ]}
+    ]},
+    { "type": "h2", "content": "Badge" },
+    { "type": "text", "content": "Badge is worked as a spiral so no joining rounds until the outer edge." },
+    { "type": "text", "content": "Use MC." },
+    { "type": "pattern", "content": [
+      "3 sc into magic loop [3]",
+      "4 sc in each [12]",
+      "2 sc, (4 sc in next st, 3 sc) x2, 4 sc in next st, sc [21]",
+      "4 sc, (4 sc in next st, 6 sc) x2, 4 sc in next st, 2 sc [30]",
+      "ch 2, 5 dc, (2 dc, 2 sc) in next st, 9 sc, 4 sc in next st, 9 sc, (2 sc, 2 dc) in next st, 3 dc, slst to 2nd ch [39]",
+      "with SC slst, 6 hdc, (4 hdc in next st, 12 hdc) x2, 4 hdc in next st, 5 hdc where last one is made to the slst, slst [48]"
+    ]},
+    { "type": "text", "content": "Fasten off and hide the yarn ends." },
+    { "type": "h2", "content": "Seven-pointed Star" },
+    { "type": "pattern", "content": [
+      "with yellow, 7 sc into magic loop, slst",
+      "(ch 3, slst to 2nd ch from hook, sc, slst to next st) x7"
+    ]},
+    { "type": "text", "content": "Sew in place." },
+    { "type": "h2", "content": "Super Squirrel S" },
+    { "type": "pattern", "content": [
+      "with red ch 12"
+    ]},
+    { "type": "text", "content": "Pin the chain to the badge to form an S shape. Sew in place." },
+    { "type": "text", "content": "For help with the pattern, please see the General Instructions from the main page:" },
+    { "type": "button", "content": "Hey Duggee Badges", "link":"/crochet-patterns/hey-duggee-badges" }
+  ]
+}
