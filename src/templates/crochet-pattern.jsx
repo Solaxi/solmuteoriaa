@@ -105,17 +105,17 @@ function CrochetPatternPage({ pageContext: { patternId } }) {
 
   return (
     <Layout>
-    <div className='cp'>
-      <div className='cp__header padding' id='particles'>
-        <h1 className='cp__header__heading'>{data.title}</h1>
-        <p className='cp__header__description'>Free Crochet Pattern</p>
+    <div className='page'>
+      <div className='page__header padding'>
+        <h1 className='page__header__heading'>{data.title}</h1>
+        <p className='page__header__description'>Free Crochet Pattern</p>
       </div>
-      <div className='imgContainer padding'>
+      <div className='imgContainer'>
         {data.titleImg && <ImageElement img={data.titleImg} alt={data.title} />}
       </div>
-      <div className='cp__body padding'>
+      <div className='page__body padding'>
         <div className='document'>
-          <p className='bold-head'>{data.description}</p>
+          <p className='bold-description'>{data.description}</p>
           {data.content && data.content.map((item, i) => readContent(item, i))}
           <br/>
           <Button to='/crochet-patterns' title='Show all free crochet patterns' dir='left' />

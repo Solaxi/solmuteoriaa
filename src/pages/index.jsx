@@ -19,9 +19,9 @@ const IndexPage = () => {
         <video id='bg-video' autoPlay loop muted playsInline>
           <source src='/images/video2.mp4' type='video/mp4' />
         </video>
-        <div className='header__brand' id='tsparticles'>
+        <div className='header__brand'>
           <h1 className='hidden-title'>Solmuteoriaa</h1>
-          <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__icon' />
+          <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__logo' />
           <p className='header__brand__description'>
             Crochet to relax. Crochet to learn. Crochet to be awesome.
           </p>
@@ -32,67 +32,62 @@ const IndexPage = () => {
       {/* Wrapper for background */}
       <div className='wrapper-top'>
       
-      {/* Stats Section */}
-
       {/* Services Section */}
         <CrochetPatternList frontpage={true} />
       </div>
       
-    {/* Features Section */}
-      <section className='features padding'>
-        <h2 className='features__heading'>COMMISSIONS</h2>
+    {/* Commissions Section */}
+      <section className='commissions-section padding'>
+        <h2 className='commissions-section__heading'>COMMISSIONS</h2>
         
-        <div className='features__container'>
-          <div className='features__container__item card-hover'>
-            <IconContext.Provider value={{ color: 'orange', size:'10em', title:'Star' }}>
-            <div><FaStar /></div>
+        <div className='commissions-section__container'>
+          <div className='commissions-section__container__item card-hover'>
+            <IconContext.Provider value={{ className:'commissions-section__container__item__icon', title:'Star' }}>
+              <FaStar />
             </IconContext.Provider>
-            <h3 className='features__container__item__heading'>
+            <h3 className='commissions-section__container__item__heading'>
               Uniqueness
             </h3>
-            <p className='features__container__item__details'>
+            <p className='commissions-section__container__item__details'>
               Guaranteed to be the only one of its kind!
             </p>
           </div>
 
-          <div className='features__container__item card-hover'>
-            <IconContext.Provider value={{ color: 'orange', size:'10em', title:'Gift' }}>
-            <div><FaGift /></div>
+          <div className='commissions-section__container__item card-hover'>
+            <IconContext.Provider value={{ className:'commissions-section__container__item__icon', title:'Gift' }}>
+              <FaGift />
             </IconContext.Provider>
-            <h3 className='features__container__item__heading'>
+            <h3 className='commissions-section__container__item__heading'>
               Perfect gift
             </h3>
-            <p className='features__container__item__details'>
+            <p className='commissions-section__container__item__details'>
               Recipient would never expect it! Can't find it from any store.
             </p>
           </div>
 
-          <div className='features__container__item card-hover'>
-            <IconContext.Provider value={{ color: 'orange', size:'10em', title:'Heart' }}>
-            <div><FaHeart /></div>
+          <div className='commissions-section__container__item card-hover'>
+            <IconContext.Provider value={{ className:'commissions-section__container__item__icon', title:'Heart' }}>
+              <FaHeart />
             </IconContext.Provider>
-            <h3 className='features__container__item__heading'>
+            <h3 className='commissions-section__container__item__heading'>
               Softness
             </h3>
-            <p className='features__container__item__details'>
+            <p className='commissions-section__container__item__details'>
               Huggable. Loveable. Gives warmth and joy.
             </p>
           </div>
           
-          <div className='features__container__item card-hover'>
-            <IconContext.Provider value={{ color: 'orange', size:'10em', title:'Euro' }}>
-            <div><FaEuroSign /></div>
+          <div className='commissions-section__container__item card-hover'>
+            <IconContext.Provider value={{ className:'commissions-section__container__item__icon', title:'Euro' }}>
+              <FaEuroSign />
             </IconContext.Provider>
-            <h3 className='features__container__item__heading'>
+            <h3 className='commissions-section__container__item__heading'>
               Value
             </h3>
-            <p className='features__container__item__details'>
+            <p className='commissions-section__container__item__details'>
               I only take projects I enjoy. Not in it for the money.
             </p>
           </div>
-
-
-
         </div>
 
         <Button to='/commissions' title='See examples or request a commission' subclass='large' />

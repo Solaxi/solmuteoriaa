@@ -1,28 +1,26 @@
-// Services Section
-
-.services {
+.crochetPatternsList {
   padding-top: 5rem;
   padding-bottom: 20rem;
 
   &__heading {
       font-size: 3.6rem;
-      font-weight: 600;
       text-align: center;
       color: #F39540;
       margin-bottom: 10rem;
   }
 
   &__container {
+    margin:auto;
+      width:90%;
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       grid-template-rows: repeat(2, minmax(0, 1fr));
-      column-gap: 11rem;
-      row-gap: 9rem;
+      column-gap: 8rem;
+      row-gap: 8rem;
 
       &__item {
           background: rgba(255, 255, 255, 0.16);
           transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-
           backdrop-filter: blur(0.55rem);
           border-radius: 1.2rem;
           padding: 4rem;
@@ -32,7 +30,7 @@
           width: 100%;
 
           &__illustration {
-              flex-basis: 40%;
+              flex-basis: 30%;
               display: flex;
               justify-content: center;
               align-items: center;
@@ -53,12 +51,11 @@
               }
 
               &__details {
-                  font-size: 2.2rem;
+                  font-size: 2.4rem;
                   font-weight: 300;
                   color: rgb(255, 255, 255);
                   margin-top: 1.5rem;
                   line-height: 26px;
-                  font-style: normal;
               }
           }
       }
@@ -67,9 +64,9 @@
 
 
 @media screen and (max-width: 1200px) {
-  .services {
+  .crochetPatternsList {
     &__container {
-      column-gap: 8rem;
+      column-gap: 7rem;
       row-gap: 7rem;
 
         &__item {
@@ -81,8 +78,15 @@
 
             &__illustration {
                 &__image {
-                    width: 60%;
+                    width: 70%;
                 }
+            }
+
+            &__description {
+              &__details {
+                text-align:left;
+                font-size:2.2rem;
+              }
             }
         }
     }
@@ -90,7 +94,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .services {
+  .crochetPatternsList {
     &__heading {
         margin-bottom: 8rem;
     }
@@ -100,8 +104,14 @@
         &__item {
             &__illustration {
                 &__image {
-                    width: 50%;
+                    width: 60%;
                 }
+            }
+
+            &__description {
+              &__details {
+                text-align:left;
+              }
             }
         }
     }

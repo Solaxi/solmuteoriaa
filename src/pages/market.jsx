@@ -12,7 +12,7 @@ import { FaEuroSign } from 'react-icons/fa6'
 const MarketplaceItem = ({item}) => {
   return (
     <>
-      <div className='marketplace__item'>
+      <div className='marketplace__item card-hover'>
         <Carousel images={item.images} imgClassname='marketplace__item__image' />
         <h2 className='marketplace__item__heading'>{item.title}</h2>
         <div className='marketplace__item__desc'>{item.desc}</div>

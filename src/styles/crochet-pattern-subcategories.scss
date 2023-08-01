@@ -15,6 +15,7 @@
 		padding: 3rem;
 		border-radius: 2rem;
 		gap: 2.5rem;
+    transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
 
 		&__image {
 			width: 100%;
@@ -28,16 +29,6 @@
       color: #F39540;
 		}
 	}
-}
-
-// Desktop Animatins Only
-@media screen and (min-width: 600px){
-  .subcat__item{
-      &:hover{
-          transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
-          transform: scale(1.05);
-      }
-  }
 }
 
 @media screen and (max-width: 1400px) {

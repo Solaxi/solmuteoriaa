@@ -10,7 +10,7 @@ const CrochetPatternsPage = () => {
       <div className='page'>
         <div className='page__header padding'>
           <h1 className='page__header__heading'>Crochet Patterns</h1>
-          <p className='page__header__description'>These are crochet patterns</p>
+          <p className='page__header__description'>All patterns are designed by me</p>
         </div>
         <div className='page__body'>
            <CrochetPatternsList frontpage={false} />

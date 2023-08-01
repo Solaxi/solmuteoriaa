@@ -6,7 +6,7 @@ function CrochetPatternSubCateogories({cats}) {
 
   const SubCategoryItem = ({id, title, img}) => {
     return (
-      <div className="subcat__item">
+      <div className="subcat__item card-hover">
         <span className='subcat__item__heading'>{title}</span>
         <img src={`/images${img}`} alt={title} className="subcat__item__image" />
         <Button to={`/crochet-patterns/${id}`} title='See the pattern' subclass='small' />

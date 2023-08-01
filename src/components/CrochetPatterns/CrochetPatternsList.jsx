@@ -26,11 +26,11 @@ const CrochetPatternsList = ({frontpage}) => {
   `)
 
   return (
-    <section className='services padding'>
-      <h2 className='services__heading'>
+    <section className='crochetPatternsList padding'>
+      <h2 className='crochetPatternsList__heading'>
         {frontpage ? 'LATEST'  : 'FREE'} CROCHET PATTERNS
       </h2>
-        <div className='services__container'>
+        <div className='crochetPatternsList__container'>
           {
           !frontpage 
             ? crochetPatternsListData.allCrochetpatternsJson.nodes.map(item => <Card key={item.patternId} pattern={item} />)
