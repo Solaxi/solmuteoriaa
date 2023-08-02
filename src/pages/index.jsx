@@ -7,6 +7,7 @@ import CrochetPatternList from '../components/CrochetPatterns/CrochetPatternsLis
 import Button from '../components/Button/ButtonElement'
 import ImageElement from '../components/image'
 import Flag from '../components/flag'
+//import { Link } from 'gatsby-link'
 
 import { IconContext } from 'react-icons'
 import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
@@ -29,7 +30,9 @@ const IndexPage = () => {
                 <nobr>&nbsp;&nbsp;{new Date().getFullYear()-1983}-year-old dad</nobr><br/>
                 <nobr>&nbsp;&nbsp;from <Flag of='FI'/></nobr>
             </div>
-            <ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' />
+            {/*<Link to='/esko'>*/}
+              <ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' />
+            {/*</Link>*/}
           </div>
 
           <div className='header__brand__top'>

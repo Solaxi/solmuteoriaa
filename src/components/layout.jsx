@@ -4,12 +4,12 @@ import '../styles/default.scss'
 import Navbar from './Navbar/Navbar'
 import Footer from './Footer/Footer'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, nonav, nofooter }) => {
   return (
     <div className='App'>
-      <Navbar />
+      {!nonav && <Navbar />}
       {children}
-      <Footer />
+      {!nofooter && <Footer />}
     </div>
   )
 }

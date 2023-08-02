@@ -30,6 +30,7 @@
 
   &__brand {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 3rem;
@@ -81,6 +82,10 @@
             width: 15rem;
             border-radius: 50%;
             opacity: 0.6;
+
+            &:hover {
+              opacity: 1; 
+            }
         }
       }
   }

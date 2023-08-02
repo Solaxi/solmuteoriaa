@@ -1,0 +1,25 @@
+.document {
+  width: 80%;
+  font-weight: 300;
+
+  & .bold-description{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  & h1 {
+    font-size: 4rem;
+    color: #F39540;
+    margin-top:50px;
+  }
+
+  .bold{
+    font-weight: 400;
+    font-size: 3.5;
+  }
+
+  & p {
+    margin:20px 0;
+  }
+}
