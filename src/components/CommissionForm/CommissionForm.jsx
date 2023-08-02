@@ -10,9 +10,9 @@ const CommissionForm = () => {
   const onSubmit = (event) => {
     event.preventDefault()
     setFormStatus('Submitting...')
-    
+
+    //console.log(event.target)
     const formData = new FormData(event.target)
-    console.log(formData)
 
     fetch('/', {
       method: 'POST',
@@ -34,29 +34,30 @@ const CommissionForm = () => {
 
   return (
     <form name='commissionRequest' onSubmit={onSubmit} netlify='true'>
-      <input type='hidden' name='form-name' value="commissionRequest" />
-      <div className="form-field-wrapper">
-        <label className="form-label" htmlFor="message">
+      <input type='hidden' name='form-name' value='commissionRequest' />
+      <input type='hidden' name='time' value={new Date().toLocaleString('fi-FI')} />
+      <div className='form-field-wrapper'>
+        <label className='form-label' htmlFor='message'>
           Story about your dreams and desires
         </label>
       </div>
-      <div className="form-field-wrapper">
-        <textarea id="message" value={msg} onChange={e => setMsg(e.target.value)} required />
+      <div className='form-field-wrapper'>
+        <textarea name='message' value={msg} onChange={e => setMsg(e.target.value)} required />
       </div>
-      <div className="form-field-wrapper">
-        <label className="form-label" htmlFor="name">
+      <div className='form-field-wrapper'>
+        <label className='form-label' htmlFor='name'>
           Name
         </label>
-        <input className="form-control" type="text" id="name" value={name} onChange={e => setName(e.target.value)} required />
+        <input className='form-control' type='text' name='name' value={name} onChange={e => setName(e.target.value)} required />
       </div>
-      <div className="form-field-wrapper">
-        <label className="form-label" htmlFor="email">
+      <div className='form-field-wrapper'>
+        <label className='form-label' htmlFor='email'>
           Email
         </label>
-        <input className="form-control" type="email" id="email" value={email} onChange={e => setEmail(e.target.value)} required />
+        <input className='form-control' type='email' name='email' value={email} onChange={e => setEmail(e.target.value)} required />
       </div>
-      <div className="form-field-wrapper">
-        <button className="btn" type="submit">
+      <div className='form-field-wrapper'>
+        <button className='btn' type='submit'>
           {formStatus}
         </button>
       </div>
