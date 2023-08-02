@@ -6,6 +6,8 @@ Crochet to be awesome.
 
 Personal website of [@EskoPoutanen](https://twitter.com/EskoPoutanen) / [@Solaxi](https://github.com/Solaxi). 
 
+<img src="https://raw.githubusercontent.com/Solaxi/solmuteoriaa/main/static/images/solmuteoriaa_og.jpg" width="600"/>
+
 ## Tech
 
 Running in [Netlify](https://www.netlify.com/) with [Gatsby](https://www.gatsbyjs.com/)
