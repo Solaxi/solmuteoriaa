@@ -4,16 +4,15 @@ import '../styles/commissions.scss'
 import Layout from '../components/layout'
 import SEO from '../components/SEO'
 import ImageElement from '../components/image'
-import Flag from '../components/flag'
 
-import { FaCheck, FaRegMessage, FaRegEnvelope } from 'react-icons/fa6'
+import { FaCheck } from 'react-icons/fa6'
 
 import CommissionForm from '../components/CommissionForm/CommissionForm'
 
 const Check = () => <FaCheck color='orange' />
 
 const CommissionBox = ({title, list, image, align}) => {
-  const imgEl = <div className='illustration'><ImageElement img={image} /></div>
+  const imgEl = <div className='illustration'><ImageElement img={image} classname='illustration__image' /></div>
   return (
     <div className={`item ${align}`}>
       {align === 'left' && imgEl}
@@ -37,13 +36,6 @@ const CommissionsPage = () => {
         <div className='page__body'>
           
           <section className='commissions padding'>
-            <div className='inquiry'>
-              <h2>To inquire about a commission</h2>
-              <p>Send a message with <a href="#form">Contact From</a> <FaRegMessage color='orange' /></p>
-              <p>Throw an email <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <FaRegEnvelope color='orange' /></p>
-              <Flag of='FI'/> / <Flag of='GB'/>
-            </div>
-
             <div className='container'>
               <CommissionBox title='for a Baby'
                 list={['Cute lovey gives safety and warmth.', 'Perfect for hugging and falling asleep with.', 'A dog. A frog. A car. Anything.']}
@@ -79,6 +71,7 @@ const CommissionsPage = () => {
                   <p><Check /> Sending a message doesn't bind you to anything.</p>
                   <p><Check /> I'll get back to you within a few days.</p>
                   <p><Check /> The more details the better.</p>
+                  <p><Check /> Or throw a msg to <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a>.</p>
                 </div>
               </div>
 

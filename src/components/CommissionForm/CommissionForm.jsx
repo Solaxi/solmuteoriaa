@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './CommissionForm.scss'
+import Flag from '../../components/flag'
 
 const CommissionForm = () => {
   const [formStatus, setFormStatus] = useState('Send')
@@ -36,9 +37,10 @@ const CommissionForm = () => {
     <form name='commissionRequest' onSubmit={onSubmit} netlify='true'>
       <input type='hidden' name='form-name' value='commissionRequest' />
       <input type='hidden' name='time' value={new Date().toLocaleString('fi-FI')} />
+
       <div className='form-field-wrapper'>
         <label className='form-label' htmlFor='message'>
-          Story about your dreams and desires
+          Commission inquiry &nbsp;&nbsp;<Flag of='FI'/> / <Flag of='GB'/>
         </label>
       </div>
       <div className='form-field-wrapper'>
