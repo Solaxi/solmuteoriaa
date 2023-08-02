@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './CommissionForm.scss'
 
-const ContactForm = () => {
+const CommissionForm = () => {
   const [formStatus, setFormStatus] = useState('Send')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -63,4 +63,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default CommissionForm

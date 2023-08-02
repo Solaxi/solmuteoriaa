@@ -6,11 +6,25 @@ import SEO from '../components/SEO'
 import ImageElement from '../components/image'
 import Flag from '../components/flag'
 
-import { FaCheck } from 'react-icons/fa6'
+import { FaCheck, FaRegMessage, FaRegEnvelope } from 'react-icons/fa6'
 
-//import CommissionForm from '../../components/CommissionForm/CommissionForm'
+import CommissionForm from '../components/CommissionForm/CommissionForm'
 
 const Check = () => <FaCheck color='orange' />
+
+const CommissionBox = ({title, list, image, align}) => {
+  const imgEl = <div className='illustration'><ImageElement img={image} /></div>
+  return (
+    <div className={`item ${align}`}>
+      {align === 'left' && imgEl}
+      <div className='description'>
+        <h2>{title}</h2>
+        {list.map((item, i) => <p key={i}><Check /> {item}</p>)}
+      </div>
+      {align === 'right' && imgEl}
+    </div>
+  )
+}
 
 const CommissionsPage = () => {
   return (
@@ -24,83 +38,47 @@ const CommissionsPage = () => {
           
           <section className='commissions padding'>
             <div className='inquiry'>
-              To inquire about a commission: <br/>
-              <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
+              <h2>To inquire about a commission</h2>
+              <p>Send a message with <a href="#form">Contact From</a> <FaRegMessage color='orange' /></p>
+              <p>Throw an email <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <FaRegEnvelope color='orange' /></p>
               <Flag of='FI'/> / <Flag of='GB'/>
             </div>
 
             <div className='container'>
+              <CommissionBox title='for a Baby'
+                list={['Cute lovey gives safety and warmth.', 'Perfect for hugging and falling asleep with.', 'A dog. A frog. A car. Anything.']}
+                image='/commissions-1.jpg'
+                align='right' />
               
-              <div className='item right'>
-                <div className='description'>
-                  <h2>for a Baby</h2>
-                  <p><Check /> Cute lovey gives safety and warmth.</p>
-                  <p><Check /> Perfect for hugging and falling asleep with.</p>
-                  <p><Check /> A dog. A frog. A car. Anything.</p>
-                </div>
-                <div className='illustration'>
-                  <ImageElement img='/commissions-1.jpg' />
-                </div>
-              </div>
+              <CommissionBox title='for Mood Control'
+                list={['Every emotion is valid.', 'Express feelings with a reversible mood octopus.', 'Great for all ages.']}
+                image='/commissions-2.jpg'
+                align='left' />
 
-              <div className='item left'>
-                <div className='illustration'>
-                  <ImageElement img='/commissions-2.jpg' />
-                </div>
-                <div className='description'>
-                  <h2>for Mood Control</h2>
-                  <p><Check /> Every emotion is valid.</p>
-                  <p><Check /> Express feelings with a reversible mood octopus.</p>
-                  <p><Check /> Great for all ages.</p>
-                </div>
-              </div>
+              <CommissionBox title='for Playing'
+                list={['Imagination enriches life.', 'Fun alone, better together.', 'Anything can be played with.']}
+                image='/commissions-3.jpg'
+                align='right' />
 
-              <div className='item right'>
-                <div className='description'>
-                  <h2>for Playing</h2>
-                  <p><Check /> Imagination enriches life.</p>
-                  <p><Check /> Fun alone, better together.</p>
-                  <p><Check /> Anything can be played with.</p>
-                </div>
-                <div className='illustration'>
-                  <ImageElement img='/commissions-3.jpg' />
-                </div>
-              </div>
+              <CommissionBox title='for Fun'
+                list={['Never take life too seriously.', 'Small things can have big impacts.', 'A smile is precious.']}
+                image='/commissions-4.jpg'
+                align='left' />
 
-              <div className='item left'>
-                <div className='illustration'>
-                  <ImageElement img='/commissions-4.jpg' />
-                </div>
-                <div className='description'>
-                  <h2>for Fun</h2>
-                  <p><Check /> Never take life too seriously.</p>
-                  <p><Check /> Small things can have big impacts.</p>
-                  <p><Check /> A smile is precious.</p>
-                </div>
-              </div>
+              <CommissionBox title='for Laughs'
+                list={['Jokes are the salt of life.', 'Challenge preconceptions.', 'Dare to take a chance.']}
+                image='/commissions-5.jpg'
+                align='right' />
 
-              <div className='item right'>
-                <div className='description'>
-                  <h2>for Laughs</h2>
-                  <p><Check /> Jokes are the salt of life.</p>
-                  <p><Check /> Challenge preconceptions.</p>
-                  <p><Check /> Dare to take a chance.</p>
-                </div>
+              <div className='item left' id='form'>
                 <div className='illustration'>
-                  <ImageElement img='/commissions-5.jpg' />
-                </div>
-              </div>
-
-              <div className='item left'>
-                <div className='illustration'>
-                  {/*<CommissionForm />*/}
+                  <CommissionForm />
                 </div>
                 <div className='description'>
                   <h2>for Commission</h2>
                   <p><Check /> Sending a message doesn't bind you to anything.</p>
                   <p><Check /> I'll get back to you within a few days.</p>
                   <p><Check /> The more details the better.</p>
-                  {/*<p><Check /> Or email to <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a></p>*/}
                 </div>
               </div>
 
