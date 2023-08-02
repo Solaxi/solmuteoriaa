@@ -9,11 +9,22 @@ import ImageElement from '../components/image'
 import Flag from '../components/flag'
 //import { Link } from 'gatsby-link'
 
+import { useStaticQuery, graphql } from 'gatsby'
+
 import { IconContext } from 'react-icons'
 import { FaEuroSign, FaGift, FaHeart, FaStar } from 'react-icons/fa6'
 
-
 const IndexPage = () => {
+  const marketplaceImages = useStaticQuery(graphql`
+    query MarketplaceItemsImagesQuery {
+      allMarketplaceItemsJson {
+        nodes {
+          images
+        }
+      }
+    }
+  `)
+
   return (
     <Layout>
     <main className='homepage'>
@@ -111,10 +122,13 @@ const IndexPage = () => {
         <Button to='/commissions' title='See examples or request a commission' subclass='large' />
       </section>
 
-      {/* Reviews Section */}
-      <section className='reviews padding'>
-        {/*<h2 className='reviews__heading'>REVIEWS</h2>*/}
-
+      {/* ForSale Section */}
+      <section className='forsale padding'>
+        <h2 className='forsale__heading'>FOR SALE</h2>
+        <div className='forsale__list'>
+          {marketplaceImages.allMarketplaceItemsJson.nodes.map((data, i) => <ImageElement img={data.images[0]} classname='card-hover' /> )}
+        </div>
+        <Button to='/market' title='Go to marketplace' subclass='large' />
       </section>
     </main>
     </Layout>

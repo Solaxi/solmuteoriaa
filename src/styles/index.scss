@@ -150,77 +150,51 @@
   }
 }
 
-// Reviews Section
+// ForSale Section
 
-.reviews {
-  padding-top: 6.5rem;
+.forsale {
+  padding-top: 6rem;
   padding-bottom: 35rem;
   display: flex;
   flex-direction: column;
   background-image: url("/images/bgfooter.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
+  background-size: auto;
 
   &__heading {
       font-size: 3.6rem;
       font-weight: 600;
       text-align: center;
       color: #F39540;
-      margin-bottom: 14rem;
+      margin-bottom: 8rem;
   }
 
-  .btn {
-      align-self: center;
-      margin-top: 11rem;
+  &__list {
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:3em;
+
+    & img {
+      width:250px;
+      border-radius: 20px;
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 
-  &__carousel {
-      display: flex;
-      align-items: center;
-      gap: 3rem;
-
-      &__item {
-          padding: 4rem 5rem 3rem;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          background: rgba(255, 255, 255, 0.16);
-          backdrop-filter: blur(5.5px);
-          border-radius: 12px;
-          gap: 2.5rem;
-          text-align: center;
-
-          &__stars {
-              display: flex;
-              gap: 1rem;
-              align-items: center;
-              // width: 100%;
-              // justify-content: center;
-
-              &__star {
-                  width: 2.8rem;
-              }
-          }
-
-          &__details {
-              font-size: 2.2rem;
-              font-weight: 400;
-              line-height: 1.3;
-              color: rgb(255, 255, 255, 0.7);
-          }
-
-          &__name {
-              font-size: 2.6rem;
-              font-weight: 600;
-              color: #F39540;
-          }
-      }
-  }
 }
 
 
 // Responsiveness
+@media screen and (max-width: 1500px) {
+  .forsale {
+    &__list {
+		  grid-template-columns: repeat(4, 1fr);
+    }
+	}
+}
+
 @media screen and (max-width: 1200px) {
   .commissions-section {
       &__container {
@@ -231,6 +205,20 @@
           }
       }
   }
+
+  .forsale {
+    &__list {
+		  grid-template-columns: repeat(3, 1fr);
+    }
+	}
+}
+
+@media screen and (max-width: 900px) {
+  .forsale {
+    &__list {
+		  grid-template-columns: repeat(2, 1fr);
+    }
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -275,11 +263,16 @@
       }
   }
 
-  .reviews {
+  .forsale {
       padding-left: 3rem !important;
       padding-right: 3rem !important;
+      
       &__heading {
           margin-bottom: 8rem;
+      }
+
+      &__list {
+        grid-template-columns: repeat(1, 1fr);
       }
   }
 }
