@@ -7,7 +7,7 @@ import ImageElement from '../components/image'
 
 import { FaCheck } from 'react-icons/fa6'
 
-import CommissionForm from '../components/CommissionForm/CommissionForm'
+import ContactForm from '../components/ContactForm/ContactForm'
 
 const Check = () => <FaCheck color='orange' />
 
@@ -62,9 +62,9 @@ const CommissionsPage = () => {
                 image='/commissions-5.jpg'
                 align='right' />
 
-              <div className='item left' id='form'>
+              <div className='item left'>
                 <div className='illustration'>
-                  <CommissionForm />
+                  <ContactForm formId='commissionRequest' title='Commission inquiry' />
                 </div>
                 <div className='description'>
                   <h2>for Commission</h2>

@@ -5,10 +5,10 @@ import '../styles/market.scss'
 import SEO from '../components/SEO'
 import Layout from '../components/layout'
 import Carousel from '../components/Carousel/carousel'
-import Flag from '../components/flag'
 
 import { IconContext } from 'react-icons'
-import { FaEuroSign, FaRegEnvelope } from 'react-icons/fa6'
+import { FaEuroSign } from 'react-icons/fa6'
+import ContactForm from '../components/ContactForm/ContactForm'
 
 const MarketplaceItem = ({item}) => {
   return (
@@ -49,14 +49,16 @@ const MarketPage = () => {
         
         <div className='page__body'>
           <section className='market padding'>
-            <div className='inquiry'>
-              <h2>Inquire about a purchase</h2>
-              <p>Throw an email <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <FaRegEnvelope color='orange' /></p>
-              <Flag of='FI'/> / <Flag of='GB'/>
-            </div>
 
             <div className='marketplace'>
               {marketplaceData.allMarketplaceItemsJson.nodes.map(item => <MarketplaceItem key={item.title} item={item} />)}
+            </div>
+
+            <div className='market__form'>
+              <ContactForm 
+                formId='marketplaceOrder' 
+                title='Inquire about a purchase'
+                msgInstructions='Item I am interested in: &#13;&#10;Message: ' />
             </div>
           </section>
         </div>

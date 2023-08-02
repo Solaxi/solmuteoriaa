@@ -1,18 +1,17 @@
 import React, { useState } from 'react'
-import './CommissionForm.scss'
-import Flag from '../../components/flag'
+import './ContactForm.scss'
+import Flag from '../flag'
 
-const CommissionForm = () => {
+const ContactForm = ({formId, title, msgInstructions}) => {
   const [formStatus, setFormStatus] = useState('Send')
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [msg, setMsg] = useState('')
+  const [msg, setMsg] = useState(msgInstructions)
 
   const onSubmit = (event) => {
     event.preventDefault()
     setFormStatus('Submitting...')
 
-    //console.log(event.target)
     const formData = new FormData(event.target)
 
     fetch('/', {
@@ -34,13 +33,13 @@ const CommissionForm = () => {
   }
 
   return (
-    <form name='commissionRequest' onSubmit={onSubmit} netlify='true'>
-      <input type='hidden' name='form-name' value='commissionRequest' />
+    <form name={formId} onSubmit={onSubmit} netlify='true'>
+      <input type='hidden' name='form-name' value={formId} />
       <input type='hidden' name='time' value={new Date().toLocaleString('fi-FI')} />
 
       <div className='form-field-wrapper'>
         <label className='form-label' htmlFor='message'>
-          Commission inquiry &nbsp;&nbsp;<Flag of='FI'/> / <Flag of='GB'/>
+          {title} &nbsp;&nbsp;<Flag of='FI'/> / <Flag of='GB'/>
         </label>
       </div>
       <div className='form-field-wrapper'>
@@ -67,4 +66,4 @@ const CommissionForm = () => {
   )
 }
 
-export default CommissionForm
+export default ContactForm
