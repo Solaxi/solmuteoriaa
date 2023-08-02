@@ -8,7 +8,7 @@ import Carousel from '../components/Carousel/carousel'
 import Flag from '../components/flag'
 
 import { IconContext } from 'react-icons'
-import { FaEuroSign } from 'react-icons/fa6'
+import { FaEuroSign, FaRegEnvelope } from 'react-icons/fa6'
 
 const MarketplaceItem = ({item}) => {
   return (
@@ -50,8 +50,8 @@ const MarketPage = () => {
         <div className='page__body'>
           <section className='market padding'>
             <div className='inquiry'>
-              Inquire about a purchase: <br/>
-              <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <br/>
+              <h2>Inquire about a purchase</h2>
+              <p>Throw an email <a href='mailto:solmuteoriaa@gmail.com'>solmuteoriaa@gmail.com</a> <FaRegEnvelope color='orange' /></p>
               <Flag of='FI'/> / <Flag of='GB'/>
             </div>
 
