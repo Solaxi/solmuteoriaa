@@ -38,11 +38,11 @@ const IndexPage = () => {
           <div className='header__brand__madeby'>
             <div className='header__brand__madeby__description'>
               Made by <br/>
-                <nobr>&nbsp;&nbsp;{new Date().getFullYear()-1983}-year-old dad</nobr><br/>
-                <nobr>&nbsp;&nbsp;from <Flag of='FI'/></nobr>
+                <nobr>{new Date().getFullYear()-1983}-year-old dad</nobr><br/>
+                <nobr>from <Flag of='FI'/></nobr>
             </div>
             {/*<Link to='/esko'>*/}
-              <ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' />
+              <a href='https://twitter.com/EskoPoutanen'><ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' /></a>
             {/*</Link>*/}
           </div>
 
