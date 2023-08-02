@@ -33,7 +33,8 @@ const CommissionForm = () => {
   }
 
   return (
-    <form onSubmit={onSubmit} netlify='true'>
+    <form name='commissionRequest' onSubmit={onSubmit} netlify='true'>
+      <input type='hidden' name='form-name' value="commissionRequest" />
       <div className="form-field-wrapper">
         <label className="form-label" htmlFor="message">
           Story about your dreams and desires
