@@ -150,7 +150,15 @@
 
   .market {
     &__form {
-      width:300px;
+      width:320px;
+    }
+  }  
+}
+
+@media screen and (max-width: 500px) {
+  .market {
+    &__form {
+      width:260px;
     }
   }  
 }
