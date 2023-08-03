@@ -95,7 +95,7 @@ const IndexPage = () => {
       <section className='forsale padding'>
         <h2 className='forsale__heading'>FOR SALE</h2>
         <div className='forsale__list'>
-          {marketplaceImages.allMarketplaceItemsJson.nodes.map((data, i) => <ImageElement img={data.images[0]} classname='card-hover' /> )}
+          {marketplaceImages.allMarketplaceItemsJson.nodes.map((data, i) => <ImageElement key={i} img={data.images[0]} classname='card-hover' /> )}
         </div>
         <Button to='/market' title='Go to marketplace' subclass='large' />
       </section>
