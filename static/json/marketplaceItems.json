@@ -5,7 +5,7 @@
     "/market/53008790063_152e6e9dc3_c.jpg",
     "/market/53008687445_32f8127cc8_c.jpg"
   ],
-  "desc": "100% acryllic.",
+  "desc": "100% acrylic",
   "price": "30"
   },
   {
@@ -14,7 +14,25 @@
       "/market/53064243908_f2086e87a3_c.jpg",
       "/market/53063169677_a771112d1c_c.jpg"
     ],
-    "desc": "100% acryllic.",
+    "desc": "100% acrylic",
+    "price": "30"
+    },
+    {
+    "title": "Bunny Lovey",
+    "images": [
+      "/market/53099840415_0c4f8c5a0c_c.jpg",
+      "/market/53099433801_1996862dde_c.jpg"
+    ],
+    "desc": "70% acrylic, 30% polyamide",
+    "price": "30"
+    },
+    {
+    "title": "Owl Lovey",
+    "images": [
+      "/market/53100145643_e263be8d88_c.jpg",
+      "/market/53099835459_cd483e8356_c.jpg"
+    ],
+    "desc": "100% acrylic",
     "price": "30"
     }
 ]
