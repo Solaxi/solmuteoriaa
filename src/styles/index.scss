@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 85vh;
   border-bottom-left-radius: 20em 5%;
   border-bottom-right-radius: 20em 5%;
   border-bottom: 1px solid #F39540;
@@ -56,41 +56,6 @@
             width: 25rem;
         }
       }
-
-      &__madeby {
-        position:absolute;
-        right:0px;
-        top:0px;
-        padding:20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:3rem;
-        background: rgba(22, 22, 22, 1);
-        border-bottom-left-radius: 50%;
-
-        &__description {
-          font-size: 2.2rem;
-          color: #fcffe7;
-          font-weight: 300;
-
-          //flag
-          & img {
-            height:11px;
-          }
-        }
-
-        &__img {
-            width: 15rem;
-            border-radius: 50%;
-            opacity: 0.6;
-
-            &:hover {
-              opacity: 1; 
-            }
-        }
-      }
   }
 }
 
@@ -102,9 +67,74 @@
   background-size: contain;
 }
 
+// MadeBy Section
+.madeby {
+  // margin-top: -5rem;
+  padding-top: 20rem;
+  margin-bottom: 15rem;
+  display: flex;
+  flex-direction: column;
+  //gap: 3rem;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    font-size: 3.6rem;
+    text-align: center;
+    color: #F39540;
+    margin-bottom: 8rem;
+  }
+  
+  &__container {
+    display: flex;
+    background: rgba(255, 255, 255, 0.16);
+    backdrop-filter: blur(5.5px);
+    border-radius: 3.9rem;
+    align-items: center;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 4rem 16rem;
+
+      &__heading {
+          color: #F39540;;
+          font-size: 5rem;
+          font-weight: 700;
+          white-space: nowrap;
+          overflow: hidden;
+          flex-basis: 50%;
+      }
+
+      &__description {
+          color: white;
+          font-size: 2.8rem;
+          font-weight: 400;
+          text-align: center;
+          white-space: nowrap;
+          overflow: hidden;
+          line-height: 4.8rem;
+      }
+
+      &__img {
+        border-radius: 50%;
+        opacity: 0.6;
+
+        &:hover {
+          opacity:0.8;
+        }
+      }
+    }
+  }
+}
+
 // Commissions Section
 .commissions-section {
-  padding: 6rem 0 10rem 0;
+  padding: 10rem 0 12rem 0;
   background-color: #F39540;
   background-image: url("/images/feature-bg-top.svg"),
       url("/images/feature-bg-bottom.svg");
@@ -156,7 +186,7 @@
 // ForSale Section
 
 .forsale {
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 35rem;
   display: flex;
   flex-direction: column;
@@ -214,6 +244,26 @@
 		  grid-template-columns: repeat(3, 1fr);
     }
 	}
+
+  .madeby {
+    padding-top: 15rem;
+
+    &__container {
+        &__item {
+            padding: 2rem 8rem;
+
+            &__heading {
+              font-size: 3.2rem;
+            }
+            &__description {
+              font-size:2.4rem;
+            }
+            &__img {
+              width:80%;
+            }
+        }
+    }
+}
 }
 
 @media screen and (max-width: 900px) {
@@ -222,6 +272,16 @@
 		  grid-template-columns: repeat(2, 1fr);
     }
 	}
+
+  .madeby {
+    &__container {
+        &__item {
+          &__heading {
+            font-size: 3rem;
+          }
+        }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -238,17 +298,6 @@
             &__img {
               width: 20rem;
             }
-        }
-
-        &__madeby {
-          gap:1rem;
-          &__description {
-            font-size: 2rem;
-          }
-
-          &__img {
-            width: 10rem;
-          }
         }
       }
   }
@@ -278,6 +327,12 @@
         grid-template-columns: repeat(1, 1fr);
       }
   }
+
+  .madeby {
+    &__container {
+      flex-direction: column;
+    }
+  }
 }
 
 
@@ -289,10 +344,6 @@
           &__description {
             text-align:center;
           }
-        }
-
-        &__madeby {
-          display: none;
         }
       }
   }

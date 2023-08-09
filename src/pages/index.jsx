@@ -47,17 +47,6 @@ const IndexPage = () => {
         <div className='header__brand'>
           <h1 className='hidden-title'>Solmuteoriaa</h1>
 
-          <div className='header__brand__madeby'>
-            <div className='header__brand__madeby__description'>
-              Made by <br/>
-                <nobr>{new Date().getFullYear()-1983}-year-old dad</nobr><br/>
-                <nobr>from <Flag of='FI'/></nobr>
-            </div>
-            {/*<Link to='/esko'>*/}
-              <a href='https://twitter.com/EskoPoutanen'><ImageElement img='/esko.jpg' alt='' classname='header__brand__madeby__img' /></a>
-            {/*</Link>*/}
-          </div>
-
           <div className='header__brand__top'>
             <ImageElement img='/solmuteoriaa_logo_256.png' alt='Solmuteoriaa' classname='header__brand__top__img' />
             <div className='header__brand__top__description'>
@@ -72,6 +61,25 @@ const IndexPage = () => {
 
       {/* Wrapper for background */}
       <div className='wrapper-top'>
+      
+        <section className='madeby padding'>
+            <h2 className='madeby__heading'>MADE BY</h2>
+            <div className='madeby__container'>
+              <div className='madeby__container__item'>
+                  <h2 className='madeby__container__item__heading'>
+                      Esko Poutanen
+                  </h2>
+                  <p className='madeby__container__item__description'>
+                    {new Date().getFullYear()-1983}-year-old dad<br/>
+                    from Finland <Flag of='FI'/>
+                  </p>
+              </div>
+              
+              <div className='madeby__container__item'>
+                <a href='https://twitter.com/EskoPoutanen'><ImageElement img='/esko.jpg' alt='' classname='madeby__container__item__img' /></a>
+              </div>
+          </div>
+        </section>
       
       {/* Services Section */}
         <CrochetPatternList frontpage={true} />
