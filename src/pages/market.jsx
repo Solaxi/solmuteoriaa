@@ -6,8 +6,8 @@ import SEO from '../components/SEO'
 import Layout from '../components/layout'
 import Carousel from '../components/Carousel/carousel'
 
-import { IconContext } from 'react-icons'
-import { FaEuroSign } from 'react-icons/fa6'
+//import { IconContext } from 'react-icons'
+//import { FaEuroSign } from 'react-icons/fa6'
 import ContactForm from '../components/ContactForm/ContactForm'
 
 const MarketplaceItem = ({item}) => {
@@ -17,9 +17,11 @@ const MarketplaceItem = ({item}) => {
         <Carousel images={item.images} imgClassname='marketplace__item__image' />
         <h2 className='marketplace__item__heading'>{item.title}</h2>
         <div className='marketplace__item__desc'>{item.desc}</div>
+        {/*
         <div className='marketplace__item__pricelabel'>
           <div className='marketplace__item__pricelabel__price'>{item.price} <IconContext.Provider value={{ title:'Euro', size:'2rem' }}><FaEuroSign /></IconContext.Provider></div>
         </div> 
+        */}
       </div>
     </>
   )
