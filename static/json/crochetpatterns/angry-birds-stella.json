@@ -3,7 +3,7 @@
   "title": "Angry Birds Stella",
   "description": "There are so many different Angry Birds crochet patterns already available. Problem is that the majority of them use felt and other accessories to make the details. I couldn't find one with 100% crochet, so I made one.",
   "titleImg": "/crochet-pattern-images/angry-birds-stella/stella-1.jpg",
-  "cardDescription": "Having crochet all the other Angry Birds characters, I got a request to do Stella. As that pattern didn't exist, I made one.",
+  "cardDescription": "Having crocheted all the other Angry Birds characters, I got a request to do Stella. Since that pattern didn't exist, I created one.",
   "cardImg": "/crochet-pattern-images/angry-birds-stella/stella.jpg",
   "content": [
     { "type": "text", "content": "Finished size of Stella is about 10cm x 10cm." },
@@ -61,10 +61,10 @@
     ]},
     { "type": "text", "content": "Fasten off and leave a long tail for sewing." },
     { "type": "text", "content": "TIP: To help align all the details symmetrically in place, wrap a piece of yarn around the body." },
-    { "type": "text", "content": "Position the stomach patch under the body offsetting it a bit towards the front. Sew tightly." },
+    { "type": "text", "content": "Position the stomach patch under the body, slightly offset towards the front, and sew it tightly." },
     { "type": "image", "content": "/crochet-pattern-images/angry-birds-stella/stella-pattern-5.jpg", "alt":"Stomach patch in place" },
     { "type": "h2", "content": "Beak" },
-    { "type": "text", "content": "Beak is done working in a spiral. Don't join between rounds. Use yellow yarn." },
+    { "type": "text", "content": "The beak is crocheted in a spiral without joining between rounds. Use yellow yarn." },
     { "type": "pattern", "content": [
       "5 sc into magic ring [5]",
       "sc around [5]",
@@ -92,7 +92,7 @@
     { "type": "text", "content": "Fasten off and leave a tail for sewing." },
     { "type": "image", "content": "/crochet-pattern-images/angry-birds-stella/stella-pattern-7.jpg", "alt":"Feathers" },
     { "type": "h2", "content": "Tail" },
-    { "type": "text", "content": "Tail consists of three sets of chains with stitches. Avoid tight stitches so the tail won’t curve too much. Use black yarn" },
+    { "type": "text", "content": "Tail consists of three sets of chains with stitches. Avoid tight stitches so the tail won't curve too much. Use black yarn" },
     { "type": "pattern", "content": [
       "6 ch, sc to 2nd chain and across [5]",
       "6 ch, sc to 2nd chain and across [5]",
@@ -101,7 +101,7 @@
     { "type": "text", "content": "Fasten off and leave a tail for sewing." },
     { "type": "image", "content": "/crochet-pattern-images/angry-birds-stella/stella-pattern-8.jpg", "alt":"Tail" },
     { "type": "h2", "content": "Eyes" },
-    { "type": "text", "content": "Eyes are done working in a spiral. Don’t join between rounds. Make two eyes. Use white yarn." },
+    { "type": "text", "content": "Eyes are done working in a spiral. Don't join between rounds. Make two eyes. Use white yarn." },
     { "type": "pattern", "content": [
       "10 sc into magic ring [10]",
       "(1 sc, inc) around [15]"

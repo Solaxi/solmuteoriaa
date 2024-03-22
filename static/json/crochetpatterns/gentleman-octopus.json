@@ -6,7 +6,7 @@
   "cardDescription": "My 1-year-old got this small bigheaded octopus and I thought whether I could make something kinda like that, but bigger and derpier!",
   "cardImg": "/crochet-pattern-images/gentleman-octopus/gentleman-octopus.jpg",
   "content": [
-    { "type": "text", "content": "Choose your yarn and hook so that stitches are tight. You don't want stuffing to show through." },
+    { "type": "text", "content": "Choose your yarn and hook carefully to ensure tight stitches. This prevents the stuffing from showing through." },
     { "type": "h2", "content": "Materials" },
     { "type": "list", "content": [
       "4 mm and 3 mm crochet hooks", 
@@ -84,10 +84,10 @@
       "repeat rows 7-10 [leg 7]",
       "repeat rows 7-9 [leg 8]"
     ]},
-    { "type": "text", "content": "Don't fasten off. We'll attach belly to the body next."},
+    { "type": "text", "content": "Do not fasten off. We will attach the belly to the body next."},
     { "type": "image", "content": "/crochet-pattern-images/gentleman-octopus/gentleman-octopus-pattern-3.jpg", "alt":"Octopus belly" },
     { "type": "text", "content": "Keep the body upside down and align the belly so that legs match each other."},
-    { "type": "text", "content": "Make a stitch to the corner of body and last leg going through both the belly and the body parts. Make a second stitch to the corner of body and next leg. Then continue up the leg."},
+    { "type": "text", "content": "Make a stitch to the corner of the body and the last leg, going through both the belly and the body parts. Make a second stitch to the corner of body and next leg. Then continue up the leg."},
     { "type": "text", "content": "4 sc along the leg, inc twice at the top of the leg and 4 sc back towards the body. Then 2 sc between legs. And repeat around stuffing legs very slightly as you go."},
     { "type": "image", "content": "/crochet-pattern-images/gentleman-octopus/gentleman-octopus-pattern-4.jpg", "alt":"Attaching octopus belly" },
     { "type": "h2", "content": "Eyes" },

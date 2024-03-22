@@ -1,7 +1,7 @@
 {
   "patternId": "hey-duggee-frog",
   "title": "Hey Duggee - Frog",
-  "description": "Hey Duggee is one of my 1-year-olds favourite shows at the moment. Having already made him Duggee from an existing pattern, I thouhgt which character I'd like to do next. This cute frog was an obvious choise. ",
+  "description": "Hey Duggee is one of my 1-year-olds favourite shows at the moment. Having already made him Duggee from an existing pattern, I thought about which character I'd like to do next. This cute frog was an obvious choise. ",
   "titleImg": "/crochet-pattern-images/hey-duggee-frog/frog-1.jpg",
   "cardDescription": "Hey Duggee is one of my 1-year-olds favourite shows at the moment. So I wanted to make him this cute frog.",
   "cardImg": "/crochet-pattern-images/hey-duggee-frog/frog.jpg",
@@ -19,7 +19,7 @@
     { "type": "h2", "content": "First triangle" },
     { "type": "text", "content": "Use green yarn." },
     { "type": "pattern", "content": [
-      "ch 2, 2 sc to 2nd ch from hook, turn [2]",
+      "ch 2, 2 sc in 2nd ch from hook, turn [2]",
       "ch, sc, inc, turn [3]",
       "ch, 2 sc, inc, turn [4]",
       "ch, 3 sc, inc, turn [5]",
@@ -72,9 +72,9 @@
       "ch, dec, turn [1]"
     ]},
     { "type": "h2", "content": "Third triangle" },
-    { "type": "text", "content": "Repeat second triangle." },
+    { "type": "text", "content": "Repeat the second triangle." },
     { "type": "h2", "content": "Fourth triangle" },
-    { "type": "text", "content": "Repeat second triangle but on first row, sc to flo, not blo. This way all seams bend the same way. Dont't fasten off." },
+    { "type": "text", "content": "Repeat the second triangle, but on the first row, sc to flo, not blo. This way all seams bend the same way. Don't fasten off." },
     { "type": "image", "content": "/crochet-pattern-images/hey-duggee-frog/frog-pattern-1.jpg", "alt":"Flat tetrahedron with four triangles." },
     { "type": "text", "content": "If you did the triangles the same way I did, beginning tip and ending tip will match each other when forming the tetrahedron" },
     { "type": "h2", "content": "Finishing the body" },
@@ -83,7 +83,7 @@
       "ch, slst going through loops from both triangles (front loop from top triangle and back loop from bottom triangle) to form crisp edges."
     ]},
     { "type": "text", "content": "Repeat previous step for the second seam. Fasten off." },
-    { "type": "text", "content": "Stuff the frog with fiber fill. Not too full so tetrahedron won't loose its shape." },
+    { "type": "text", "content": "Stuff the frog with fiber fill. Not too full so the tetrahedron won't lose its shape" },
     { "type": "text", "content": "Attach new green yarn and close the last seam using the same method as the other two." },
     { "type": "h2", "content": "Eyes" },
     { "type": "text", "content": "Use white yarn." },

@@ -2,9 +2,9 @@
   "patternId": "hammer-plushie",
   "title": "Hammer Plushie",
   "cardImg": "/crochet-pattern-images/hammer-plushie/hammer.jpg",
-  "cardDescription": "Hammer Plushie was the first crochet pattern where I aimed to crush the stereotypes of crochet.",
+  "cardDescription": "Hammer Plushie was the first crochet pattern where I aimed to crush the stereotypes of crochet",
   "titleImg": "/crochet-pattern-images/hammer-plushie/hammer-1.jpg",
-  "description": "Hammer Plushie crochet pattern was the first pattern in my sarcastic series of #manlycrochet where I was aiming to crush the stereotypes associated with crocheting.",
+  "description": "Hammer Plushie crochet pattern was the first pattern in my sarcastic series of #manlycrochet, where I aimed to crush the stereotypes associated with crocheting.",
   "content": [
     { "type": "text", "content": "Finished size of the hammer is about 20cm x 20cm and it fits nicely to an adult sized hand." },
     { "type": "h2", "content": "Materials" },
@@ -16,7 +16,7 @@
     ]},
     { "type": "h2", "content": "Hammer handle" },
     { "type": "text", "content": "Handle is done working in a spiral. There is no need to join rounds but rather just continue around." },
-    { "type": "text", "content": "Round 6 is worked front loops only to change from horizontal increase into vertical tube. Note that the whole tube is not done with the same diameter as the bottom. Decrease in round 6 prevents the handle becoming too bulky when stuffing it firmly." },
+    { "type": "text", "content": "Round 6 is worked front loops only to change from horizontal increase into a vertical tube. Note that the whole tube is not done with the same diameter as the bottom. Decrease in round 6 prevents the handle becoming too bulky when stuffing it firmly." },
     { "type": "text", "content": "Use brown yarn" },
     { "type": "pattern", "content": [
       "6 sc into magic ring [6]",
