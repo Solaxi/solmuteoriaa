@@ -6,7 +6,7 @@
   "titleImg": "/crochet-pattern-images/hey-duggee-badges/heyduggee-badges-1.jpg",
   "description": "Hey Duggee is one my 1-year-olds favourite shows at the moment. I already made him Duggee and the cute frog. Next I began thinking if I could make the badges.",
   "content": [
-    { "type": "text", "content": "As with many of my projects, this one also started with a thought 'Could I crochet those...`'. I might do rest of the badges, or this might be all for now. We'll see." },
+    { "type": "text", "content": "As with many of my projects, this one also began with the thought 'Could I crochet those...`'. I might do rest of the badges at some point, or this might be all for now. We'll see." },
     { "type": "h2", "content": "Hey Duggee Badges Season 1" },
     { "type": "subcategory", "content": [
       { "patternId": "hey-duggee-drawing-badge", "title": "The Drawing Badge", "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-1.jpg" },
@@ -21,19 +21,19 @@
       { "patternId": "hey-duggee-funny-face-badge", "title": "The Funny Face Badge", "titleImg": "/crochet-pattern-images/hey-duggee-badges/badge-10.jpg" }
     ]},
     { "type": "h2", "content": "General instructions" },
-    { "type": "text", "content": "All badges have an outer edge of 48 stitches. This is because the original badges from the show have 24 sections at their outer edge when sewn in place. So if you sew these badges, sew around every other stitch to achieve exactly the correct look." },
-    { "type": "text", "content": "Also when sewing in place, make sure to use the correct color!" },
+    { "type": "text", "content": "All badges have an outer edge of 48 stitches. This is based on the original badges from the show, which have 24 sections at their outer edge when sewn in place. Therefore, when sewing these badges, it's recommended to sew around every other stitch to achieve the exact look." },
+    { "type": "text", "content": "Also, when sewing in place, make sure to use the correct color!" },
     { "type": "text", "content": "You can find the list of all the badges here:" },
     { "type": "link", "content": "https://duggee.fandom.com/wiki/List_of_Badges_in_Season_1" },
     { "type": "h2", "content": "Special stitches" },
-    { "type": "text", "content": "There aren't really special stitches but many badge details use a lot of color changes. With these it's important that when making a yellow stitch, you already have yellow yarn on your hook. Which means pulling through the _previous_ stitch with yellow yarn even though the stitch might be of another color." },
-    { "type": "text", "content": "Similarly when using multiple colors, take care to always keep the ends of yarns on the wrong side of the work." },
+    { "type": "text", "content": "While there aren't any particularly unique stitches involved, many badge details require frequent color changes. It's crucial that when executing a yellow stitch, you ensure that yellow yarn is already on your hook. This entails pulling through the previous stitch with yellow yarn, even if the stitch itself is of a different color." },
+    { "type": "text", "content": "When using multiple colors, take care to always keep the ends of yarns on the wrong side of the work." },
     { "type": "h2", "content": "Choosing colors" },
     { "type": "text", "content": "Don't stress too much about finding the correct colors. I can be quite neurotic to find a color that matches the original as closely as possible, but you don't need to." },
     { "type": "text", "content": "More important than choosing the right shade of yellow for example, is to select different shades of yellow that work together if the badge uses multiple yellow colors." },
     { "type": "h2", "content": "The detailing" },
     { "type": "text", "content": "I tried choosing a size for the badges that makes them realistic sizes to actually be able to use. While also allowing enough detail for the badge image to be recognizable." },
-    { "type": "text", "content": "Still some images can be hard to make perfectly. So some imagination might be requried to see the result." },
-    { "type": "text", "content": "Naturally using finer yarn and smaller hook or using more embroidery can make badges more detailed. But I chose to do as much detail as I can while using the same weight yarn throughout." }
+    { "type": "text", "content": "Still, some images can be challenging to replicate perfectly, so a bit of imagination might be required to visualize the result." },
+    { "type": "text", "content": "Naturally, using finer yarn and a smaller hook, or incorporating more embroidery, can enhance the details. I aimed to maximize detail while using the same weight yarn throughout." }
   ]
 }
