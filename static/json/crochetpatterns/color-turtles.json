@@ -1,0 +1,60 @@
+{
+  "patternId": "color-turtles",
+  "title": "Color Turtles",
+  "description": "My wife saw pictures of these cute crochted turtles being used as a memory game for small children and wanted me to make similar ones for our 2-year-old. Since I couldn't find an existing pattern for them, so I created my own.",
+  "titleImg": "/crochet-pattern-images/color-turtles/color-turtles-1.jpg",
+  "cardDescription": "These cute little crocheted turtles have pairs of matching belly colors to be used as a memory game for small children.",
+  "cardImg": "/crochet-pattern-images/color-turtles/color-turtles.jpg",
+  "content": [
+    { "type": "text", "content": "As the concept is for the turtles to act as a memory game, it is important for them to be as similar as possible. You might want to accept, that your first one might be just for learning as the more you do, the more consistent they'll be. Also make sure to stuff them lightly enough for them not be round but still sit nicely on the table and be flipped over when you play." },
+    { "type": "image", "content": "/crochet-pattern-images/color-turtles/color-turtles-2.jpg", "alt":"Two turtles - one face up and one face down." },
+    { "type": "text", "content": "Finished size of a turtle is about 7cm and a 2-year-old can grab it nicely." },
+    { "type": "h2", "content": "Materials" },
+    { "type": "list", "content": [
+      "3,5 mm crochet hook", 
+      "Cyan, gray and different colored yarns for the bellies.", 
+      "Fiber fill", 
+      "Needle for sewing"
+    ]},
+    { "type": "h2", "content": "Turtle Color Belly" },
+    { "type": "text", "content": "Start with the colored belly yarn." },
+    { "type": "text", "content": "To achieve a seamless transition from the colored belly spot to the body color, we employ a seamless/invisible color change method. You can find many tutorials for this online. But basically the color change round is done by making a loop with the previous color and puling through with the new one. So in round 3 you use both colors. This can be a bit hard to learn, but after the 12th turtle you'll be an expert!" },
+    { "type": "image", "content": "/crochet-pattern-images/color-turtles/color-turtles-pattern-1.jpg", "alt":"Seamless color change round with both colors" },
+    { "type": "text", "content": "The legs and tail of the turtles are crafted using popcorn stitches." },
+    { "type": "text", "content": "To execute an invisible decrease in the head, ensure that you make the decrease using only the front loops. Dec3 denotes decreasing three stitches together at once." },
+    { "type": "pattern", "content": [
+      "6 sc into magic ring, slst [6]",
+      "ch, 6 inc, slst [12]",
+      "ch with gray yarn, (inc, sc) x6 using invisible color change [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(2 sc, popcorn with 4 tr, inc, sc) x2, 2 sc, popcorn with 3 dc, inc, sc, (2 sc, popcorn with 4 tr, inc, sc) x2",
+      "continue making the head:",
+      "5 sc, turn",
+      "ch, 3 sc, inc, turn",
+      "ch, 5 sc, turn",
+      "ch, dec, sc, dec, turn",
+      "ch, 3 sc, continue along the side of the head towards the body, 3 sc, 5 sc to the back of the neck, 3 sc to the other side of the head [14]",
+      "invdec3, sc, invdec, sc, invdec3, sc, invdec, sc [8]",
+      "4 dec [4]"
+    ]},
+    { "type": "text", "content": "After fastening off, pull the yarn through the front loops of the final stitches and close the hole." },
+    { "type": "image", "content": "/crochet-pattern-images/color-turtles/color-turtles-pattern-2.jpg", "alt":"First round of the head." },
+    { "type": "h2", "content": "Turtle Shell" },
+    { "type": "text", "content": "Use cyan yarn." },
+    { "type": "pattern", "content": [
+      "6 sc into magic ring [6]",
+      "inc x6 [12]",
+      "(inc, sc) x6 [18]",
+      "(inc, 2 sc) x6 [24]",
+      "(2 sc, inc, sc) x6 [30]",
+      "(inc, 4 sc) x6 [36]"
+    ]},
+    { "type": "text", "content": "Fasten off and leave a long tail for sewing." },
+    { "type": "h2", "content": "Finishing the turtle" },
+    { "type": "text", "content": "Position the shell on top of the belly and sew them together by working through the back loops of both the shell and belly. Note that the back loops of the belly become the front loops when it's turned upside down." },
+    { "type": "text", "content": "Before closing it completely, lightly stuff the turtle." },
+    { "type": "text", "content": "Create another turtle using the same belly color, and then continue making as many pairs as desired. :)" },
+    { "type": "image", "content": "/crochet-pattern-images/color-turtles/color-turtles-3.jpg", "alt":"Twelve baby turtles" }
+  ]
+}
